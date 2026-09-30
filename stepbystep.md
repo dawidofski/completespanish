@@ -77,7 +77,7 @@ Status legend: `[ ]` not started · `[~]` in progress · `[x]` complete
     a question; count "Answers will vary" and " OR " occurrences.
   - Acceptance: canonical answers stored separately; freeform questions flagged.
 
-- [ ] **Step 2.3 — Table recovery (cross-EPUB)**
+- [x] **Step 2.3 — Table recovery (cross-EPUB)**
   - Objective: for image tables (conjugations/vocab), recover text from the
     PDF-reflow EPUB or mark for manual review.
   - Files: `tools/recover_tables.py`.
