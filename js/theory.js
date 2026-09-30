@@ -40,6 +40,7 @@ var Theory = (function () {
         var fig = document.createElement('figure');
         fig.className = 'theory-block theory-table';
         var img = document.createElement('img');
+        img.loading = 'lazy';
         img.src = 'data/tables/' + b.src;
         img.alt = b.text || 'table';
         fig.appendChild(img);
@@ -49,29 +50,51 @@ var Theory = (function () {
     }
   }
 
-  function render(sectionId, sectionTitle) {
+  function renderChapter(chapterId, focusSectionId) {
     var body = document.getElementById('theory-body');
-    return DB.theoryBlocks(sectionId).then(function (blocks) {
+    return Promise.all([
+      DB.sections(chapterId),
+      db.theoryBlocks.where('chapterId').equals(chapterId).sortBy('order')
+    ]).then(function (r) {
+      var sections = r[0], blocks = r[1];
+      var bySection = {};
+      blocks.forEach(function (b) {
+        (bySection[b.sectionId] = bySection[b.sectionId] || []).push(b);
+      });
       body.innerHTML = '';
-      if (sectionTitle) {
-        var h = document.createElement('h3');
-        h.className = 'theory-section-title';
-        h.textContent = sectionTitle;
-        body.appendChild(h);
-      }
-      if (!blocks.length) {
+      if (!blocks.length && !sections.length) {
         var p = document.createElement('p');
         p.className = 'muted';
-        p.textContent = 'No theory for this section.';
+        p.textContent = 'No theory for this chapter.';
         body.appendChild(p);
         return;
       }
-      blocks.forEach(function (b) {
+      (bySection[null] || []).forEach(function (b) {
         body.appendChild(renderOne(b));
       });
-      body.scrollTop = 0;
+      sections.forEach(function (s) {
+        var h = document.createElement('h3');
+        h.className = 'theory-section-title';
+        h.textContent = s.title;
+        h.id = 'sec-' + s.id;
+        body.appendChild(h);
+        (bySection[s.id] || []).forEach(function (b) {
+          body.appendChild(renderOne(b));
+        });
+      });
+      focusSection(focusSectionId);
     });
   }
 
-  return { render: render };
+  function focusSection(sectionId) {
+    if (!sectionId) return;
+    var prev = document.querySelector('.theory-focused');
+    if (prev) prev.classList.remove('theory-focused');
+    var target = document.getElementById('sec-' + sectionId);
+    if (!target) return;
+    target.classList.add('theory-focused');
+    target.scrollIntoView({ block: 'start', behavior: 'smooth' });
+  }
+
+  return { renderChapter: renderChapter, focusSection: focusSection };
 })();

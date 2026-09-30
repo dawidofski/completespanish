@@ -80,7 +80,7 @@ var App = (function () {
             btn.style.paddingLeft = (16 + (s.level - 1) * 16) + 'px';
             btn.appendChild(el('span', 'item-title', s.title));
             btn.addEventListener('click', function () {
-              Theory.render(s.id, s.title);
+              Theory.focusSection(s.id);
               setTheoryOpen(true);
             });
             var li = el('li');
@@ -106,6 +106,7 @@ var App = (function () {
             });
             content.appendChild(ul2);
           }
+          Theory.renderChapter(chapterId);
         });
       });
     }).catch(function (err) {
@@ -124,7 +125,7 @@ var App = (function () {
     return Promise.all([DB.chapter(ex.chapterId), secPromise]).then(function (r) {
       var ch = r[0], sec = r[1];
       if (followExercise && sec) {
-        Theory.render(sec.id, sec.title);
+        Theory.focusSection(ex.sectionId);
         setTheoryOpen(true);
       }
       var items = [
@@ -133,7 +134,7 @@ var App = (function () {
       ];
       if (sec) {
         items.push({ label: sec.title, action: function () {
-          openChapter(ch.id).then(function () { Theory.render(sec.id, sec.title); setTheoryOpen(true); });
+          openChapter(ch.id).then(function () { Theory.focusSection(sec.id); setTheoryOpen(true); });
         }});
       }
       items.push({ label: ex.number ? ('Exercise ' + ex.number) : 'Reading' });
