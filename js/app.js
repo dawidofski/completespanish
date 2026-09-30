@@ -2,6 +2,8 @@
 'use strict';
 
 var App = (function () {
+  var followExercise = true;
+
   function el(tag, cls, text) {
     var n = document.createElement(tag);
     if (cls) n.className = cls;
@@ -121,6 +123,10 @@ var App = (function () {
     var secPromise = ex.sectionId ? db.sections.get(ex.sectionId) : Promise.resolve(null);
     return Promise.all([DB.chapter(ex.chapterId), secPromise]).then(function (r) {
       var ch = r[0], sec = r[1];
+      if (followExercise && sec) {
+        Theory.render(sec.id, sec.title);
+        setTheoryOpen(true);
+      }
       var items = [
         { label: 'Book', action: home },
         { label: 'Chapter ' + ch.number, action: function () { openChapter(ch.id); } }
@@ -174,9 +180,25 @@ var App = (function () {
     toggle.style.display = open ? 'none' : '';
   }
 
+  function updateFollowToggle() {
+    var btn = document.getElementById('follow-toggle');
+    if (btn) {
+      btn.classList.toggle('active', followExercise);
+      btn.setAttribute('aria-pressed', String(followExercise));
+    }
+  }
+
   function initTheoryPanel() {
     document.getElementById('theory-toggle').addEventListener('click', function () { setTheoryOpen(true); });
     document.getElementById('theory-close').addEventListener('click', function () { setTheoryOpen(false); });
+    var ft = document.getElementById('follow-toggle');
+    if (ft) {
+      ft.addEventListener('click', function () {
+        followExercise = !followExercise;
+        db.meta.put({ key: 'followExercise', value: followExercise });
+        updateFollowToggle();
+      });
+    }
     setTheoryOpen(window.matchMedia('(min-width: 900px)').matches);
   }
 
@@ -186,7 +208,11 @@ var App = (function () {
       return Importer.run().then(function (res) {
         document.getElementById('overall-progress').textContent =
           res.counts.chapters + ' chapters · ' + res.counts.exercises + ' exercises';
-        return home();
+        return db.meta.get('followExercise').then(function (m) {
+          if (m) followExercise = m.value !== false;
+          updateFollowToggle();
+          return home();
+        });
       });
     });
   }
