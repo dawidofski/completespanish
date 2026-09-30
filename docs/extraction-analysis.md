@@ -113,19 +113,23 @@ The parser joins by parsing these IDs, never by position or heuristics.
 |---|---|
 | Parts | 6 |
 | Chapters | 30 |
-| Exercises (`chNexeM`, = pencil icons) | 251 |
-| Questions (`chNqaM`) | 3,020 |
-| Canonical answers (`chNqarM`) | 1,571 |
-| Answer-key exercise blocks (`chNexe_M`) | 120 |
+| Exercises — numbered (`chNexeM`) | 251 |
+| Exercises — reading comprehension (`h3e`, no `chNexeM`) | 30 |
+| Questions — graded (`chNqaM` id) | 3,020 |
+| Questions — ungraded (reading comp / oral, no id) | 276 |
+| Canonical answers (`chNqarM`, both answer files) | 3,019 |
+| Answer-key exercise blocks (`chNexe_M`) | 251 |
 | Content images (`t*.jpg` in chapters) | 1,206 |
 | Tip boxes (`tip.jpg`) | 84 |
 | Free-response blanks (`p.dash`) | 819 |
-| "Answers will vary" | 12 |
-| "OR" alternatives (`<small>OR</small>`) | 10 |
+| "Answers will vary" | 15 |
+| "OR" alternatives | 13 |
 
-Interpretation: 3,020 questions − 1,571 graded = ~1,449 ungraded (free-response
-reading comprehension, oral practice, "Answers will vary"). Only 120 of 251
-exercises have answer-key blocks (the rest are open-ended/oral).
+Interpretation: 3,020 graded questions have 3,019 canonical answers (one genuine
+gap: `ch3qa7`). The 276 ungraded questions are reading-comprehension / oral and
+are self-checked. 30 reading-comprehension blocks are `h3e` headings without an
+exercise id. Paragraph fill-in exercises pack many question ids into a single
+`<p>` (e.g. `ch12qa41..55`), each id = one blank with its own answer.
 
 ## 8. Answer-key structure & special cases
 

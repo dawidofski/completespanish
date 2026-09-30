@@ -12,11 +12,13 @@ Status legend: `[ ]` not started · `[~]` in progress · `[x]` complete
     it has a clean **semantic HTML text layer**:
     - Part (`part1..6.html`) → Chapter (`ch1..30.html`) → Section (`h3`,
       `id=chNlevM`) → Subsection (`h4`) → Sub-subsection (`h5`).
-    - Exercises (`h3.h3e`, `id=chNexeM`, 251 total).
-    - Questions (`p.question`, `id=chNqaM`, 3020 total) with blank underscores.
-    - Answer key (`answer.html`) with per-question answers (`id=chNqarM`,
-      1571 canonical answers) and **explicit question↔answer↔exercise anchor
-      links**; "Answers will vary" and " OR " alternatives are marked.
+    - Exercises (`h3.h3e`, `id=chNexeM`, 251 numbered + 30 reading-comprehension).
+    - Questions (`p.question`/`noindent`/`imagen`, `id=chNqaM`, 3,020 graded
+      + 276 ungraded) with blank underscores.
+    - Answer key (`answer.html` + `answer1.html`) with per-question answers
+      (`id=chNqarM`, 3,019 canonical answers) and **explicit
+      question↔answer↔exercise anchor links**; "Answers will vary" and " OR "
+      alternatives are marked.
     - Conjugation charts, vocabulary lists, and some example tables are rendered
       as **images** (`tXXXX.jpg`).
   - `Complete Spanish Step-by-step.epub` (998 KB) = **Calibre PDF-reflow**. All
