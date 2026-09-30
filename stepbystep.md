@@ -28,7 +28,7 @@ Status legend: `[ ]` not started · `[~]` in progress · `[x]` complete
 
 ---
 
-## Phase 1 — Project & EPUB analysis  `[~]`
+## Phase 1 — Project & EPUB analysis  `[x]`
 
 - [x] **Step 1.1 — Scaffold the repo**
   - Objective: create the project skeleton and version control.
@@ -42,7 +42,7 @@ Status legend: `[ ]` not started · `[~]` in progress · `[x]` complete
     `source/` (not committed if large; documented).
   - Rollback: delete repo, restore EPUBs from backup.
 
-- [ ] **Step 1.2 — Document extraction analysis**
+- [x] **Step 1.2 — Document extraction analysis**
   - Objective: freeze the inspection conclusions as the source-of-truth for
     extraction.
   - Files: `docs/extraction-analysis.md`.
