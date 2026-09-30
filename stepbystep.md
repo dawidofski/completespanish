@@ -67,7 +67,7 @@ Status legend: `[ ]` not started · `[~]` in progress · `[x]` complete
     expected section counts.
   - Acceptance: structure JSON matches `contents.html` hierarchy.
 
-- [ ] **Step 2.2 — Parser: exercises, questions, answers**
+- [x] **Step 2.2 — Parser: exercises, questions, answers**
   - Objective: extract exercises (h3e), questions (p.question + blanks), word
     banks, and answer-key answers (answer.html), joining via anchor IDs.
   - Files: `tools/extract_exercises.py`.
