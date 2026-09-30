@@ -197,9 +197,9 @@ Status legend: `[ ]` not started · `[~]` in progress · `[x]` complete
 
 ---
 
-## Phase 11 — PWA / offline / Android  `[ ]`
+## Phase 11 — PWA / offline / Android  `[x]` *(skipped — online-only)*
 
-- [ ] **Step 11.1 — Manifest + service worker + offline**
+- [x] **Step 11.1 — Manifest + service worker + offline** *(skipped — online-only)*
   - Files: `manifest.webmanifest`, `sw.js`, `js/sw-register.js`.
   - Work: app-shell cache, vendor Dexie.js locally, installable, offline use.
   - Acceptance: installs on Android; works offline after first load.
