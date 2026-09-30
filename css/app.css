@@ -126,18 +126,26 @@ html, body {
 .theory-tip .theory-block-label { color: #4a5a2a; }
 .theory-list { padding-left: 0; }
 .theory-table { margin: 0 0 14px; }
-.theory-table img { max-width: 100%; border-radius: 8px; border: 1px solid var(--border); }
+.theory-table img { max-width: 100%; max-height: 60vh; object-fit: contain; border-radius: 8px; border: 1px solid var(--border); }
 
 /* exercise + questions */
 .exercise-instruction { margin: 0 0 16px; font-style: italic; }
-.word-bank { margin: 0 0 16px; }
+.word-bank {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  position: sticky;
+  top: calc(var(--header-h) + 8px);
+  z-index: 5;
+  background: var(--bg);
+  padding: 8px 0;
+  margin: 0 0 16px;
+}
 .word-chip {
-  display: inline-block;
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: 16px;
   padding: 4px 10px;
-  margin: 0 6px 6px 0;
   font-size: 0.85rem;
 }
 .question {
@@ -228,6 +236,7 @@ html, body {
   border-radius: 16px 16px 0 0;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
   transform: translateY(105%);
   transition: transform 0.25s ease;
 }
