@@ -93,6 +93,7 @@ def extract_exercises(epub: EpubReader, sections_by_chapter: dict):
         sections = sections_by_chapter.get(ch_id, [])
         sec_ptr = 0
         current_section_id = None
+        current_l1_section = None
         current_exercise = None
         rc_counter = 0
         uq_counter = 0
@@ -116,7 +117,7 @@ def extract_exercises(epub: EpubReader, sections_by_chapter: dict):
                 current_exercise = {
                     "id": ex_id,
                     "chapterId": ch_id,
-                    "sectionId": current_section_id,
+                    "sectionId": current_l1_section,
                     "number": number,
                     "order": num,
                     "instruction": "",
@@ -132,6 +133,7 @@ def extract_exercises(epub: EpubReader, sections_by_chapter: dict):
                     current_section_id = sections[sec_ptr]["id"]
                     sec_ptr += 1
                 if tag == "h3":
+                    current_l1_section = current_section_id
                     current_exercise = None
                 continue
 
@@ -154,6 +156,7 @@ def extract_exercises(epub: EpubReader, sections_by_chapter: dict):
                         "id": q_id,
                         "exerciseId": current_exercise["id"] if current_exercise else None,
                         "chapterId": ch_id,
+                        "sectionId": current_l1_section,
                         "number": num,
                         "prompt": prompt,
                         "imageSrc": image_src,
@@ -172,6 +175,7 @@ def extract_exercises(epub: EpubReader, sections_by_chapter: dict):
                     "id": f"{ch_id}_uq_{uq_counter}",
                     "exerciseId": current_exercise["id"] if current_exercise else None,
                     "chapterId": ch_id,
+                    "sectionId": current_l1_section,
                     "number": 0,
                     "prompt": prompt,
                     "imageSrc": None,

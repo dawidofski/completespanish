@@ -8,6 +8,7 @@ Usage:  python tools/prepare_data.py
 """
 from __future__ import annotations
 
+import hashlib
 import json
 import os
 import re
@@ -54,10 +55,19 @@ def main() -> None:
     questions = exercises["questions"]
     answers_list = answers["answers"]
 
+    # Content version reflects the PREPARED data (not just the EPUB), so any
+    # extraction change bumps it and triggers a re-import.
+    data_payload = json.dumps({
+        "parts": parts, "chapters": chapters, "sections": sections,
+        "theoryBlocks": theory_blocks, "exercises": exercises_list,
+        "questions": questions, "answers": answers_list
+    }, ensure_ascii=False, sort_keys=True)
+    content_version = hashlib.md5(data_payload.encode("utf-8")).hexdigest()[:12]
+
     book = {
         "meta": {
             "title": structure["meta"]["title"],
-            "contentVersion": structure["meta"]["contentVersion"],
+            "contentVersion": content_version,
             "generatedAt": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         },
         "parts": parts,

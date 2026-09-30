@@ -12,9 +12,6 @@ __pycache__/
 # Intermediate raw extraction output (final data/book.json is committed)
 data/raw/
 
-# Extracted table images (generated, large)
-data/tables/
-
 # Generated review lists
 data/review/
 

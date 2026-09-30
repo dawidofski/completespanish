@@ -258,7 +258,7 @@ var App = (function () {
       content.appendChild(backBtn);
       content.appendChild(Exercises.renderQuestion(q, q.number || null));
       if (ex) {
-        Theory.renderChapter(q.chapterId, ex.sectionId);
+        Theory.renderChapter(q.chapterId, q.sectionId || ex.sectionId);
         setTheoryOpen(true);
       }
     });
