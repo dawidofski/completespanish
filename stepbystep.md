@@ -125,7 +125,7 @@ Status legend: `[ ]` not started · `[~]` in progress · `[x]` complete
     (desktop sidebar / mobile bottom sheet), touch targets, no horizontal scroll.
   - Acceptance: renders on Android Chrome; usable at 360px width.
 
-- [ ] **Step 4.2 — Render theory**
+- [x] **Step 4.2 — Render theory**
   - Files: `js/theory.js`.
   - Work: render theory blocks (paragraph/note/tip/example/table) from DB.
 
