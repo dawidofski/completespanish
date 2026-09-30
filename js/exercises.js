@@ -43,6 +43,20 @@ var Exercises = (function () {
       ta.className = 'answer-textarea';
       ta.rows = 2;
       wrap.appendChild(ta);
+      wrap.appendChild(el('div', 'feedback feedback-free', 'Self-check — no automatic answer.'));
+      return wrap;
+    }
+    if (q.graded) {
+      var checkBtn = el('button', 'check-btn', 'Check');
+      var feedback = el('div', 'feedback');
+      checkBtn.addEventListener('click', function () { Feedback.check(q, wrap); });
+      wrap.appendChild(checkBtn);
+      wrap.appendChild(feedback);
+      wrap.querySelectorAll('.answer-input').forEach(function (inp) {
+        inp.addEventListener('keydown', function (e) {
+          if (e.key === 'Enter') { e.preventDefault(); Feedback.check(q, wrap); }
+        });
+      });
     }
     return wrap;
   }

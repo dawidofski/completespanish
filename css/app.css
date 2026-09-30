@@ -187,6 +187,36 @@ html, body {
 }
 .nav-btn:disabled { opacity: 0.4; cursor: default; }
 
+/* answer feedback */
+.check-btn {
+  min-height: 44px;
+  padding: 0 20px;
+  border: none;
+  border-radius: var(--radius);
+  background: var(--accent);
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 6px;
+}
+.feedback { margin-top: 8px; }
+.feedback-correct { color: #2e7d32; font-weight: 700; }
+.feedback-wrong { color: #c62828; font-weight: 700; }
+.feedback-answer { color: var(--muted); }
+.feedback-free { color: var(--muted); font-size: 0.85rem; }
+.feedback-why { margin-top: 6px; color: var(--muted); font-size: 0.9rem; }
+.feedback-actions { margin-top: 8px; display: flex; gap: 8px; }
+.mini-btn {
+  min-height: 40px;
+  padding: 0 14px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface);
+  color: var(--accent);
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
 /* Theory panel: bottom sheet on mobile, sidebar on desktop */
 .theory-panel {
   position: fixed;
@@ -217,7 +247,7 @@ html, body {
   cursor: pointer;
   color: var(--muted);
 }
-.theory-panel-body { padding: 16px; overflow-y: auto; }
+.theory-panel-body { padding: 16px; overflow-y: auto; flex: 1; min-height: 0; }
 
 .theory-toggle {
   position: fixed;
@@ -243,12 +273,13 @@ html, body {
   }
   .layout.two-col { grid-template-columns: minmax(0, 1fr) 340px; }
   .theory-panel {
-    position: static;
+    position: sticky;
+    top: calc(var(--header-h) + 12px);
+    align-self: start;
     transform: none;
     border-radius: var(--radius);
     border: 1px solid var(--border);
-    height: fit-content;
-    max-height: calc(100vh - var(--header-h) - 60px);
+    max-height: calc(100vh - var(--header-h) - 24px);
     display: none;
   }
   .theory-panel.open { display: flex; }
