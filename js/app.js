@@ -28,25 +28,34 @@ var App = (function () {
     renderBreadcrumb([{ label: 'Book' }]);
     var content = document.getElementById('content');
     content.innerHTML = '';
-    return DB.parts().then(function (parts) {
-      return DB.chapters().then(function (chapters) {
-        var byPart = {};
-        chapters.forEach(function (c) {
-          (byPart[c.partId] = byPart[c.partId] || []).push(c);
+    return Promise.all([
+      DB.parts(),
+      DB.chapters(),
+      db.sections.count(),
+      db.exercises.count(),
+      db.questions.count(),
+      db.answers.count()
+    ]).then(function (r) {
+      var parts = r[0], chapters = r[1];
+      content.appendChild(el('p', 'data-status',
+        'chapters=' + chapters.length + ' · sections=' + r[2] +
+        ' · exercises=' + r[3] + ' · questions=' + r[4] + ' · answers=' + r[5]));
+      var byPart = {};
+      chapters.forEach(function (c) {
+        (byPart[c.partId] = byPart[c.partId] || []).push(c);
+      });
+      parts.forEach(function (p) {
+        content.appendChild(el('h2', 'part-heading', 'Part ' + p.number + ' — ' + p.title));
+        var ul = el('ul', 'list');
+        (byPart[p.id] || []).forEach(function (c) {
+          var btn = el('button', 'list-item');
+          btn.appendChild(el('span', 'item-title', c.number + '. ' + c.title));
+          btn.addEventListener('click', function () { openChapter(c.id); });
+          var li = el('li');
+          li.appendChild(btn);
+          ul.appendChild(li);
         });
-        parts.forEach(function (p) {
-          content.appendChild(el('h2', 'part-heading', 'Part ' + p.number + ' — ' + p.title));
-          var ul = el('ul', 'list');
-          (byPart[p.id] || []).forEach(function (c) {
-            var btn = el('button', 'list-item');
-            btn.appendChild(el('span', 'item-title', c.number + '. ' + c.title));
-            btn.addEventListener('click', function () { openChapter(c.id); });
-            var li = el('li');
-            li.appendChild(btn);
-            ul.appendChild(li);
-          });
-          content.appendChild(ul);
-        });
+        content.appendChild(ul);
       });
     });
   }
@@ -91,17 +100,26 @@ var App = (function () {
           }
         });
       });
+    }).catch(function (err) {
+      console.error('openChapter error:', err);
+      var content = document.getElementById('content');
+      content.innerHTML = '';
+      content.appendChild(el('p', 'muted', 'Error loading chapter: ' + err.message));
     });
   }
 
   function initTheoryPanel() {
     var panel = document.getElementById('theory-panel');
-    document.getElementById('theory-toggle').addEventListener('click', function () {
-      panel.classList.add('open');
-    });
-    document.getElementById('theory-close').addEventListener('click', function () {
-      panel.classList.remove('open');
-    });
+    var layout = document.querySelector('.layout');
+    var toggle = document.getElementById('theory-toggle');
+    function setOpen(open) {
+      panel.classList.toggle('open', open);
+      layout.classList.toggle('two-col', open);
+      toggle.style.display = open ? 'none' : '';
+    }
+    toggle.addEventListener('click', function () { setOpen(true); });
+    document.getElementById('theory-close').addEventListener('click', function () { setOpen(false); });
+    setOpen(window.matchMedia('(min-width: 900px)').matches);
   }
 
   function init() {
@@ -109,7 +127,7 @@ var App = (function () {
     return db.open().then(function () {
       return Importer.run().then(function (res) {
         document.getElementById('overall-progress').textContent =
-          res.counts.chapters + ' chapters';
+          res.counts.chapters + ' chapters · ' + res.counts.exercises + ' exercises';
         return home();
       });
     });

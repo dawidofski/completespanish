@@ -102,6 +102,7 @@ html, body {
   letter-spacing: 0.03em;
 }
 .muted { color: var(--muted); }
+.data-status { font-size: 0.85rem; color: var(--muted); margin: 0 0 12px; }
 
 /* Theory panel: bottom sheet on mobile, sidebar on desktop */
 .theory-panel {
@@ -153,10 +154,11 @@ html, body {
 @media (min-width: 900px) {
   .layout {
     display: grid;
-    grid-template-columns: minmax(0, 1fr) 340px;
+    grid-template-columns: minmax(0, 1fr);
     gap: 20px;
     padding-bottom: 32px;
   }
+  .layout.two-col { grid-template-columns: minmax(0, 1fr) 340px; }
   .theory-panel {
     position: static;
     transform: none;
@@ -164,7 +166,7 @@ html, body {
     border: 1px solid var(--border);
     height: fit-content;
     max-height: calc(100vh - var(--header-h) - 60px);
+    display: none;
   }
-  .theory-close { display: none; }
-  .theory-toggle { display: none; }
+  .theory-panel.open { display: flex; }
 }
