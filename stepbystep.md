@@ -146,9 +146,9 @@ Status legend: `[ ]` not started · `[~]` in progress · `[x]` complete
 
 ---
 
-## Phase 6 — Answer checking  `[ ]`
+## Phase 6 — Answer checking  `[x]`
 
-- [ ] **Step 6.1 — Answer normalization & checking**
+- [x] **Step 6.1 — Answer normalization & checking**
   - Files: `js/answer.js`.
   - Work: normalize (trim/whitespace/case, never strip accents), multi-accepted
     answers, multi-blank comparison; store attempts separately from canonical.
