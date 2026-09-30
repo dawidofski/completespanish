@@ -119,7 +119,8 @@ The parser joins by parsing these IDs, never by position or heuristics.
 | Questions — ungraded (reading comp / oral, no id) | 276 |
 | Canonical answers (`chNqarM`, both answer files) | 3,019 |
 | Answer-key exercise blocks (`chNexe_M`) | 251 |
-| Content images (`t*.jpg` in chapters) | 1,206 |
+| Table images (`tableImage` blocks with src) | 1,148 |
+| Note-like blocks misusing `imagen` class (no image) | 38 |
 | Tip boxes (`tip.jpg`) | 84 |
 | Free-response blanks (`p.dash`) | 819 |
 | "Answers will vary" | 15 |
@@ -150,12 +151,15 @@ exercise id. Paragraph fill-in exercises pack many question ids into a single
 
 ## 9. Image-table inventory & recovery
 
-- 1,206 content images in chapters are the **conjugation charts, vocabulary
-  lists, and example-sentence tables** — the only theory not in text form.
-- Recovery strategy (Step 2.3): for each `t*.jpg` referenced under a theory
-  block, locate the corresponding text in the PDF-reflow EPUB (it is linearized
-  there) and attach it as a `table` theory block; if the mapping is ambiguous,
-  emit the item into `data/review/tables.md` and keep the image as a fallback.
+- 1,148 table images are the **conjugation charts, vocabulary lists, and
+  example-sentence tables** — the only theory not in text form. (38 additional
+  `imagen` blocks carry note text, not an image; flagged for reclassification.
+  8 further `imagen` blocks are image-based *questions*, captured separately.)
+- Recovery strategy (Step 2.3): extract the `t*.jpg` images into `data/tables/`
+  as a faithful display fallback, build `data/raw/tables.json` (inventory), and
+  emit `data/review/tables.md` flagging every table for manual/OCR text
+  transcription, with the PDF-reflow text in `data/raw/reflow_text.json` as a
+  reference. Automated per-table text alignment is unreliable (reflow artifacts).
 - Icons (`pencil.jpg`, `tip.jpg`) are decorative and must be ignored.
 
 ## 10. Extraction rules (non-negotiable)
