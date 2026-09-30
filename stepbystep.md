@@ -55,7 +55,7 @@ Status legend: `[ ]` not started · `[~]` in progress · `[x]` complete
 
 ---
 
-## Phase 2 — Local Python extraction  `[~]`
+## Phase 2 — Local Python extraction  `[x]`
 
 - [x] **Step 2.1 — Parser: structure + theory**
   - Objective: parse official EPUB → parts, chapters, sections, subsections,
@@ -85,7 +85,7 @@ Status legend: `[ ]` not started · `[~]` in progress · `[x]` complete
     else emit `data/review/tables.md` flagged list.
   - Acceptance: every image-table has either recovered text or a review flag.
 
-- [ ] **Step 2.4 — Prepare final data + validation report**
+- [x] **Step 2.4 — Prepare final data + validation report**
   - Objective: produce clean `data/book.json` (or split `data/*.json`) with a
     content-version id, and a validation report.
   - Files: `tools/prepare_data.py`, `data/*.json`.
