@@ -167,9 +167,9 @@ Status legend: `[ ]` not started · `[~]` in progress · `[x]` complete
 
 ---
 
-## Phase 8 — Theory ↔ exercise sync  `[ ]`
+## Phase 8 — Theory ↔ exercise sync  `[x]`
 
-- [ ] **Step 8.1 — Automatic theory following + highlight**
+- [x] **Step 8.1 — Automatic theory following + highlight**
   - Files: `js/theorySync.js`.
   - Work: Exercise→Section→TheoryBlocks; auto-scroll + highlight; "📌 Follow
     exercise" toggle (persisted).
