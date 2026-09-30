@@ -88,6 +88,7 @@ var App = (function () {
           content.appendChild(ul);
         }
         return DB.exercises(chapterId).then(function (exercises) {
+          Nav.setExercises(chapterId, exercises);
           if (exercises.length) {
             content.appendChild(el('h3', 'section-title', 'Exercises (' + exercises.length + ')'));
             var ul2 = el('ul', 'list');
@@ -115,12 +116,52 @@ var App = (function () {
 
   function openExercise(ex) {
     Exercises.render(ex.id);
-    return DB.chapter(ex.chapterId).then(function (ch) {
-      renderBreadcrumb([
+    Nav.setCurrent(ex.id);
+    renderNavBar();
+    var secPromise = ex.sectionId ? db.sections.get(ex.sectionId) : Promise.resolve(null);
+    return Promise.all([DB.chapter(ex.chapterId), secPromise]).then(function (r) {
+      var ch = r[0], sec = r[1];
+      var items = [
         { label: 'Book', action: home },
-        { label: 'Chapter ' + ch.number, action: function () { openChapter(ch.id); } },
-        { label: ex.number ? ('Exercise ' + ex.number) : 'Reading' }
-      ]);
+        { label: 'Chapter ' + ch.number, action: function () { openChapter(ch.id); } }
+      ];
+      if (sec) {
+        items.push({ label: sec.title, action: function () {
+          openChapter(ch.id).then(function () { Theory.render(sec.id, sec.title); setTheoryOpen(true); });
+        }});
+      }
+      items.push({ label: ex.number ? ('Exercise ' + ex.number) : 'Reading' });
+      renderBreadcrumb(items);
+    });
+  }
+
+  function renderNavBar() {
+    var content = document.getElementById('content');
+    var bar = el('div', 'nav-bar');
+    var prevBtn = el('button', 'nav-btn', '‹ Prev');
+    prevBtn.disabled = !Nav.hasPrev();
+    prevBtn.addEventListener('click', function () {
+      if (Nav.hasPrev()) db.exercises.get(Nav.prevId()).then(openExercise);
+    });
+    var nextBtn = el('button', 'nav-btn', 'Next ›');
+    nextBtn.addEventListener('click', function () {
+      if (Nav.hasNext()) {
+        db.exercises.get(Nav.nextId()).then(openExercise);
+      } else {
+        nextChapter();
+      }
+    });
+    bar.appendChild(prevBtn);
+    bar.appendChild(nextBtn);
+    content.appendChild(bar);
+  }
+
+  function nextChapter() {
+    return DB.chapters().then(function (chapters) {
+      var i = chapters.findIndex(function (c) { return c.id === Nav.chapterId; });
+      if (i >= 0 && i < chapters.length - 1) {
+        openChapter(chapters[i + 1].id);
+      }
     });
   }
 
