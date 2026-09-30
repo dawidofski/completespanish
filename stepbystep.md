@@ -177,9 +177,9 @@ Status legend: `[ ]` not started · `[~]` in progress · `[x]` complete
 
 ---
 
-## Phase 9 — Progress tracking  `[ ]`
+## Phase 9 — Progress tracking  `[x]`
 
-- [ ] **Step 9.1 — Progress recording & aggregates**
+- [x] **Step 9.1 — Progress recording & aggregates**
   - Files: `js/progress.js`.
   - Work: record attempts/results into questionProgress; derive
     exercise/section/chapter/overall stats; "continue where you left off".

@@ -101,6 +101,15 @@ var Exercises = (function () {
         qs.forEach(function (q) {
           content.appendChild(renderQuestion(q, q.number || null));
         });
+        var resetBtn = el('button', 'reset-btn', '↺ Reset this exercise');
+        resetBtn.addEventListener('click', function () {
+          if (window.confirm('Reset progress for this exercise?')) {
+            Progress.resetExercise(exerciseId).then(function () {
+              Exercises.render(exerciseId);
+            });
+          }
+        });
+        content.appendChild(resetBtn);
       });
     });
   }

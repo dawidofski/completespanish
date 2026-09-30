@@ -69,6 +69,19 @@ var App = (function () {
         });
         content.appendChild(ul);
       });
+      var resetAllBtn = el('button', 'reset-btn danger', '↺ Reset all progress');
+      resetAllBtn.addEventListener('click', function () {
+        if (window.confirm('Reset ALL progress for the whole book? This cannot be undone.')) {
+          Progress.resetAll().then(function () {
+            Progress.overall().then(function (s) {
+              document.getElementById('overall-progress').textContent =
+                s.correct + ' / ' + s.total + ' correct';
+            });
+            home();
+          });
+        }
+      });
+      content.appendChild(resetAllBtn);
     });
   }
 

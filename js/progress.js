@@ -66,5 +66,24 @@ var Progress = (function () {
     return db.questionProgress.get(questionId);
   }
 
-  return { record: record, get: get, overall: overall, exerciseMap: exerciseMap };
+  function resetExercise(exerciseId) {
+    return db.questions.where('exerciseId').equals(exerciseId).toArray().then(function (qs) {
+      var ids = qs.map(function (q) { return q.id; });
+      if (!ids.length) return Promise.resolve();
+      return db.questionProgress.where('questionId').anyOf(ids).delete();
+    });
+  }
+
+  function resetAll() {
+    return Promise.all([
+      db.questionProgress.clear(),
+      db.reviewItems.clear(),
+      db.meta.delete('lastPosition')
+    ]);
+  }
+
+  return {
+    record: record, get: get, overall: overall, exerciseMap: exerciseMap,
+    resetExercise: resetExercise, resetAll: resetAll
+  };
 })();
