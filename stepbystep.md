@@ -28,9 +28,9 @@ Status legend: `[ ]` not started · `[~]` in progress · `[x]` complete
 
 ---
 
-## Phase 1 — Project & EPUB analysis  `[ ]`
+## Phase 1 — Project & EPUB analysis  `[~]`
 
-- **Step 1.1 — Scaffold the repo**
+- [x] **Step 1.1 — Scaffold the repo**
   - Objective: create the project skeleton and version control.
   - Prereqs: none.
   - Files: `.gitignore`, `README.md`, directory layout (`source/`, `tools/`,
@@ -42,7 +42,7 @@ Status legend: `[ ]` not started · `[~]` in progress · `[x]` complete
     `source/` (not committed if large; documented).
   - Rollback: delete repo, restore EPUBs from backup.
 
-- **Step 1.2 — Document extraction analysis**
+- [ ] **Step 1.2 — Document extraction analysis**
   - Objective: freeze the inspection conclusions as the source-of-truth for
     extraction.
   - Files: `docs/extraction-analysis.md`.
@@ -55,7 +55,7 @@ Status legend: `[ ]` not started · `[~]` in progress · `[x]` complete
 
 ## Phase 2 — Local Python extraction  `[ ]`
 
-- **Step 2.1 — Parser: structure + theory**
+- [ ] **Step 2.1 — Parser: structure + theory**
   - Objective: parse official EPUB → parts, chapters, sections, subsections,
     theory blocks, notes, tips, examples.
   - Files: `tools/extract_structure.py`, `tools/epub_reader.py`.
@@ -65,7 +65,7 @@ Status legend: `[ ]` not started · `[~]` in progress · `[x]` complete
     expected section counts.
   - Acceptance: structure JSON matches `contents.html` hierarchy.
 
-- **Step 2.2 — Parser: exercises, questions, answers**
+- [ ] **Step 2.2 — Parser: exercises, questions, answers**
   - Objective: extract exercises (h3e), questions (p.question + blanks), word
     banks, and answer-key answers (answer.html), joining via anchor IDs.
   - Files: `tools/extract_exercises.py`.
@@ -75,7 +75,7 @@ Status legend: `[ ]` not started · `[~]` in progress · `[x]` complete
     a question; count "Answers will vary" and " OR " occurrences.
   - Acceptance: canonical answers stored separately; freeform questions flagged.
 
-- **Step 2.3 — Table recovery (cross-EPUB)**
+- [ ] **Step 2.3 — Table recovery (cross-EPUB)**
   - Objective: for image tables (conjugations/vocab), recover text from the
     PDF-reflow EPUB or mark for manual review.
   - Files: `tools/recover_tables.py`.
@@ -83,7 +83,7 @@ Status legend: `[ ]` not started · `[~]` in progress · `[x]` complete
     else emit `data/review/tables.md` flagged list.
   - Acceptance: every image-table has either recovered text or a review flag.
 
-- **Step 2.4 — Prepare final data + validation report**
+- [ ] **Step 2.4 — Prepare final data + validation report**
   - Objective: produce clean `data/book.json` (or split `data/*.json`) with a
     content-version id, and a validation report.
   - Files: `tools/prepare_data.py`, `data/*.json`.
@@ -96,7 +96,7 @@ Status legend: `[ ]` not started · `[~]` in progress · `[x]` complete
 
 ## Phase 3 — Data model & Dexie foundation  `[ ]`
 
-- **Step 3.1 — Dexie schema + DB module**
+- [ ] **Step 3.1 — Dexie schema + DB module**
   - Objective: implement schema v1 and DB access layer.
   - Files: `js/db.js`.
   - Work: Dexie stores (parts, chapters, sections, theoryBlocks, exercises,
@@ -105,7 +105,7 @@ Status legend: `[ ]` not started · `[~]` in progress · `[x]` complete
   - Tests: open DB in browser; CRUD smoke test.
   - Acceptance: schema matches the data model; versioned.
 
-- **Step 3.2 — One-time content import**
+- [ ] **Step 3.2 — One-time content import**
   - Objective: load `data/book.json` into IndexedDB idempotently.
   - Files: `js/import.js`.
   - Work: read content-version from `meta`; skip if current; else transactional
@@ -117,17 +117,17 @@ Status legend: `[ ]` not started · `[~]` in progress · `[x]` complete
 
 ## Phase 4 — Basic mobile UI  `[ ]`
 
-- **Step 4.1 — App shell + mobile-first CSS**
+- [ ] **Step 4.1 — App shell + mobile-first CSS**
   - Files: `index.html`, `css/app.css`, `js/app.js`.
   - Work: layout, header, breadcrumb bar, exercise area, theory panel
     (desktop sidebar / mobile bottom sheet), touch targets, no horizontal scroll.
   - Acceptance: renders on Android Chrome; usable at 360px width.
 
-- **Step 4.2 — Render theory**
+- [ ] **Step 4.2 — Render theory**
   - Files: `js/theory.js`.
   - Work: render theory blocks (paragraph/note/tip/example/table) from DB.
 
-- **Step 4.3 — Render exercises & questions**
+- [ ] **Step 4.3 — Render exercises & questions**
   - Files: `js/exercises.js`.
   - Work: render exercise, instruction, word bank, questions with inputs
     (single/multiple blanks), freeform and oral variants.
@@ -136,7 +136,7 @@ Status legend: `[ ]` not started · `[~]` in progress · `[x]` complete
 
 ## Phase 5 — Breadcrumb & navigation  `[ ]`
 
-- **Step 5.1 — Breadcrumb navigation + prev/next**
+- [ ] **Step 5.1 — Breadcrumb navigation + prev/next**
   - Files: `js/nav.js`.
   - Work: hierarchical breadcrumb (Book > Chapter > Section > Exercise),
     tap-to-navigate, previous/next across exercises and sections.
@@ -146,7 +146,7 @@ Status legend: `[ ]` not started · `[~]` in progress · `[x]` complete
 
 ## Phase 6 — Answer checking  `[ ]`
 
-- **Step 6.1 — Answer normalization & checking**
+- [ ] **Step 6.1 — Answer normalization & checking**
   - Files: `js/answer.js`.
   - Work: normalize (trim/whitespace/case, never strip accents), multi-accepted
     answers, multi-blank comparison; store attempts separately from canonical.
@@ -157,7 +157,7 @@ Status legend: `[ ]` not started · `[~]` in progress · `[x]` complete
 
 ## Phase 7 — Try Again / hints / "Why?"  `[ ]`
 
-- **Step 7.1 — Feedback + Try Again**
+- [ ] **Step 7.1 — Feedback + Try Again**
   - Files: `js/feedback.js`.
   - Work: ✓/✗ feedback, Try Again (reset input, refocus, keep history), Hint
     (progressive), Show theory, Show answer, "Why?" (grounded in theory).
@@ -167,7 +167,7 @@ Status legend: `[ ]` not started · `[~]` in progress · `[x]` complete
 
 ## Phase 8 — Theory ↔ exercise sync  `[ ]`
 
-- **Step 8.1 — Automatic theory following + highlight**
+- [ ] **Step 8.1 — Automatic theory following + highlight**
   - Files: `js/theorySync.js`.
   - Work: Exercise→Section→TheoryBlocks; auto-scroll + highlight; "📌 Follow
     exercise" toggle (persisted).
@@ -177,7 +177,7 @@ Status legend: `[ ]` not started · `[~]` in progress · `[x]` complete
 
 ## Phase 9 — Progress tracking  `[ ]`
 
-- **Step 9.1 — Progress recording & aggregates**
+- [ ] **Step 9.1 — Progress recording & aggregates**
   - Files: `js/progress.js`.
   - Work: record attempts/results into questionProgress; derive
     exercise/section/chapter/overall stats; "continue where you left off".
@@ -187,7 +187,7 @@ Status legend: `[ ]` not started · `[~]` in progress · `[x]` complete
 
 ## Phase 10 — Review mistakes  `[ ]`
 
-- **Step 10.1 — Review list**
+- [ ] **Step 10.1 — Review list**
   - Files: `js/review.js`.
   - Work: auto-flag review items (incorrect / repeated / revealed / manual),
     review screen grouped by chapter, Start Review.
@@ -197,7 +197,7 @@ Status legend: `[ ]` not started · `[~]` in progress · `[x]` complete
 
 ## Phase 11 — PWA / offline / Android  `[ ]`
 
-- **Step 11.1 — Manifest + service worker + offline**
+- [ ] **Step 11.1 — Manifest + service worker + offline**
   - Files: `manifest.webmanifest`, `sw.js`, `js/sw-register.js`.
   - Work: app-shell cache, vendor Dexie.js locally, installable, offline use.
   - Acceptance: installs on Android; works offline after first load.
@@ -206,7 +206,7 @@ Status legend: `[ ]` not started · `[~]` in progress · `[x]` complete
 
 ## Phase 12 — GitHub Pages deployment  `[ ]`
 
-- **Step 12.1 — Deploy & verify**
+- [ ] **Step 12.1 — Deploy & verify**
   - Files: repo config, deployment docs.
   - Work: push to GitHub, enable Pages, verify relative paths/SW scope/manifest.
   - Acceptance: app loads from the Pages URL on Android; progress persists.
@@ -215,7 +215,7 @@ Status legend: `[ ]` not started · `[~]` in progress · `[x]` complete
 
 ## Phase 13 — Final testing & polish  `[ ]`
 
-- **Step 13.1 — Content QA, accessibility, performance**
+- [ ] **Step 13.1 — Content QA, accessibility, performance**
   - Files: docs, fixes.
   - Work: content spot-checks, keyboard/focus/contrast/text-scaling, perf
     (no full-book DOM), final acceptance pass.
