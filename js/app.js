@@ -37,9 +37,10 @@ var App = (function () {
       db.exercises.count(),
       db.questions.count(),
       db.answers.count(),
-      db.meta.get('lastPosition')
+      db.meta.get('lastPosition'),
+      Review.count()
     ]).then(function (r) {
-      var parts = r[0], chapters = r[1], last = r[6];
+      var parts = r[0], chapters = r[1], last = r[6], reviewCount = r[7];
       content.appendChild(el('p', 'data-status',
         'chapters=' + chapters.length + ' · sections=' + r[2] +
         ' · exercises=' + r[3] + ' · questions=' + r[4] + ' · answers=' + r[5]));
@@ -52,6 +53,9 @@ var App = (function () {
         });
         content.insertBefore(cont, content.querySelector('.data-status'));
       }
+      var reviewBtn = el('button', 'continue-btn secondary', 'Review (' + reviewCount + ')');
+      reviewBtn.addEventListener('click', reviewScreen);
+      content.insertBefore(reviewBtn, content.querySelector('.data-status'));
       var byPart = {};
       chapters.forEach(function (c) {
         (byPart[c.partId] = byPart[c.partId] || []).push(c);
@@ -200,6 +204,48 @@ var App = (function () {
       if (i >= 0 && i < chapters.length - 1) {
         openChapter(chapters[i + 1].id);
       }
+    });
+  }
+
+  function reviewScreen() {
+    renderBreadcrumb([{ label: 'Book', action: home }, { label: 'Review' }]);
+    var content = document.getElementById('content');
+    content.innerHTML = '';
+    return Review.list().then(function (byChapter) {
+      var chIds = Object.keys(byChapter);
+      var total = chIds.reduce(function (s, id) { return s + byChapter[id].length; }, 0);
+      content.appendChild(el('h2', 'chapter-heading', 'Review (' + total + ')'));
+      if (!total) {
+        content.appendChild(el('p', 'muted', 'Nothing to review. 🎉'));
+        return;
+      }
+      var startBtn = el('button', 'continue-btn', '▶ Start Review');
+      startBtn.addEventListener('click', function () { openReviewQuestion(byChapter[chIds[0]][0]); });
+      content.appendChild(startBtn);
+      chIds.forEach(function (chId) {
+        var items = byChapter[chId];
+        db.chapters.get(chId).then(function (ch) {
+          content.appendChild(el('h3', 'section-title',
+            'Chapter ' + (ch ? ch.number : '?') + ' (' + items.length + ')'));
+          var ul = el('ul', 'list');
+          items.forEach(function (it) {
+            var btn = el('button', 'list-item');
+            btn.appendChild(el('span', 'item-title', (it.question.prompt || '').slice(0, 70)));
+            btn.appendChild(el('span', 'item-meta', it.reason));
+            btn.addEventListener('click', function () { openReviewQuestion(it); });
+            var li = el('li');
+            li.appendChild(btn);
+            ul.appendChild(li);
+          });
+          content.appendChild(ul);
+        });
+      });
+    });
+  }
+
+  function openReviewQuestion(it) {
+    return db.exercises.get(it.question.exerciseId).then(function (ex) {
+      if (ex) openExercise(ex);
     });
   }
 

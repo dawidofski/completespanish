@@ -24,12 +24,14 @@ var Feedback = (function () {
       var userAnswer = userInputs.length > 1 ? userInputs : userInputs[0];
       Progress.record(q.id, correct, userAnswer);
       if (correct) {
+        Review.resolveQuestion(q.id);
         feedback.innerHTML = '<span class="feedback-correct">✓ Correct!</span>';
         if (ans.explanation) {
           feedback.insertAdjacentHTML('beforeend',
             '<div class="feedback-why">' + escapeHtml(ans.explanation) + '</div>');
         }
       } else {
+        Review.add(q.id, 'incorrect');
         feedback.innerHTML = '<span class="feedback-wrong">✗ Not quite.</span>';
         var actions = document.createElement('div');
         actions.className = 'feedback-actions';
@@ -45,6 +47,7 @@ var Feedback = (function () {
         show.className = 'mini-btn';
         show.textContent = 'Show answer';
         show.addEventListener('click', function () {
+          Review.add(q.id, 'revealed');
           feedback.innerHTML = '<span class="feedback-answer">Answer: ' +
             escapeHtml(ans.accepted.join(' / ')) + '</span>';
           if (ans.explanation) {
