@@ -62,5 +62,9 @@ var Progress = (function () {
     });
   }
 
-  return { record: record, overall: overall, exerciseMap: exerciseMap };
+  function get(questionId) {
+    return db.questionProgress.get(questionId);
+  }
+
+  return { record: record, get: get, overall: overall, exerciseMap: exerciseMap };
 })();
