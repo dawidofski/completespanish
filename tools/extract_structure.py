@@ -40,7 +40,9 @@ def text_of(el) -> str:
 
 
 def inner_html(el) -> str:
-    return "".join(ET.tostring(child, encoding="unicode") for child in el)
+    s = ET.tostring(el, encoding="unicode")
+    m = re.match(r"^<[^>]+>(.*)</[^>]+>$", s, re.DOTALL)
+    return m.group(1) if m else "".join(el.itertext())
 
 
 def cls(el) -> str:

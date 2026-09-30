@@ -104,6 +104,30 @@ html, body {
 .muted { color: var(--muted); }
 .data-status { font-size: 0.85rem; color: var(--muted); margin: 0 0 12px; }
 
+/* theory blocks */
+.theory-section-title { margin: 0 0 12px; font-size: 1rem; }
+.theory-block { margin: 0 0 14px; font-size: 0.95rem; }
+.theory-block-body { line-height: 1.55; }
+.theory-note, .theory-tip {
+  border-left: 4px solid var(--accent);
+  background: var(--accent-soft);
+  border-radius: 0 8px 8px 0;
+  padding: 10px 12px;
+}
+.theory-tip { border-left-color: #6a7c3f; background: #eef1e4; }
+.theory-block-label {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--accent);
+  margin-bottom: 4px;
+}
+.theory-tip .theory-block-label { color: #4a5a2a; }
+.theory-list { padding-left: 0; }
+.theory-table { margin: 0 0 14px; }
+.theory-table img { max-width: 100%; border-radius: 8px; border: 1px solid var(--border); }
+
 /* Theory panel: bottom sheet on mobile, sidebar on desktop */
 .theory-panel {
   position: fixed;

@@ -74,11 +74,15 @@ var App = (function () {
           content.appendChild(el('h3', 'section-title', 'Sections'));
           var ul = el('ul', 'list');
           sections.forEach(function (s) {
-            var div = el('div', 'list-item item-plain');
-            div.style.paddingLeft = (16 + (s.level - 1) * 16) + 'px';
-            div.appendChild(el('span', 'item-title', s.title));
+            var btn = el('button', 'list-item');
+            btn.style.paddingLeft = (16 + (s.level - 1) * 16) + 'px';
+            btn.appendChild(el('span', 'item-title', s.title));
+            btn.addEventListener('click', function () {
+              Theory.render(s.id, s.title);
+              setTheoryOpen(true);
+            });
             var li = el('li');
-            li.appendChild(div);
+            li.appendChild(btn);
             ul.appendChild(li);
           });
           content.appendChild(ul);
@@ -108,18 +112,19 @@ var App = (function () {
     });
   }
 
-  function initTheoryPanel() {
+  function setTheoryOpen(open) {
     var panel = document.getElementById('theory-panel');
     var layout = document.querySelector('.layout');
     var toggle = document.getElementById('theory-toggle');
-    function setOpen(open) {
-      panel.classList.toggle('open', open);
-      layout.classList.toggle('two-col', open);
-      toggle.style.display = open ? 'none' : '';
-    }
-    toggle.addEventListener('click', function () { setOpen(true); });
-    document.getElementById('theory-close').addEventListener('click', function () { setOpen(false); });
-    setOpen(window.matchMedia('(min-width: 900px)').matches);
+    panel.classList.toggle('open', open);
+    layout.classList.toggle('two-col', open);
+    toggle.style.display = open ? 'none' : '';
+  }
+
+  function initTheoryPanel() {
+    document.getElementById('theory-toggle').addEventListener('click', function () { setTheoryOpen(true); });
+    document.getElementById('theory-close').addEventListener('click', function () { setTheoryOpen(false); });
+    setTheoryOpen(window.matchMedia('(min-width: 900px)').matches);
   }
 
   function init() {
