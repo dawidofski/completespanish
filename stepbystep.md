@@ -53,9 +53,9 @@ Status legend: `[ ]` not started · `[~]` in progress · `[x]` complete
 
 ---
 
-## Phase 2 — Local Python extraction  `[ ]`
+## Phase 2 — Local Python extraction  `[~]`
 
-- [ ] **Step 2.1 — Parser: structure + theory**
+- [x] **Step 2.1 — Parser: structure + theory**
   - Objective: parse official EPUB → parts, chapters, sections, subsections,
     theory blocks, notes, tips, examples.
   - Files: `tools/extract_structure.py`, `tools/epub_reader.py`.
