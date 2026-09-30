@@ -117,9 +117,9 @@ Status legend: `[ ]` not started · `[~]` in progress · `[x]` complete
 
 ---
 
-## Phase 4 — Basic mobile UI  `[ ]`
+## Phase 4 — Basic mobile UI  `[~]`
 
-- [ ] **Step 4.1 — App shell + mobile-first CSS**
+- [x] **Step 4.1 — App shell + mobile-first CSS**
   - Files: `index.html`, `css/app.css`, `js/app.js`.
   - Work: layout, header, breadcrumb bar, exercise area, theory panel
     (desktop sidebar / mobile bottom sheet), touch targets, no horizontal scroll.
