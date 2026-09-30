@@ -136,9 +136,9 @@ Status legend: `[ ]` not started · `[~]` in progress · `[x]` complete
 
 ---
 
-## Phase 5 — Breadcrumb & navigation  `[ ]`
+## Phase 5 — Breadcrumb & navigation  `[x]`
 
-- [ ] **Step 5.1 — Breadcrumb navigation + prev/next**
+- [x] **Step 5.1 — Breadcrumb navigation + prev/next**
   - Files: `js/nav.js`.
   - Work: hierarchical breadcrumb (Book > Chapter > Section > Exercise),
     tap-to-navigate, previous/next across exercises and sections.
