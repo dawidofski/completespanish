@@ -1,0 +1,65 @@
+/* js/progress.js — record + aggregate learner progress (Step 9.1) */
+'use strict';
+
+var Progress = (function () {
+  // Upsert a question's attempt result. Never touches the canonical answer.
+  function record(questionId, correct) {
+    return db.questionProgress.get(questionId).then(function (existing) {
+      var now = Date.now();
+      var row = existing || {
+        questionId: questionId,
+        attempts: 0,
+        bestCorrect: false,
+        hintsUsed: 0,
+        answerRevealed: false,
+        lastAt: now
+      };
+      row.attempts += 1;
+      row.lastAt = now;
+      row.bestCorrect = row.bestCorrect || correct;
+      row.status = correct ? 'correct' : (row.attempts >= 2 ? 'needs-review' : 'attempted');
+      return db.questionProgress.put(row);
+    });
+  }
+
+  // Overall stats: { total, attempted, correct }
+  function overall() {
+    return Promise.all([
+      db.questions.count(),
+      db.questionProgress.toArray()
+    ]).then(function (r) {
+      var rows = r[1];
+      return {
+        total: r[0],
+        attempted: rows.length,
+        correct: rows.filter(function (x) { return x.bestCorrect; }).length
+      };
+    });
+  }
+
+  // Per-exercise stats: { exerciseId: { total, attempted, correct } }
+  function exerciseMap(exercises) {
+    var ids = exercises.map(function (e) { return e.id; });
+    var map = {};
+    exercises.forEach(function (e) { map[e.id] = { total: 0, attempted: 0, correct: 0 }; });
+    if (!ids.length) return Promise.resolve(map);
+    return db.questions.where('exerciseId').anyOf(ids).toArray().then(function (qs) {
+      var qEx = {};
+      qs.forEach(function (q) { qEx[q.id] = q.exerciseId; map[q.exerciseId].total++; });
+      var qids = qs.map(function (q) { return q.id; });
+      if (!qids.length) return map;
+      return db.questionProgress.where('questionId').anyOf(qids).toArray().then(function (rows) {
+        rows.forEach(function (r) {
+          var exId = qEx[r.questionId];
+          if (map[exId]) {
+            map[exId].attempted++;
+            if (r.bestCorrect) map[exId].correct++;
+          }
+        });
+        return map;
+      });
+    });
+  }
+
+  return { record: record, overall: overall, exerciseMap: exerciseMap };
+})();

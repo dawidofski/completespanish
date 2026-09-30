@@ -36,12 +36,22 @@ var App = (function () {
       db.sections.count(),
       db.exercises.count(),
       db.questions.count(),
-      db.answers.count()
+      db.answers.count(),
+      db.meta.get('lastPosition')
     ]).then(function (r) {
-      var parts = r[0], chapters = r[1];
+      var parts = r[0], chapters = r[1], last = r[6];
       content.appendChild(el('p', 'data-status',
         'chapters=' + chapters.length + ' · sections=' + r[2] +
         ' · exercises=' + r[3] + ' · questions=' + r[4] + ' · answers=' + r[5]));
+      if (last && last.value && last.value.exerciseId) {
+        var cont = el('button', 'continue-btn', '▶ Continue where you left off');
+        cont.addEventListener('click', function () {
+          db.exercises.get(last.value.exerciseId).then(function (ex) {
+            if (ex) openExercise(ex);
+          });
+        });
+        content.insertBefore(cont, content.querySelector('.data-status'));
+      }
       var byPart = {};
       chapters.forEach(function (c) {
         (byPart[c.partId] = byPart[c.partId] || []).push(c);
@@ -91,22 +101,29 @@ var App = (function () {
         }
         return DB.exercises(chapterId).then(function (exercises) {
           Nav.setExercises(chapterId, exercises);
-          if (exercises.length) {
-            content.appendChild(el('h3', 'section-title', 'Exercises (' + exercises.length + ')'));
-            var ul2 = el('ul', 'list');
-            exercises.forEach(function (ex) {
-              var label = ex.number ? ('Exercise ' + ex.number) : 'Reading Comprehension';
-              var btn = el('button', 'list-item');
-              btn.appendChild(el('span', 'item-title', label));
-              btn.appendChild(el('span', 'item-meta', ex.kind));
-              btn.addEventListener('click', function () { openExercise(ex); });
-              var li = el('li');
-              li.appendChild(btn);
-              ul2.appendChild(li);
-            });
-            content.appendChild(ul2);
-          }
-          Theory.renderChapter(chapterId);
+          return Progress.exerciseMap(exercises).then(function (map) {
+            if (exercises.length) {
+              content.appendChild(el('h3', 'section-title', 'Exercises (' + exercises.length + ')'));
+              var ul2 = el('ul', 'list');
+              exercises.forEach(function (ex) {
+                var label = ex.number ? ('Exercise ' + ex.number) : 'Reading Comprehension';
+                var btn = el('button', 'list-item');
+                btn.appendChild(el('span', 'item-title', label));
+                var st = map[ex.id];
+                var meta = ex.kind;
+                if (st && st.total > 0) {
+                  meta = st.correct + '/' + st.total + ' correct';
+                }
+                btn.appendChild(el('span', 'item-meta', meta));
+                btn.addEventListener('click', function () { openExercise(ex); });
+                var li = el('li');
+                li.appendChild(btn);
+                ul2.appendChild(li);
+              });
+              content.appendChild(ul2);
+            }
+            Theory.renderChapter(chapterId);
+          });
         });
       });
     }).catch(function (err) {
@@ -121,6 +138,7 @@ var App = (function () {
     Exercises.render(ex.id);
     Nav.setCurrent(ex.id);
     renderNavBar();
+    db.meta.put({ key: 'lastPosition', value: { chapterId: ex.chapterId, exerciseId: ex.id } });
     var secPromise = ex.sectionId ? db.sections.get(ex.sectionId) : Promise.resolve(null);
     return Promise.all([DB.chapter(ex.chapterId), secPromise]).then(function (r) {
       var ch = r[0], sec = r[1];
@@ -212,7 +230,11 @@ var App = (function () {
         return db.meta.get('followExercise').then(function (m) {
           if (m) followExercise = m.value !== false;
           updateFollowToggle();
-          return home();
+          return Progress.overall().then(function (s) {
+            document.getElementById('overall-progress').textContent =
+              s.correct + ' / ' + s.total + ' correct';
+            return home();
+          });
         });
       });
     });

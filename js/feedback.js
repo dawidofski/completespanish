@@ -21,6 +21,7 @@ var Feedback = (function () {
       var correct = userInputs.length > 1
         ? Answer.checkMulti(userInputs, ans.accepted)
         : Answer.check(userInputs[0], ans.accepted);
+      Progress.record(q.id, correct);
       if (correct) {
         feedback.innerHTML = '<span class="feedback-correct">✓ Correct!</span>';
         if (ans.explanation) {
