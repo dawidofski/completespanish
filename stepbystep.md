@@ -96,9 +96,9 @@ Status legend: `[ ]` not started · `[~]` in progress · `[x]` complete
 
 ---
 
-## Phase 3 — Data model & Dexie foundation  `[ ]`
+## Phase 3 — Data model & Dexie foundation  `[~]`
 
-- [ ] **Step 3.1 — Dexie schema + DB module**
+- [x] **Step 3.1 — Dexie schema + DB module**
   - Objective: implement schema v1 and DB access layer.
   - Files: `js/db.js`.
   - Work: Dexie stores (parts, chapters, sections, theoryBlocks, exercises,
