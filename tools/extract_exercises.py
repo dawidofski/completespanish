@@ -94,6 +94,8 @@ def extract_exercises(epub: EpubReader, sections_by_chapter: dict):
         sec_ptr = 0
         current_section_id = None
         current_exercise = None
+        rc_counter = 0
+        uq_counter = 0
 
         for el in body:
             tag = el.tag
@@ -109,6 +111,8 @@ def extract_exercises(epub: EpubReader, sections_by_chapter: dict):
                     num = 0
                     number = ""
                     kind = "reading-comprehension"
+                    rc_counter += 1
+                    ex_id = f"{ch_id}_rc_{rc_counter}"
                 current_exercise = {
                     "id": ex_id,
                     "chapterId": ch_id,
@@ -163,8 +167,9 @@ def extract_exercises(epub: EpubReader, sections_by_chapter: dict):
 
             if c in QUESTION_CLASSES:
                 prompt = text_of(el)
+                uq_counter += 1
                 questions.append({
-                    "id": "",
+                    "id": f"{ch_id}_uq_{uq_counter}",
                     "exerciseId": current_exercise["id"] if current_exercise else None,
                     "chapterId": ch_id,
                     "number": 0,

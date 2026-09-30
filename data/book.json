@@ -2,7 +2,7 @@
   "meta": {
     "title": "Complete Spanish Step-by-Step",
     "contentVersion": "89d180b7495b",
-    "generatedAt": "2026-09-30T19:35:02+00:00"
+    "generatedAt": "2026-09-30T20:17:01+00:00"
   },
   "parts": [
     {
@@ -35179,7 +35179,7 @@
       "freeform": false
     },
     {
-      "id": "",
+      "id": "ch1_rc_1",
       "chapterId": "ch1",
       "sectionId": "ch1lev8",
       "number": "",
@@ -35223,7 +35223,7 @@
       "freeform": false
     },
     {
-      "id": "",
+      "id": "ch2_rc_1",
       "chapterId": "ch2",
       "sectionId": "ch2_sec_4",
       "number": "",
@@ -35300,7 +35300,7 @@
       "freeform": false
     },
     {
-      "id": "",
+      "id": "ch2_rc_2",
       "chapterId": "ch2",
       "sectionId": "ch2_sec_9",
       "number": "",
@@ -35344,7 +35344,7 @@
       "freeform": false
     },
     {
-      "id": "",
+      "id": "ch3_rc_1",
       "chapterId": "ch3",
       "sectionId": "ch3_sec_6",
       "number": "",
@@ -35399,7 +35399,7 @@
       "freeform": false
     },
     {
-      "id": "",
+      "id": "ch3_rc_2",
       "chapterId": "ch3",
       "sectionId": "ch3_sec_10",
       "number": "",
@@ -35454,7 +35454,7 @@
       "freeform": false
     },
     {
-      "id": "",
+      "id": "ch4_rc_1",
       "chapterId": "ch4",
       "sectionId": "ch4lev4",
       "number": "",
@@ -35487,7 +35487,7 @@
       "freeform": true
     },
     {
-      "id": "",
+      "id": "ch4_rc_2",
       "chapterId": "ch4",
       "sectionId": "ch4_sec_10",
       "number": "",
@@ -35599,7 +35599,7 @@
       "freeform": false
     },
     {
-      "id": "",
+      "id": "ch5_rc_1",
       "chapterId": "ch5",
       "sectionId": "ch5lev5",
       "number": "",
@@ -35728,7 +35728,7 @@
       "freeform": false
     },
     {
-      "id": "",
+      "id": "ch6_rc_1",
       "chapterId": "ch6",
       "sectionId": "ch6lev4",
       "number": "",
@@ -35750,7 +35750,7 @@
       "freeform": false
     },
     {
-      "id": "",
+      "id": "ch7_rc_1",
       "chapterId": "ch7",
       "sectionId": "ch7lev2",
       "number": "",
@@ -35821,7 +35821,7 @@
       "freeform": false
     },
     {
-      "id": "",
+      "id": "ch7_rc_2",
       "chapterId": "ch7",
       "sectionId": "ch7lev9",
       "number": "",
@@ -35947,7 +35947,7 @@
       "freeform": false
     },
     {
-      "id": "",
+      "id": "ch7_rc_3",
       "chapterId": "ch7",
       "sectionId": "ch7_sec_15",
       "number": "",
@@ -36084,7 +36084,7 @@
       "freeform": false
     },
     {
-      "id": "",
+      "id": "ch8_rc_1",
       "chapterId": "ch8",
       "sectionId": "ch8_sec_16",
       "number": "",
@@ -36172,7 +36172,7 @@
       "freeform": false
     },
     {
-      "id": "",
+      "id": "ch9_rc_1",
       "chapterId": "ch9",
       "sectionId": "ch9lev7",
       "number": "",
@@ -36183,7 +36183,7 @@
       "freeform": false
     },
     {
-      "id": "",
+      "id": "ch9_rc_2",
       "chapterId": "ch9",
       "sectionId": "ch9_sec_11",
       "number": "",
@@ -36260,7 +36260,7 @@
       "freeform": false
     },
     {
-      "id": "",
+      "id": "ch9_rc_3",
       "chapterId": "ch9",
       "sectionId": "ch9lev11",
       "number": "",
@@ -36414,7 +36414,7 @@
       "freeform": false
     },
     {
-      "id": "",
+      "id": "ch10_rc_1",
       "chapterId": "ch10",
       "sectionId": "ch10_sec_18",
       "number": "",
@@ -36425,7 +36425,7 @@
       "freeform": false
     },
     {
-      "id": "",
+      "id": "ch10_rc_2",
       "chapterId": "ch10",
       "sectionId": "ch10_sec_20",
       "number": "",
@@ -36524,7 +36524,7 @@
       "freeform": false
     },
     {
-      "id": "",
+      "id": "ch11_rc_1",
       "chapterId": "ch11",
       "sectionId": "ch11_sec_9",
       "number": "",
@@ -36624,7 +36624,7 @@
       "freeform": false
     },
     {
-      "id": "",
+      "id": "ch12_rc_1",
       "chapterId": "ch12",
       "sectionId": "ch12lev11",
       "number": "",
@@ -36767,7 +36767,7 @@
       "freeform": false
     },
     {
-      "id": "",
+      "id": "ch13_rc_1",
       "chapterId": "ch13",
       "sectionId": "ch13lev17",
       "number": "",
@@ -36778,7 +36778,7 @@
       "freeform": false
     },
     {
-      "id": "",
+      "id": "ch14_rc_1",
       "chapterId": "ch14",
       "sectionId": "ch14lev3",
       "number": "",
@@ -36866,7 +36866,7 @@
       "freeform": false
     },
     {
-      "id": "",
+      "id": "ch14_rc_2",
       "chapterId": "ch14",
       "sectionId": "ch14lev9",
       "number": "",
@@ -36921,7 +36921,7 @@
       "freeform": false
     },
     {
-      "id": "",
+      "id": "ch14_rc_3",
       "chapterId": "ch14",
       "sectionId": "ch14_sec_15",
       "number": "",
@@ -37075,7 +37075,7 @@
       "freeform": false
     },
     {
-      "id": "",
+      "id": "ch15_rc_1",
       "chapterId": "ch15",
       "sectionId": "ch15lev18",
       "number": "",
@@ -37504,7 +37504,7 @@
       "freeform": false
     },
     {
-      "id": "",
+      "id": "ch20_rc_1",
       "chapterId": "ch20",
       "sectionId": "ch20_sec_26",
       "number": "",
@@ -37625,7 +37625,7 @@
       "freeform": false
     },
     {
-      "id": "",
+      "id": "ch21_rc_1",
       "chapterId": "ch21",
       "sectionId": "ch21_sec_24",
       "number": "",
@@ -37669,7 +37669,7 @@
       "freeform": false
     },
     {
-      "id": "",
+      "id": "ch21_rc_2",
       "chapterId": "ch21",
       "sectionId": "ch21_sec_28",
       "number": "",
@@ -37779,7 +37779,7 @@
       "freeform": false
     },
     {
-      "id": "",
+      "id": "ch22_rc_1",
       "chapterId": "ch22",
       "sectionId": "ch22_sec_19",
       "number": "",
@@ -37889,7 +37889,7 @@
       "freeform": false
     },
     {
-      "id": "",
+      "id": "ch23_rc_1",
       "chapterId": "ch23",
       "sectionId": "ch23_sec_12",
       "number": "",
@@ -40924,8 +40924,8 @@
       "blankIndex": 7
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch2_uq_1",
+      "exerciseId": "ch2_rc_2",
       "chapterId": "ch2",
       "number": 0,
       "prompt": "1. ¿Es nueva la casa? __________________________________________",
@@ -40935,8 +40935,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch2_uq_2",
+      "exerciseId": "ch2_rc_2",
       "chapterId": "ch2",
       "number": 0,
       "prompt": "2. ¿Es bonito el día? __________________________________________",
@@ -40946,8 +40946,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch2_uq_3",
+      "exerciseId": "ch2_rc_2",
       "chapterId": "ch2",
       "number": 0,
       "prompt": "3. ¿Es grande la cocina? __________________________________________",
@@ -40957,8 +40957,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch2_uq_4",
+      "exerciseId": "ch2_rc_2",
       "chapterId": "ch2",
       "number": 0,
       "prompt": "4. ¿Dónde está el piano? __________________________________________",
@@ -41540,7 +41540,7 @@
       "blankIndex": null
     },
     {
-      "id": "",
+      "id": "ch3_uq_1",
       "exerciseId": "ch3exe5",
       "chapterId": "ch3",
       "number": 0,
@@ -41551,7 +41551,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch3_uq_2",
       "exerciseId": "ch3exe5",
       "chapterId": "ch3",
       "number": 0,
@@ -41562,7 +41562,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch3_uq_3",
       "exerciseId": "ch3exe5",
       "chapterId": "ch3",
       "number": 0,
@@ -41573,7 +41573,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch3_uq_4",
       "exerciseId": "ch3exe5",
       "chapterId": "ch3",
       "number": 0,
@@ -41584,7 +41584,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch3_uq_5",
       "exerciseId": "ch3exe5",
       "chapterId": "ch3",
       "number": 0,
@@ -41595,7 +41595,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch3_uq_6",
       "exerciseId": "ch3exe5",
       "chapterId": "ch3",
       "number": 0,
@@ -41606,7 +41606,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch3_uq_7",
       "exerciseId": "ch3exe5",
       "chapterId": "ch3",
       "number": 0,
@@ -41617,7 +41617,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch3_uq_8",
       "exerciseId": "ch3exe5",
       "chapterId": "ch3",
       "number": 0,
@@ -41628,7 +41628,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch3_uq_9",
       "exerciseId": "ch3exe5",
       "chapterId": "ch3",
       "number": 0,
@@ -41639,7 +41639,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch3_uq_10",
       "exerciseId": "ch3exe5",
       "chapterId": "ch3",
       "number": 0,
@@ -41650,7 +41650,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch3_uq_11",
       "exerciseId": "ch3exe5",
       "chapterId": "ch3",
       "number": 0,
@@ -41661,7 +41661,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch3_uq_12",
       "exerciseId": "ch3exe5",
       "chapterId": "ch3",
       "number": 0,
@@ -41672,7 +41672,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch3_uq_13",
       "exerciseId": "ch3exe5",
       "chapterId": "ch3",
       "number": 0,
@@ -41683,7 +41683,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch3_uq_14",
       "exerciseId": "ch3exe5",
       "chapterId": "ch3",
       "number": 0,
@@ -42123,8 +42123,8 @@
       "blankIndex": null
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch3_uq_15",
+      "exerciseId": "ch3_rc_2",
       "chapterId": "ch3",
       "number": 0,
       "prompt": "1. ¿De dónde es Roberto Vélez? ¿De dónde es Rosa Morales?",
@@ -42134,8 +42134,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch3_uq_16",
+      "exerciseId": "ch3_rc_2",
       "chapterId": "ch3",
       "number": 0,
       "prompt": "2. ¿Dónde están? __________________________",
@@ -42145,8 +42145,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch3_uq_17",
+      "exerciseId": "ch3_rc_2",
       "chapterId": "ch3",
       "number": 0,
       "prompt": "3. ¿Son ellos amigos? __________________________",
@@ -42637,8 +42637,8 @@
       "blankIndex": null
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch4_uq_1",
+      "exerciseId": "ch4_rc_1",
       "chapterId": "ch4",
       "number": 0,
       "prompt": "1. ¿Por qué está lleno el restaurante?",
@@ -42648,8 +42648,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch4_uq_2",
+      "exerciseId": "ch4_rc_1",
       "chapterId": "ch4",
       "number": 0,
       "prompt": "2. ¿Cuántos pisos hay?",
@@ -42659,8 +42659,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch4_uq_3",
+      "exerciseId": "ch4_rc_1",
       "chapterId": "ch4",
       "number": 0,
       "prompt": "3. ¿En que país está este restaurante?",
@@ -42670,8 +42670,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch4_uq_4",
+      "exerciseId": "ch4_rc_1",
       "chapterId": "ch4",
       "number": 0,
       "prompt": "4. ¿Cuántas personas hay en el restaurante?",
@@ -42863,8 +42863,8 @@
       "blankIndex": null
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch4_uq_5",
+      "exerciseId": "ch4_rc_2",
       "chapterId": "ch4",
       "number": 0,
       "prompt": "1. ¿Qué estación es?",
@@ -42874,8 +42874,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch4_uq_6",
+      "exerciseId": "ch4_rc_2",
       "chapterId": "ch4",
       "number": 0,
       "prompt": "2. ¿Qué hora es al principio del cuento?",
@@ -42885,8 +42885,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch4_uq_7",
+      "exerciseId": "ch4_rc_2",
       "chapterId": "ch4",
       "number": 0,
       "prompt": "3. ¿Dónde están las cucharas, los cuchillos y los tenedores?",
@@ -42896,8 +42896,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch4_uq_8",
+      "exerciseId": "ch4_rc_2",
       "chapterId": "ch4",
       "number": 0,
       "prompt": "4. ¿Está sucia o limpia la casa?",
@@ -42907,8 +42907,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch4_uq_9",
+      "exerciseId": "ch4_rc_2",
       "chapterId": "ch4",
       "number": 0,
       "prompt": "5. ¿Es hoy el día de cumpleaños?",
@@ -43113,7 +43113,7 @@
       "blankIndex": null
     },
     {
-      "id": "",
+      "id": "ch5_uq_1",
       "exerciseId": "ch5exe2",
       "chapterId": "ch5",
       "number": 0,
@@ -43124,7 +43124,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch5_uq_2",
       "exerciseId": "ch5exe2",
       "chapterId": "ch5",
       "number": 0,
@@ -43135,7 +43135,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch5_uq_3",
       "exerciseId": "ch5exe2",
       "chapterId": "ch5",
       "number": 0,
@@ -43146,7 +43146,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch5_uq_4",
       "exerciseId": "ch5exe2",
       "chapterId": "ch5",
       "number": 0,
@@ -43157,7 +43157,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch5_uq_5",
       "exerciseId": "ch5exe2",
       "chapterId": "ch5",
       "number": 0,
@@ -43168,7 +43168,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch5_uq_6",
       "exerciseId": "ch5exe2",
       "chapterId": "ch5",
       "number": 0,
@@ -43517,8 +43517,8 @@
       "blankIndex": null
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch5_uq_7",
+      "exerciseId": "ch5_rc_1",
       "chapterId": "ch5",
       "number": 0,
       "prompt": "1. ¿Cómo es Guanajuato?",
@@ -43528,8 +43528,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch5_uq_8",
+      "exerciseId": "ch5_rc_1",
       "chapterId": "ch5",
       "number": 0,
       "prompt": "2. ¿Qué estación del año es?",
@@ -43539,8 +43539,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch5_uq_9",
+      "exerciseId": "ch5_rc_1",
       "chapterId": "ch5",
       "number": 0,
       "prompt": "3. ¿Cómo pasa el día el padre de ella?",
@@ -43550,8 +43550,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch5_uq_10",
+      "exerciseId": "ch5_rc_1",
       "chapterId": "ch5",
       "number": 0,
       "prompt": "4. ¿Qué estudian Laura y la amiga de ella?",
@@ -43561,8 +43561,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch5_uq_11",
+      "exerciseId": "ch5_rc_1",
       "chapterId": "ch5",
       "number": 0,
       "prompt": "5. En la noche, ¿de qué hablan?",
@@ -44014,7 +44014,7 @@
       "blankIndex": null
     },
     {
-      "id": "",
+      "id": "ch6_uq_1",
       "exerciseId": "ch6exe5",
       "chapterId": "ch6",
       "number": 0,
@@ -44025,7 +44025,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch6_uq_2",
       "exerciseId": "ch6exe5",
       "chapterId": "ch6",
       "number": 0,
@@ -44036,7 +44036,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch6_uq_3",
       "exerciseId": "ch6exe5",
       "chapterId": "ch6",
       "number": 0,
@@ -44047,7 +44047,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch6_uq_4",
       "exerciseId": "ch6exe5",
       "chapterId": "ch6",
       "number": 0,
@@ -44058,7 +44058,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch6_uq_5",
       "exerciseId": "ch6exe5",
       "chapterId": "ch6",
       "number": 0,
@@ -44069,7 +44069,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch6_uq_6",
       "exerciseId": "ch6exe5",
       "chapterId": "ch6",
       "number": 0,
@@ -44080,7 +44080,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch6_uq_7",
       "exerciseId": "ch6exe5",
       "chapterId": "ch6",
       "number": 0,
@@ -44091,7 +44091,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch6_uq_8",
       "exerciseId": "ch6exe5",
       "chapterId": "ch6",
       "number": 0,
@@ -44440,8 +44440,8 @@
       "blankIndex": null
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch6_uq_9",
+      "exerciseId": "ch6_rc_1",
       "chapterId": "ch6",
       "number": 0,
       "prompt": "1. ¿Es largo el viaje a la ciudad?",
@@ -44451,8 +44451,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch6_uq_10",
+      "exerciseId": "ch6_rc_1",
       "chapterId": "ch6",
       "number": 0,
       "prompt": "2. ¿Cómo son los pasajeros que viajan en el tren?",
@@ -44462,8 +44462,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch6_uq_11",
+      "exerciseId": "ch6_rc_1",
       "chapterId": "ch6",
       "number": 0,
       "prompt": "3. ¿Sabe Ud. si el personaje principal es hombre o mujer? ¿Cómo sabe Ud.?",
@@ -44473,8 +44473,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch6_uq_12",
+      "exerciseId": "ch6_rc_1",
       "chapterId": "ch6",
       "number": 0,
       "prompt": "4. Después de salir de la estación, ¿en qué piensa el personaje?",
@@ -44484,8 +44484,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch6_uq_13",
+      "exerciseId": "ch6_rc_1",
       "chapterId": "ch6",
       "number": 0,
       "prompt": "5. ¿Qué decide hacer?",
@@ -44495,8 +44495,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch6_uq_14",
+      "exerciseId": "ch6_rc_1",
       "chapterId": "ch6",
       "number": 0,
       "prompt": "6. ¿Pasa el personaje mucho tiempo en la ciudad?",
@@ -44506,8 +44506,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch6_uq_15",
+      "exerciseId": "ch6_rc_1",
       "chapterId": "ch6",
       "number": 0,
       "prompt": "7. ¿Por qué vuelve al tren?",
@@ -44751,7 +44751,7 @@
       "blankIndex": null
     },
     {
-      "id": "",
+      "id": "ch7_uq_1",
       "exerciseId": "ch7exe3",
       "chapterId": "ch7",
       "number": 0,
@@ -44762,7 +44762,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch7_uq_2",
       "exerciseId": "ch7exe3",
       "chapterId": "ch7",
       "number": 0,
@@ -44773,7 +44773,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch7_uq_3",
       "exerciseId": "ch7exe3",
       "chapterId": "ch7",
       "number": 0,
@@ -44784,7 +44784,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch7_uq_4",
       "exerciseId": "ch7exe3",
       "chapterId": "ch7",
       "number": 0,
@@ -44795,7 +44795,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch7_uq_5",
       "exerciseId": "ch7exe3",
       "chapterId": "ch7",
       "number": 0,
@@ -44806,7 +44806,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch7_uq_6",
       "exerciseId": "ch7exe3",
       "chapterId": "ch7",
       "number": 0,
@@ -44817,7 +44817,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch7_uq_7",
       "exerciseId": "ch7exe3",
       "chapterId": "ch7",
       "number": 0,
@@ -44828,7 +44828,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch7_uq_8",
       "exerciseId": "ch7exe3",
       "chapterId": "ch7",
       "number": 0,
@@ -46152,8 +46152,8 @@
       "blankIndex": null
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch7_uq_9",
+      "exerciseId": "ch7_rc_3",
       "chapterId": "ch7",
       "number": 0,
       "prompt": "1. ¿Cuál es el nombre del personaje principal?",
@@ -46163,8 +46163,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch7_uq_10",
+      "exerciseId": "ch7_rc_3",
       "chapterId": "ch7",
       "number": 0,
       "prompt": "2. ¿Cómo es la sala de espera?",
@@ -46174,8 +46174,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch7_uq_11",
+      "exerciseId": "ch7_rc_3",
       "chapterId": "ch7",
       "number": 0,
       "prompt": "3. ¿Cómo están los pacientes?",
@@ -46185,8 +46185,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch7_uq_12",
+      "exerciseId": "ch7_rc_3",
       "chapterId": "ch7",
       "number": 0,
       "prompt": "4. ¿Qué pasa a las dos y media?",
@@ -46196,8 +46196,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch7_uq_13",
+      "exerciseId": "ch7_rc_3",
       "chapterId": "ch7",
       "number": 0,
       "prompt": "5. ¿Cómo puede ser la sala grande al principio del cuento y pequeña al final?",
@@ -46207,8 +46207,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch7_uq_14",
+      "exerciseId": "ch7_rc_3",
       "chapterId": "ch7",
       "number": 0,
       "prompt": "6. Si Isabel no tiene una cita con el doctor y si no está enferma, ¿por qué está ella en la oficina del doctor?",
@@ -47791,8 +47791,8 @@
       "blankIndex": null
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch8_uq_1",
+      "exerciseId": "ch8_rc_1",
       "chapterId": "ch8",
       "number": 0,
       "prompt": "1. ¿A qué hora empieza la fiesta?",
@@ -47802,8 +47802,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch8_uq_2",
+      "exerciseId": "ch8_rc_1",
       "chapterId": "ch8",
       "number": 0,
       "prompt": "2. ¿Cuál es la actitud de Isabel acerca de la fiesta después de recibir la invitación?",
@@ -47813,8 +47813,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch8_uq_3",
+      "exerciseId": "ch8_rc_1",
       "chapterId": "ch8",
       "number": 0,
       "prompt": "3. ¿Toca ella su piano?",
@@ -47824,8 +47824,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch8_uq_4",
+      "exerciseId": "ch8_rc_1",
       "chapterId": "ch8",
       "number": 0,
       "prompt": "4. ¿Dónde tiene lugar la fiesta?",
@@ -47835,8 +47835,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch8_uq_5",
+      "exerciseId": "ch8_rc_1",
       "chapterId": "ch8",
       "number": 0,
       "prompt": "5. ¿Qué hace la gente en la fiesta?",
@@ -47846,8 +47846,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch8_uq_6",
+      "exerciseId": "ch8_rc_1",
       "chapterId": "ch8",
       "number": 0,
       "prompt": "6. ¿Piensa Ud. que ella va a ir a la fiesta?",
@@ -48962,8 +48962,8 @@
       "blankIndex": null
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch9_uq_1",
+      "exerciseId": "ch9_rc_1",
       "chapterId": "ch9",
       "number": 0,
       "prompt": "1. ¿Cuántos años tiene Leonora?",
@@ -48973,8 +48973,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch9_uq_2",
+      "exerciseId": "ch9_rc_1",
       "chapterId": "ch9",
       "number": 0,
       "prompt": "2. ¿Por qué quiere ir al circo?",
@@ -48984,8 +48984,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch9_uq_3",
+      "exerciseId": "ch9_rc_1",
       "chapterId": "ch9",
       "number": 0,
       "prompt": "3. ¿Qué va a hacer Leonora durante el día?",
@@ -48995,8 +48995,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch9_uq_4",
+      "exerciseId": "ch9_rc_1",
       "chapterId": "ch9",
       "number": 0,
       "prompt": "4. ¿Cuánto va a ganar ella por semana en el circo?",
@@ -49006,7 +49006,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch9_uq_5",
       "exerciseId": "ch9exe8",
       "chapterId": "ch9",
       "number": 0,
@@ -49017,7 +49017,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch9_uq_6",
       "exerciseId": "ch9exe8",
       "chapterId": "ch9",
       "number": 0,
@@ -49028,7 +49028,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch9_uq_7",
       "exerciseId": "ch9exe8",
       "chapterId": "ch9",
       "number": 0,
@@ -49039,7 +49039,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch9_uq_8",
       "exerciseId": "ch9exe8",
       "chapterId": "ch9",
       "number": 0,
@@ -49050,7 +49050,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch9_uq_9",
       "exerciseId": "ch9exe8",
       "chapterId": "ch9",
       "number": 0,
@@ -49061,7 +49061,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch9_uq_10",
       "exerciseId": "ch9exe8",
       "chapterId": "ch9",
       "number": 0,
@@ -49072,7 +49072,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch9_uq_11",
       "exerciseId": "ch9exe8",
       "chapterId": "ch9",
       "number": 0,
@@ -49083,7 +49083,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch9_uq_12",
       "exerciseId": "ch9exe8",
       "chapterId": "ch9",
       "number": 0,
@@ -49094,7 +49094,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch9_uq_13",
       "exerciseId": "ch9exe8",
       "chapterId": "ch9",
       "number": 0,
@@ -49105,7 +49105,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch9_uq_14",
       "exerciseId": "ch9exe8",
       "chapterId": "ch9",
       "number": 0,
@@ -51456,8 +51456,8 @@
       "blankIndex": null
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch9_uq_15",
+      "exerciseId": "ch9_rc_3",
       "chapterId": "ch9",
       "number": 0,
       "prompt": "1. ¿Dónde está Isabel al empezar este cuento? ¿Por qué no quiere ir al trabajo?",
@@ -51467,8 +51467,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch9_uq_16",
+      "exerciseId": "ch9_rc_3",
       "chapterId": "ch9",
       "number": 0,
       "prompt": "2. ¿Quiere ella aprender todo lo necesario de la tecnología?",
@@ -51478,8 +51478,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch9_uq_17",
+      "exerciseId": "ch9_rc_3",
       "chapterId": "ch9",
       "number": 0,
       "prompt": "3. ¿Cómo es su relación con su jefe?",
@@ -51489,8 +51489,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch9_uq_18",
+      "exerciseId": "ch9_rc_3",
       "chapterId": "ch9",
       "number": 0,
       "prompt": "4. ¿En qué piensa Isabel durante el día?",
@@ -51500,8 +51500,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch9_uq_19",
+      "exerciseId": "ch9_rc_3",
       "chapterId": "ch9",
       "number": 0,
       "prompt": "5. ¿Qué va a hacer a las cinco?",
@@ -51511,8 +51511,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch9_uq_20",
+      "exerciseId": "ch9_rc_3",
       "chapterId": "ch9",
       "number": 0,
       "prompt": "6. ¿Piensa Ud. que Isabel está contenta?",
@@ -52081,7 +52081,7 @@
       "blankIndex": null
     },
     {
-      "id": "",
+      "id": "ch10_uq_1",
       "exerciseId": "ch10exe6",
       "chapterId": "ch10",
       "number": 0,
@@ -52092,7 +52092,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch10_uq_2",
       "exerciseId": "ch10exe6",
       "chapterId": "ch10",
       "number": 0,
@@ -52103,7 +52103,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch10_uq_3",
       "exerciseId": "ch10exe6",
       "chapterId": "ch10",
       "number": 0,
@@ -52114,7 +52114,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch10_uq_4",
       "exerciseId": "ch10exe6",
       "chapterId": "ch10",
       "number": 0,
@@ -52125,7 +52125,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch10_uq_5",
       "exerciseId": "ch10exe6",
       "chapterId": "ch10",
       "number": 0,
@@ -52136,7 +52136,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch10_uq_6",
       "exerciseId": "ch10exe6",
       "chapterId": "ch10",
       "number": 0,
@@ -52147,7 +52147,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch10_uq_7",
       "exerciseId": "ch10exe6",
       "chapterId": "ch10",
       "number": 0,
@@ -52158,7 +52158,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch10_uq_8",
       "exerciseId": "ch10exe6",
       "chapterId": "ch10",
       "number": 0,
@@ -52169,7 +52169,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch10_uq_9",
       "exerciseId": "ch10exe6",
       "chapterId": "ch10",
       "number": 0,
@@ -52180,7 +52180,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch10_uq_10",
       "exerciseId": "ch10exe6",
       "chapterId": "ch10",
       "number": 0,
@@ -53153,8 +53153,8 @@
       "blankIndex": null
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch10_uq_11",
+      "exerciseId": "ch10_rc_1",
       "chapterId": "ch10",
       "number": 0,
       "prompt": "1. ¿Por qué a los dos amigos les gusta ir de compras?",
@@ -53164,8 +53164,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch10_uq_12",
+      "exerciseId": "ch10_rc_1",
       "chapterId": "ch10",
       "number": 0,
       "prompt": "2. ¿Qué les gusta comer?",
@@ -53175,8 +53175,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch10_uq_13",
+      "exerciseId": "ch10_rc_1",
       "chapterId": "ch10",
       "number": 0,
       "prompt": "3. ¿Adónde van después de comer?",
@@ -53186,8 +53186,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch10_uq_14",
+      "exerciseId": "ch10_rc_2",
       "chapterId": "ch10",
       "number": 0,
       "prompt": "1. ¿A Isabel le gusta viajar?",
@@ -53197,8 +53197,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch10_uq_15",
+      "exerciseId": "ch10_rc_2",
       "chapterId": "ch10",
       "number": 0,
       "prompt": "2. ¿Por qué escoge Italia?",
@@ -53208,8 +53208,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch10_uq_16",
+      "exerciseId": "ch10_rc_2",
       "chapterId": "ch10",
       "number": 0,
       "prompt": "3. ¿Qué tiene que hacer antes de viajar?",
@@ -53219,8 +53219,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch10_uq_17",
+      "exerciseId": "ch10_rc_2",
       "chapterId": "ch10",
       "number": 0,
       "prompt": "4. ¿Qué piensa hacer ella durante el viaje? ¿Qué hacen los otros pasajeros?",
@@ -53230,8 +53230,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch10_uq_18",
+      "exerciseId": "ch10_rc_2",
       "chapterId": "ch10",
       "number": 0,
       "prompt": "5. ¿Piensa Ud. que Isabel va a viajar?",
@@ -54138,7 +54138,7 @@
       "blankIndex": null
     },
     {
-      "id": "",
+      "id": "ch11_uq_1",
       "exerciseId": "ch11exe7",
       "chapterId": "ch11",
       "number": 0,
@@ -54149,7 +54149,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch11_uq_2",
       "exerciseId": "ch11exe7",
       "chapterId": "ch11",
       "number": 0,
@@ -54160,7 +54160,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch11_uq_3",
       "exerciseId": "ch11exe7",
       "chapterId": "ch11",
       "number": 0,
@@ -54171,7 +54171,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch11_uq_4",
       "exerciseId": "ch11exe7",
       "chapterId": "ch11",
       "number": 0,
@@ -54182,7 +54182,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch11_uq_5",
       "exerciseId": "ch11exe7",
       "chapterId": "ch11",
       "number": 0,
@@ -54323,8 +54323,8 @@
       "blankIndex": null
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch11_uq_6",
+      "exerciseId": "ch11_rc_1",
       "chapterId": "ch11",
       "number": 0,
       "prompt": "1. ¿Cómo está Isabel al llegar a Italia? Si Ud. piensa que está alegre, ¿por qué? Igualmente, si piensa que está triste, ¿por qué?",
@@ -54334,8 +54334,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch11_uq_7",
+      "exerciseId": "ch11_rc_1",
       "chapterId": "ch11",
       "number": 0,
       "prompt": "2. ¿Espera ella mucho tiempo en el aeropuerto?",
@@ -54345,8 +54345,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch11_uq_8",
+      "exerciseId": "ch11_rc_1",
       "chapterId": "ch11",
       "number": 0,
       "prompt": "3. ¿Qué tiempo hace?",
@@ -54356,8 +54356,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch11_uq_9",
+      "exerciseId": "ch11_rc_1",
       "chapterId": "ch11",
       "number": 0,
       "prompt": "4. ¿Escoge un hotel con cuidado?",
@@ -54367,8 +54367,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch11_uq_10",
+      "exerciseId": "ch11_rc_1",
       "chapterId": "ch11",
       "number": 0,
       "prompt": "5. ¿Quiere Isabel salir la primera noche? ¿Qué hace?",
@@ -55132,8 +55132,8 @@
       "blankIndex": null
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch12_uq_1",
+      "exerciseId": "ch12_rc_1",
       "chapterId": "ch12",
       "number": 0,
       "prompt": "1. ¿Cómo se despierta?",
@@ -55143,8 +55143,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch12_uq_2",
+      "exerciseId": "ch12_rc_1",
       "chapterId": "ch12",
       "number": 0,
       "prompt": "2. Después de vestirse, ¿adónde va?",
@@ -55154,8 +55154,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch12_uq_3",
+      "exerciseId": "ch12_rc_1",
       "chapterId": "ch12",
       "number": 0,
       "prompt": "3. ¿Por qué escoge ella una mesa para dos?",
@@ -55165,8 +55165,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch12_uq_4",
+      "exerciseId": "ch12_rc_1",
       "chapterId": "ch12",
       "number": 0,
       "prompt": "4. Mientras ella come los pasteles, ¿lee Isabel su libro?",
@@ -55176,8 +55176,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch12_uq_5",
+      "exerciseId": "ch12_rc_1",
       "chapterId": "ch12",
       "number": 0,
       "prompt": "5. ¿Dónde tiene lugar la conversación que ella tiene con el hombre?",
@@ -55187,8 +55187,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch12_uq_6",
+      "exerciseId": "ch12_rc_1",
       "chapterId": "ch12",
       "number": 0,
       "prompt": "6. Al final de este cuento, ¿está ella sola o acompañada?",
@@ -58851,8 +58851,8 @@
       "blankIndex": null
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch13_uq_1",
+      "exerciseId": "ch13_rc_1",
       "chapterId": "ch13",
       "number": 0,
       "prompt": "1. ¿Piensa Ud. que Isabel debe quedarse en Italia o es mejor que regrese a los Estados Unidos?",
@@ -58862,8 +58862,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch13_uq_2",
+      "exerciseId": "ch13_rc_1",
       "chapterId": "ch13",
       "number": 0,
       "prompt": "2. ¿Se da cuenta ella que es la primera vez que menciona el nombre de una amiga o un amigo?",
@@ -58873,8 +58873,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch13_uq_3",
+      "exerciseId": "ch13_rc_1",
       "chapterId": "ch13",
       "number": 0,
       "prompt": "3. ¿Que parte de su viaje le gusta más a Isabel?",
@@ -58884,8 +58884,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch13_uq_4",
+      "exerciseId": "ch13_rc_1",
       "chapterId": "ch13",
       "number": 0,
       "prompt": "4. ¿Piensa Ud. que hay un cambio en Isabel desde el primer cuento hasta el último?",
@@ -59714,7 +59714,7 @@
       "blankIndex": null
     },
     {
-      "id": "",
+      "id": "ch14_uq_1",
       "exerciseId": "ch14exe6",
       "chapterId": "ch14",
       "number": 0,
@@ -59725,7 +59725,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch14_uq_2",
       "exerciseId": "ch14exe6",
       "chapterId": "ch14",
       "number": 0,
@@ -59736,7 +59736,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch14_uq_3",
       "exerciseId": "ch14exe6",
       "chapterId": "ch14",
       "number": 0,
@@ -59747,7 +59747,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch14_uq_4",
       "exerciseId": "ch14exe6",
       "chapterId": "ch14",
       "number": 0,
@@ -59758,7 +59758,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch14_uq_5",
       "exerciseId": "ch14exe6",
       "chapterId": "ch14",
       "number": 0,
@@ -59769,7 +59769,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch14_uq_6",
       "exerciseId": "ch14exe6",
       "chapterId": "ch14",
       "number": 0,
@@ -59780,7 +59780,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch14_uq_7",
       "exerciseId": "ch14exe6",
       "chapterId": "ch14",
       "number": 0,
@@ -59791,7 +59791,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch14_uq_8",
       "exerciseId": "ch14exe6",
       "chapterId": "ch14",
       "number": 0,
@@ -59802,7 +59802,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch14_uq_9",
       "exerciseId": "ch14exe6",
       "chapterId": "ch14",
       "number": 0,
@@ -59813,7 +59813,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch14_uq_10",
       "exerciseId": "ch14exe6",
       "chapterId": "ch14",
       "number": 0,
@@ -60448,8 +60448,8 @@
       "blankIndex": null
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch14_uq_11",
+      "exerciseId": "ch14_rc_3",
       "chapterId": "ch14",
       "number": 0,
       "prompt": "1. ¿En que sitio empieza la acción?",
@@ -60459,8 +60459,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch14_uq_12",
+      "exerciseId": "ch14_rc_3",
       "chapterId": "ch14",
       "number": 0,
       "prompt": "2. ¿Cuántos años tiene el acusado?",
@@ -60470,8 +60470,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch14_uq_13",
+      "exerciseId": "ch14_rc_3",
       "chapterId": "ch14",
       "number": 0,
       "prompt": "3. ¿Cuál es la acusación contra él?",
@@ -60481,8 +60481,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch14_uq_14",
+      "exerciseId": "ch14_rc_3",
       "chapterId": "ch14",
       "number": 0,
       "prompt": "4. ¿Qué hizo el acusado después de escuchar que él es el más sabio de todos?",
@@ -63092,8 +63092,8 @@
       "blankIndex": null
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch15_uq_1",
+      "exerciseId": "ch15_rc_1",
       "chapterId": "ch15",
       "number": 0,
       "prompt": "1. ¿Con quiénes habló?",
@@ -63103,8 +63103,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch15_uq_2",
+      "exerciseId": "ch15_rc_1",
       "chapterId": "ch15",
       "number": 0,
       "prompt": "2. ¿Qué es lo que el acusado siempre busca?",
@@ -63114,8 +63114,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch15_uq_3",
+      "exerciseId": "ch15_rc_1",
       "chapterId": "ch15",
       "number": 0,
       "prompt": "3. ¿Se defendió bien el acusado?",
@@ -63125,8 +63125,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch15_uq_4",
+      "exerciseId": "ch15_rc_1",
       "chapterId": "ch15",
       "number": 0,
       "prompt": "4. ¿Quién es el acusado?",
@@ -64449,7 +64449,7 @@
       "blankIndex": null
     },
     {
-      "id": "",
+      "id": "ch16_uq_1",
       "exerciseId": null,
       "chapterId": "ch16",
       "number": 0,
@@ -64460,7 +64460,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch16_uq_2",
       "exerciseId": null,
       "chapterId": "ch16",
       "number": 0,
@@ -64471,7 +64471,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch16_uq_3",
       "exerciseId": null,
       "chapterId": "ch16",
       "number": 0,
@@ -64482,7 +64482,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch16_uq_4",
       "exerciseId": null,
       "chapterId": "ch16",
       "number": 0,
@@ -65156,7 +65156,7 @@
       "blankIndex": null
     },
     {
-      "id": "",
+      "id": "ch17_uq_1",
       "exerciseId": null,
       "chapterId": "ch17",
       "number": 0,
@@ -65167,7 +65167,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch17_uq_2",
       "exerciseId": null,
       "chapterId": "ch17",
       "number": 0,
@@ -65178,7 +65178,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch17_uq_3",
       "exerciseId": null,
       "chapterId": "ch17",
       "number": 0,
@@ -66047,7 +66047,7 @@
       "blankIndex": null
     },
     {
-      "id": "",
+      "id": "ch18_uq_1",
       "exerciseId": "ch18exe6",
       "chapterId": "ch18",
       "number": 0,
@@ -66058,7 +66058,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch18_uq_2",
       "exerciseId": "ch18exe6",
       "chapterId": "ch18",
       "number": 0,
@@ -66069,7 +66069,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch18_uq_3",
       "exerciseId": "ch18exe6",
       "chapterId": "ch18",
       "number": 0,
@@ -66080,7 +66080,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch18_uq_4",
       "exerciseId": "ch18exe6",
       "chapterId": "ch18",
       "number": 0,
@@ -66091,7 +66091,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch18_uq_5",
       "exerciseId": "ch18exe6",
       "chapterId": "ch18",
       "number": 0,
@@ -66102,7 +66102,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch18_uq_6",
       "exerciseId": "ch18exe6",
       "chapterId": "ch18",
       "number": 0,
@@ -66503,7 +66503,7 @@
       "blankIndex": null
     },
     {
-      "id": "",
+      "id": "ch18_uq_7",
       "exerciseId": null,
       "chapterId": "ch18",
       "number": 0,
@@ -66514,7 +66514,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch18_uq_8",
       "exerciseId": null,
       "chapterId": "ch18",
       "number": 0,
@@ -66525,7 +66525,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch18_uq_9",
       "exerciseId": null,
       "chapterId": "ch18",
       "number": 0,
@@ -66536,7 +66536,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch18_uq_10",
       "exerciseId": null,
       "chapterId": "ch18",
       "number": 0,
@@ -66547,7 +66547,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch18_uq_11",
       "exerciseId": null,
       "chapterId": "ch18",
       "number": 0,
@@ -66558,7 +66558,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch18_uq_12",
       "exerciseId": null,
       "chapterId": "ch18",
       "number": 0,
@@ -66569,7 +66569,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch18_uq_13",
       "exerciseId": null,
       "chapterId": "ch18",
       "number": 0,
@@ -66580,7 +66580,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch18_uq_14",
       "exerciseId": null,
       "chapterId": "ch18",
       "number": 0,
@@ -67540,7 +67540,7 @@
       "blankIndex": null
     },
     {
-      "id": "",
+      "id": "ch19_uq_1",
       "exerciseId": null,
       "chapterId": "ch19",
       "number": 0,
@@ -67551,7 +67551,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch19_uq_2",
       "exerciseId": null,
       "chapterId": "ch19",
       "number": 0,
@@ -67562,7 +67562,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch19_uq_3",
       "exerciseId": null,
       "chapterId": "ch19",
       "number": 0,
@@ -67573,7 +67573,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch19_uq_4",
       "exerciseId": null,
       "chapterId": "ch19",
       "number": 0,
@@ -67584,7 +67584,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch19_uq_5",
       "exerciseId": null,
       "chapterId": "ch19",
       "number": 0,
@@ -69025,8 +69025,8 @@
       "blankIndex": null
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch20_uq_1",
+      "exerciseId": "ch20_rc_1",
       "chapterId": "ch20",
       "number": 0,
       "prompt": "1. ¿En qué sitio empieza la acción?",
@@ -69036,8 +69036,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch20_uq_2",
+      "exerciseId": "ch20_rc_1",
       "chapterId": "ch20",
       "number": 0,
       "prompt": "2. ¿Contra quién se defiende el protagonista?",
@@ -69047,8 +69047,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch20_uq_3",
+      "exerciseId": "ch20_rc_1",
       "chapterId": "ch20",
       "number": 0,
       "prompt": "3. ¿Cuántas personas hay en la asamblea griega?",
@@ -69058,8 +69058,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch20_uq_4",
+      "exerciseId": "ch20_rc_1",
       "chapterId": "ch20",
       "number": 0,
       "prompt": "4. ¿Cuál es la acusación contra él?",
@@ -69069,8 +69069,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch20_uq_5",
+      "exerciseId": "ch20_rc_1",
       "chapterId": "ch20",
       "number": 0,
       "prompt": "5. ¿Qué hizo el protagonista después de escuchar que él es el más sabio de todos?",
@@ -69080,8 +69080,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch20_uq_6",
+      "exerciseId": "ch20_rc_1",
       "chapterId": "ch20",
       "number": 0,
       "prompt": "6. ¿Qué hace el protagonista en su vida diaria?",
@@ -69091,8 +69091,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch20_uq_7",
+      "exerciseId": "ch20_rc_1",
       "chapterId": "ch20",
       "number": 0,
       "prompt": "7. Según el protagonista, ¿qué significa la sabiduría?",
@@ -69102,8 +69102,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch20_uq_8",
+      "exerciseId": "ch20_rc_1",
       "chapterId": "ch20",
       "number": 0,
       "prompt": "8. ¿Se defiende bien el protagonista?",
@@ -69113,8 +69113,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch20_uq_9",
+      "exerciseId": "ch20_rc_1",
       "chapterId": "ch20",
       "number": 0,
       "prompt": "9. ¿Es inocente o culpable el protagonista?",
@@ -69124,8 +69124,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch20_uq_10",
+      "exerciseId": "ch20_rc_1",
       "chapterId": "ch20",
       "number": 0,
       "prompt": "10. ¿Quién es el protagonista?",
@@ -69135,8 +69135,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch20_uq_11",
+      "exerciseId": "ch20_rc_1",
       "chapterId": "ch20",
       "number": 0,
       "prompt": "11. ¿Quién escribió el diálogo de la defensa?",
@@ -70420,8 +70420,8 @@
       "blankIndex": null
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch21_uq_1",
+      "exerciseId": "ch21_rc_1",
       "chapterId": "ch21",
       "number": 0,
       "prompt": "1. ¿A qué hora es la clase de la protagonista?",
@@ -70431,8 +70431,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch21_uq_2",
+      "exerciseId": "ch21_rc_1",
       "chapterId": "ch21",
       "number": 0,
       "prompt": "2. ¿Cómo se siente ella al empezar el camino?",
@@ -70442,8 +70442,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch21_uq_3",
+      "exerciseId": "ch21_rc_1",
       "chapterId": "ch21",
       "number": 0,
       "prompt": "3. ¿Estaba ella sola o acompañada?",
@@ -70453,8 +70453,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch21_uq_4",
+      "exerciseId": "ch21_rc_1",
       "chapterId": "ch21",
       "number": 0,
       "prompt": "4. ¿Cómo volvió a la pensión?",
@@ -70464,8 +70464,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch21_uq_5",
+      "exerciseId": "ch21_rc_1",
       "chapterId": "ch21",
       "number": 0,
       "prompt": "5. ¿Por qué se rieron sus colegas?",
@@ -71307,8 +71307,8 @@
       "blankIndex": null
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch21_uq_6",
+      "exerciseId": "ch21_rc_2",
       "chapterId": "ch21",
       "number": 0,
       "prompt": "1. ¿Adónde van la madre e hija?",
@@ -71318,8 +71318,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch21_uq_7",
+      "exerciseId": "ch21_rc_2",
       "chapterId": "ch21",
       "number": 0,
       "prompt": "2. ¿Por qué no va con ellas el papá?",
@@ -71329,8 +71329,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch21_uq_8",
+      "exerciseId": "ch21_rc_2",
       "chapterId": "ch21",
       "number": 0,
       "prompt": "3. ¿Piensa Ud. que ellas van a regresar?",
@@ -71340,8 +71340,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch21_uq_9",
+      "exerciseId": "ch21_rc_2",
       "chapterId": "ch21",
       "number": 0,
       "prompt": "4. ¿Es una familia feliz o infeliz?",
@@ -72326,8 +72326,8 @@
       "blankIndex": null
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch22_uq_1",
+      "exerciseId": "ch22_rc_1",
       "chapterId": "ch22",
       "number": 0,
       "prompt": "1. ¿Adónde quiere viajar el protagonista?",
@@ -72337,8 +72337,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch22_uq_2",
+      "exerciseId": "ch22_rc_1",
       "chapterId": "ch22",
       "number": 0,
       "prompt": "2. ¿Quién es Juan?",
@@ -72348,8 +72348,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch22_uq_3",
+      "exerciseId": "ch22_rc_1",
       "chapterId": "ch22",
       "number": 0,
       "prompt": "3. ¿Puede Ud. describir los Galápagos?",
@@ -72359,8 +72359,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch22_uq_4",
+      "exerciseId": "ch22_rc_1",
       "chapterId": "ch22",
       "number": 0,
       "prompt": "4. ¿Cómo son los animales de la isla?",
@@ -72812,7 +72812,7 @@
       "blankIndex": null
     },
     {
-      "id": "",
+      "id": "ch22_uq_5",
       "exerciseId": null,
       "chapterId": "ch22",
       "number": 0,
@@ -72823,7 +72823,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch22_uq_6",
       "exerciseId": null,
       "chapterId": "ch22",
       "number": 0,
@@ -72834,7 +72834,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch22_uq_7",
       "exerciseId": null,
       "chapterId": "ch22",
       "number": 0,
@@ -72845,7 +72845,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch22_uq_8",
       "exerciseId": null,
       "chapterId": "ch22",
       "number": 0,
@@ -73961,8 +73961,8 @@
       "blankIndex": null
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch23_uq_1",
+      "exerciseId": "ch23_rc_1",
       "chapterId": "ch23",
       "number": 0,
       "prompt": "1. ¿Se conoce la gente en este edificio?",
@@ -73972,8 +73972,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch23_uq_2",
+      "exerciseId": "ch23_rc_1",
       "chapterId": "ch23",
       "number": 0,
       "prompt": "2. ¿Cuántos pisos hay?",
@@ -73983,8 +73983,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch23_uq_3",
+      "exerciseId": "ch23_rc_1",
       "chapterId": "ch23",
       "number": 0,
       "prompt": "3. ¿Cuántas personas están felices en el edificio?",
@@ -73994,8 +73994,8 @@
       "graded": false
     },
     {
-      "id": "",
-      "exerciseId": "",
+      "id": "ch23_uq_4",
+      "exerciseId": "ch23_rc_1",
       "chapterId": "ch23",
       "number": 0,
       "prompt": "4. ¿Cómo sabe tanto de la gente la protagonista?",
@@ -74239,7 +74239,7 @@
       "blankIndex": null
     },
     {
-      "id": "",
+      "id": "ch24_uq_1",
       "exerciseId": null,
       "chapterId": "ch24",
       "number": 0,
@@ -74250,7 +74250,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch24_uq_2",
       "exerciseId": null,
       "chapterId": "ch24",
       "number": 0,
@@ -74261,7 +74261,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch24_uq_3",
       "exerciseId": null,
       "chapterId": "ch24",
       "number": 0,
@@ -74272,7 +74272,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch24_uq_4",
       "exerciseId": null,
       "chapterId": "ch24",
       "number": 0,
@@ -74283,7 +74283,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch24_uq_5",
       "exerciseId": null,
       "chapterId": "ch24",
       "number": 0,
@@ -74294,7 +74294,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch24_uq_6",
       "exerciseId": null,
       "chapterId": "ch24",
       "number": 0,
@@ -74305,7 +74305,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch24_uq_7",
       "exerciseId": null,
       "chapterId": "ch24",
       "number": 0,
@@ -74628,7 +74628,7 @@
       "blankIndex": null
     },
     {
-      "id": "",
+      "id": "ch24_uq_8",
       "exerciseId": "ch24exe6",
       "chapterId": "ch24",
       "number": 0,
@@ -74639,7 +74639,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch24_uq_9",
       "exerciseId": "ch24exe6",
       "chapterId": "ch24",
       "number": 0,
@@ -74650,7 +74650,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch24_uq_10",
       "exerciseId": "ch24exe6",
       "chapterId": "ch24",
       "number": 0,
@@ -74674,7 +74674,7 @@
       "blankIndex": null
     },
     {
-      "id": "",
+      "id": "ch24_uq_11",
       "exerciseId": "ch24exe6",
       "chapterId": "ch24",
       "number": 0,
@@ -74685,7 +74685,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch24_uq_12",
       "exerciseId": "ch24exe6",
       "chapterId": "ch24",
       "number": 0,
@@ -74696,7 +74696,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch24_uq_13",
       "exerciseId": "ch24exe6",
       "chapterId": "ch24",
       "number": 0,
@@ -74720,7 +74720,7 @@
       "blankIndex": null
     },
     {
-      "id": "",
+      "id": "ch24_uq_14",
       "exerciseId": "ch24exe6",
       "chapterId": "ch24",
       "number": 0,
@@ -74731,7 +74731,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch24_uq_15",
       "exerciseId": "ch24exe6",
       "chapterId": "ch24",
       "number": 0,
@@ -74742,7 +74742,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch24_uq_16",
       "exerciseId": "ch24exe6",
       "chapterId": "ch24",
       "number": 0,
@@ -74766,7 +74766,7 @@
       "blankIndex": null
     },
     {
-      "id": "",
+      "id": "ch24_uq_17",
       "exerciseId": "ch24exe6",
       "chapterId": "ch24",
       "number": 0,
@@ -74777,7 +74777,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch24_uq_18",
       "exerciseId": "ch24exe6",
       "chapterId": "ch24",
       "number": 0,
@@ -74788,7 +74788,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch24_uq_19",
       "exerciseId": "ch24exe6",
       "chapterId": "ch24",
       "number": 0,
@@ -74812,7 +74812,7 @@
       "blankIndex": null
     },
     {
-      "id": "",
+      "id": "ch24_uq_20",
       "exerciseId": "ch24exe6",
       "chapterId": "ch24",
       "number": 0,
@@ -74823,7 +74823,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch24_uq_21",
       "exerciseId": "ch24exe6",
       "chapterId": "ch24",
       "number": 0,
@@ -74834,7 +74834,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch24_uq_22",
       "exerciseId": "ch24exe6",
       "chapterId": "ch24",
       "number": 0,
@@ -74949,7 +74949,7 @@
       "blankIndex": null
     },
     {
-      "id": "",
+      "id": "ch24_uq_23",
       "exerciseId": null,
       "chapterId": "ch24",
       "number": 0,
@@ -74960,7 +74960,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch24_uq_24",
       "exerciseId": null,
       "chapterId": "ch24",
       "number": 0,
@@ -74971,7 +74971,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch24_uq_25",
       "exerciseId": null,
       "chapterId": "ch24",
       "number": 0,
@@ -74982,7 +74982,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch24_uq_26",
       "exerciseId": null,
       "chapterId": "ch24",
       "number": 0,
@@ -75903,7 +75903,7 @@
       "blankIndex": null
     },
     {
-      "id": "",
+      "id": "ch25_uq_1",
       "exerciseId": null,
       "chapterId": "ch25",
       "number": 0,
@@ -75914,7 +75914,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch25_uq_2",
       "exerciseId": null,
       "chapterId": "ch25",
       "number": 0,
@@ -75925,7 +75925,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch25_uq_3",
       "exerciseId": null,
       "chapterId": "ch25",
       "number": 0,
@@ -76651,7 +76651,7 @@
       "blankIndex": null
     },
     {
-      "id": "",
+      "id": "ch26_uq_1",
       "exerciseId": null,
       "chapterId": "ch26",
       "number": 0,
@@ -76662,7 +76662,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch26_uq_2",
       "exerciseId": null,
       "chapterId": "ch26",
       "number": 0,
@@ -76673,7 +76673,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch26_uq_3",
       "exerciseId": null,
       "chapterId": "ch26",
       "number": 0,
@@ -76684,7 +76684,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch26_uq_4",
       "exerciseId": null,
       "chapterId": "ch26",
       "number": 0,
@@ -76695,7 +76695,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch26_uq_5",
       "exerciseId": null,
       "chapterId": "ch26",
       "number": 0,
@@ -76706,7 +76706,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch26_uq_6",
       "exerciseId": null,
       "chapterId": "ch26",
       "number": 0,
@@ -76717,7 +76717,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch26_uq_7",
       "exerciseId": null,
       "chapterId": "ch26",
       "number": 0,
@@ -76728,7 +76728,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch26_uq_8",
       "exerciseId": null,
       "chapterId": "ch26",
       "number": 0,
@@ -76739,7 +76739,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch26_uq_9",
       "exerciseId": null,
       "chapterId": "ch26",
       "number": 0,
@@ -76750,7 +76750,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch26_uq_10",
       "exerciseId": null,
       "chapterId": "ch26",
       "number": 0,
@@ -76995,7 +76995,7 @@
       "blankIndex": null
     },
     {
-      "id": "",
+      "id": "ch27_uq_1",
       "exerciseId": null,
       "chapterId": "ch27",
       "number": 0,
@@ -77006,7 +77006,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch27_uq_2",
       "exerciseId": null,
       "chapterId": "ch27",
       "number": 0,
@@ -77017,7 +77017,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch27_uq_3",
       "exerciseId": null,
       "chapterId": "ch27",
       "number": 0,
@@ -77028,7 +77028,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch27_uq_4",
       "exerciseId": null,
       "chapterId": "ch27",
       "number": 0,
@@ -77039,7 +77039,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch27_uq_5",
       "exerciseId": null,
       "chapterId": "ch27",
       "number": 0,
@@ -77050,7 +77050,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch27_uq_6",
       "exerciseId": null,
       "chapterId": "ch27",
       "number": 0,
@@ -77789,7 +77789,7 @@
       "blankIndex": null
     },
     {
-      "id": "",
+      "id": "ch28_uq_1",
       "exerciseId": null,
       "chapterId": "ch28",
       "number": 0,
@@ -77800,7 +77800,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch28_uq_2",
       "exerciseId": null,
       "chapterId": "ch28",
       "number": 0,
@@ -77811,7 +77811,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch28_uq_3",
       "exerciseId": null,
       "chapterId": "ch28",
       "number": 0,
@@ -77822,7 +77822,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch28_uq_4",
       "exerciseId": null,
       "chapterId": "ch28",
       "number": 0,
@@ -77833,7 +77833,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch28_uq_5",
       "exerciseId": null,
       "chapterId": "ch28",
       "number": 0,
@@ -77844,7 +77844,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch28_uq_6",
       "exerciseId": null,
       "chapterId": "ch28",
       "number": 0,
@@ -78453,7 +78453,7 @@
       "blankIndex": null
     },
     {
-      "id": "",
+      "id": "ch28_uq_7",
       "exerciseId": null,
       "chapterId": "ch28",
       "number": 0,
@@ -78464,7 +78464,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch28_uq_8",
       "exerciseId": null,
       "chapterId": "ch28",
       "number": 0,
@@ -78475,7 +78475,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch28_uq_9",
       "exerciseId": null,
       "chapterId": "ch28",
       "number": 0,
@@ -78486,7 +78486,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch28_uq_10",
       "exerciseId": null,
       "chapterId": "ch28",
       "number": 0,
@@ -79836,7 +79836,7 @@
       "blankIndex": null
     },
     {
-      "id": "",
+      "id": "ch29_uq_1",
       "exerciseId": null,
       "chapterId": "ch29",
       "number": 0,
@@ -79847,7 +79847,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch29_uq_2",
       "exerciseId": null,
       "chapterId": "ch29",
       "number": 0,
@@ -79858,7 +79858,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch29_uq_3",
       "exerciseId": null,
       "chapterId": "ch29",
       "number": 0,
@@ -79869,7 +79869,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch29_uq_4",
       "exerciseId": null,
       "chapterId": "ch29",
       "number": 0,
@@ -79880,7 +79880,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch29_uq_5",
       "exerciseId": null,
       "chapterId": "ch29",
       "number": 0,
@@ -79891,7 +79891,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch29_uq_6",
       "exerciseId": null,
       "chapterId": "ch29",
       "number": 0,
@@ -80682,7 +80682,7 @@
       "blankIndex": null
     },
     {
-      "id": "",
+      "id": "ch30_uq_1",
       "exerciseId": null,
       "chapterId": "ch30",
       "number": 0,
@@ -80693,7 +80693,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch30_uq_2",
       "exerciseId": null,
       "chapterId": "ch30",
       "number": 0,
@@ -80704,7 +80704,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch30_uq_3",
       "exerciseId": null,
       "chapterId": "ch30",
       "number": 0,
@@ -80715,7 +80715,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch30_uq_4",
       "exerciseId": null,
       "chapterId": "ch30",
       "number": 0,
@@ -80726,7 +80726,7 @@
       "graded": false
     },
     {
-      "id": "",
+      "id": "ch30_uq_5",
       "exerciseId": null,
       "chapterId": "ch30",
       "number": 0,

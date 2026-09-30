@@ -74,6 +74,13 @@ def main() -> None:
     chapter_ids = {c["id"] for c in chapters}
     ex_ids = {e["id"] for e in exercises_list if e["id"]}
     q_ids = {q["id"] for q in questions if q["id"]}
+
+    # Defensive: no empty/duplicate primary keys (would break bulkAdd).
+    assert all(e["id"] for e in exercises_list), "empty exercise id present"
+    assert all(q["id"] for q in questions), "empty question id present"
+    assert len({e["id"] for e in exercises_list}) == len(exercises_list), "duplicate exercise ids"
+    assert len({q["id"] for q in questions}) == len(questions), "duplicate question ids"
+
     dangling = []
     for tb in theory_blocks:
         if tb.get("sectionId") and tb["sectionId"] not in section_ids:
