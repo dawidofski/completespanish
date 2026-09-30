@@ -93,11 +93,12 @@ var App = (function () {
             var ul2 = el('ul', 'list');
             exercises.forEach(function (ex) {
               var label = ex.number ? ('Exercise ' + ex.number) : 'Reading Comprehension';
-              var div = el('div', 'list-item item-plain');
-              div.appendChild(el('span', 'item-title', label));
-              div.appendChild(el('span', 'item-meta', ex.kind));
+              var btn = el('button', 'list-item');
+              btn.appendChild(el('span', 'item-title', label));
+              btn.appendChild(el('span', 'item-meta', ex.kind));
+              btn.addEventListener('click', function () { openExercise(ex); });
               var li = el('li');
-              li.appendChild(div);
+              li.appendChild(btn);
               ul2.appendChild(li);
             });
             content.appendChild(ul2);
@@ -109,6 +110,17 @@ var App = (function () {
       var content = document.getElementById('content');
       content.innerHTML = '';
       content.appendChild(el('p', 'muted', 'Error loading chapter: ' + err.message));
+    });
+  }
+
+  function openExercise(ex) {
+    Exercises.render(ex.id);
+    return DB.chapter(ex.chapterId).then(function (ch) {
+      renderBreadcrumb([
+        { label: 'Book', action: home },
+        { label: 'Chapter ' + ch.number, action: function () { openChapter(ch.id); } },
+        { label: ex.number ? ('Exercise ' + ex.number) : 'Reading' }
+      ]);
     });
   }
 
