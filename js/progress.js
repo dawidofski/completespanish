@@ -2,6 +2,15 @@
 'use strict';
 
 var Progress = (function () {
+  // A question can be "completed" (auto-checked) only when it has a canonical
+  // answer: graded and not free-response. Open/freeform questions (oral,
+  // "answers will vary", reading comprehension) are self-checked and must be
+  // excluded from completion totals — otherwise they can never be counted as
+  // done.
+  function isCompletable(q) {
+    return !!q.graded && !q.freeResponse;
+  }
+
   // Upsert a question's attempt result. Never touches the canonical answer.
   function record(questionId, correct, userAnswer) {
     return db.questionProgress.get(questionId).then(function (existing) {
@@ -26,12 +35,15 @@ var Progress = (function () {
   // Overall stats: { total, attempted, correct }
   function overall() {
     return Promise.all([
-      db.questions.count(),
+      db.questions.toArray(),
       db.questionProgress.toArray()
     ]).then(function (r) {
-      var rows = r[1];
+      var completable = r[0].filter(isCompletable);
+      var ids = {};
+      completable.forEach(function (q) { ids[q.id] = true; });
+      var rows = r[1].filter(function (x) { return ids[x.questionId]; });
       return {
-        total: r[0],
+        total: completable.length,
         attempted: rows.length,
         correct: rows.filter(function (x) { return x.bestCorrect; }).length
       };
@@ -46,8 +58,9 @@ var Progress = (function () {
     if (!ids.length) return Promise.resolve(map);
     return db.questions.where('exerciseId').anyOf(ids).toArray().then(function (qs) {
       var qEx = {};
-      qs.forEach(function (q) { qEx[q.id] = q.exerciseId; map[q.exerciseId].total++; });
-      var qids = qs.map(function (q) { return q.id; });
+      var completableQs = qs.filter(isCompletable);
+      completableQs.forEach(function (q) { qEx[q.id] = q.exerciseId; map[q.exerciseId].total++; });
+      var qids = completableQs.map(function (q) { return q.id; });
       if (!qids.length) return map;
       return db.questionProgress.where('questionId').anyOf(qids).toArray().then(function (rows) {
         rows.forEach(function (r) {
