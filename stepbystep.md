@@ -157,9 +157,9 @@ Status legend: `[ ]` not started · `[~]` in progress · `[x]` complete
 
 ---
 
-## Phase 7 — Try Again / hints / "Why?"  `[ ]`
+## Phase 7 — Try Again / hints / "Why?"  `[x]`
 
-- [ ] **Step 7.1 — Feedback + Try Again**
+- [x] **Step 7.1 — Feedback + Try Again**
   - Files: `js/feedback.js`.
   - Work: ✓/✗ feedback, Try Again (reset input, refocus, keep history), Hint
     (progressive), Show theory, Show answer, "Why?" (grounded in theory).
