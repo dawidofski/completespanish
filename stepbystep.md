@@ -187,9 +187,9 @@ Status legend: `[ ]` not started · `[~]` in progress · `[x]` complete
 
 ---
 
-## Phase 10 — Review mistakes  `[ ]`
+## Phase 10 — Review mistakes  `[x]`
 
-- [ ] **Step 10.1 — Review list**
+- [x] **Step 10.1 — Review list**
   - Files: `js/review.js`.
   - Work: auto-flag review items (incorrect / repeated / revealed / manual),
     review screen grouped by chapter, Start Review.

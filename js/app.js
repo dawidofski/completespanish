@@ -244,8 +244,23 @@ var App = (function () {
   }
 
   function openReviewQuestion(it) {
-    return db.exercises.get(it.question.exerciseId).then(function (ex) {
-      if (ex) openExercise(ex);
+    var q = it.question;
+    return db.exercises.get(q.exerciseId).then(function (ex) {
+      renderBreadcrumb([
+        { label: 'Book', action: home },
+        { label: 'Review', action: reviewScreen },
+        { label: 'Question ' + (q.number || '') }
+      ]);
+      var content = document.getElementById('content');
+      content.innerHTML = '';
+      var backBtn = el('button', 'reset-btn', '← Back to review');
+      backBtn.addEventListener('click', reviewScreen);
+      content.appendChild(backBtn);
+      content.appendChild(Exercises.renderQuestion(q, q.number || null));
+      if (ex) {
+        Theory.renderChapter(q.chapterId, ex.sectionId);
+        setTheoryOpen(true);
+      }
     });
   }
 

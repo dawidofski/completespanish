@@ -114,5 +114,5 @@ var Exercises = (function () {
     });
   }
 
-  return { render: render };
+  return { render: render, renderQuestion: renderQuestion };
 })();
