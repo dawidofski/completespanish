@@ -12,6 +12,7 @@ Runtime stack: **HTML + CSS + JavaScript + Dexie.js + IndexedDB**, hosted on
 - `AGENTS.md` — operating rules for all coding agents.
 - `stepbystep.md` — the implementation roadmap.
 - `PLAYBOOK.md` — how to replicate this project for another book.
+- `docs/deployment.md` — GitHub Pages deployment runbook.
 
 ## Structure
 
