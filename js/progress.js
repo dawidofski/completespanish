@@ -3,7 +3,7 @@
 
 var Progress = (function () {
   // Upsert a question's attempt result. Never touches the canonical answer.
-  function record(questionId, correct) {
+  function record(questionId, correct, userAnswer) {
     return db.questionProgress.get(questionId).then(function (existing) {
       var now = Date.now();
       var row = existing || {
@@ -17,6 +17,7 @@ var Progress = (function () {
       row.attempts += 1;
       row.lastAt = now;
       row.bestCorrect = row.bestCorrect || correct;
+      if (userAnswer !== undefined) row.lastAnswer = userAnswer;
       row.status = correct ? 'correct' : (row.attempts >= 2 ? 'needs-review' : 'attempted');
       return db.questionProgress.put(row);
     });

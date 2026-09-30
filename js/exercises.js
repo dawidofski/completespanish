@@ -52,10 +52,19 @@ var Exercises = (function () {
       checkBtn.addEventListener('click', function () { Feedback.check(q, wrap); });
       wrap.appendChild(checkBtn);
       wrap.appendChild(feedback);
-      wrap.querySelectorAll('.answer-input').forEach(function (inp) {
+      var inputs = wrap.querySelectorAll('.answer-input');
+      Array.prototype.forEach.call(inputs, function (inp) {
         inp.addEventListener('keydown', function (e) {
           if (e.key === 'Enter') { e.preventDefault(); Feedback.check(q, wrap); }
         });
+      });
+      Progress.get(q.id).then(function (row) {
+        if (row && row.lastAnswer !== undefined && row.lastAnswer !== null) {
+          var answers = Array.isArray(row.lastAnswer) ? row.lastAnswer : [row.lastAnswer];
+          Array.prototype.forEach.call(inputs, function (inp, i) {
+            if (answers[i] !== undefined && answers[i] !== null) inp.value = answers[i];
+          });
+        }
       });
     }
     return wrap;
