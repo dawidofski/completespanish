@@ -17,12 +17,15 @@ var Review = (function () {
   }
 
   function count() {
-    return db.reviewItems.where('resolved').equals(false).count();
+    return db.reviewItems.toArray().then(function (items) {
+      return items.filter(function (i) { return !i.resolved; }).length;
+    });
   }
 
   // Unresolved items grouped by chapter, each with question context.
   function list() {
-    return db.reviewItems.where('resolved').equals(false).toArray().then(function (items) {
+    return db.reviewItems.toArray().then(function (items) {
+      items = items.filter(function (i) { return !i.resolved; });
       var qids = items.map(function (i) { return i.questionId; });
       if (!qids.length) return [];
       return db.questions.where('id').anyOf(qids).toArray().then(function (qs) {
