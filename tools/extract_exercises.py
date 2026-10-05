@@ -54,6 +54,16 @@ def find_id(el, pattern) -> str:
     return ""
 
 
+def is_rc_heading(el) -> bool:
+    """True if this heading is a 'Reading Comprehension' section heading.
+
+    The publisher uses two markup styles for the same heading: class ``h3e``
+    (early chapters) or class ``h3`` (later chapters), sometimes with the text
+    wrapped in <strong>. Detect it by content, not by class.
+    """
+    return "reading comprehension" in text_of(el).lower()
+
+
 def load_sections(path: str) -> dict:
     with open(path, encoding="utf-8") as f:
         d = json.load(f)
@@ -97,35 +107,59 @@ def extract_exercises(epub: EpubReader, sections_by_chapter: dict):
         current_exercise = None
         rc_counter = 0
         uq_counter = 0
+        doc_order = 0
 
         for el in body:
             tag = el.tag
             c = cls(el)
+
+            if tag == "h3" and is_rc_heading(el):
+                # Reading comprehension: its own exercise. If it uses class
+                # ``h3`` it is also a real section (in structure.json), so the
+                # section pointer must advance to keep theory sync correct.
+                if c in SECTION_CLASSES:
+                    if sec_ptr < len(sections):
+                        current_section_id = sections[sec_ptr]["id"]
+                        sec_ptr += 1
+                    current_l1_section = current_section_id
+                rc_counter += 1
+                doc_order += 1
+                current_exercise = {
+                    "id": f"{ch_id}_rc_{rc_counter}",
+                    "chapterId": ch_id,
+                    "sectionId": current_l1_section,
+                    "number": "",
+                    "order": doc_order,
+                    "instruction": "",
+                    "wordBank": [],
+                    "kind": "reading-comprehension",
+                    "freeform": False,
+                }
+                exercises.append(current_exercise)
+                continue
 
             if tag == "h3" and c == "h3e":
                 ex_id = find_id(el, PAT_EXERCISE)
                 if ex_id:
                     num = int(PAT_EXERCISE.search(ex_id).group(2))
                     number = f"{ch_num}.{num}"
-                    kind = "unknown"
+                    doc_order += 1
+                    current_exercise = {
+                        "id": ex_id,
+                        "chapterId": ch_id,
+                        "sectionId": current_l1_section,
+                        "number": number,
+                        "order": doc_order,
+                        "instruction": "",
+                        "wordBank": [],
+                        "kind": "unknown",
+                        "freeform": False,
+                    }
+                    exercises.append(current_exercise)
                 else:
-                    num = 0
-                    number = ""
-                    kind = "reading-comprehension"
-                    rc_counter += 1
-                    ex_id = f"{ch_id}_rc_{rc_counter}"
-                current_exercise = {
-                    "id": ex_id,
-                    "chapterId": ch_id,
-                    "sectionId": current_l1_section,
-                    "number": number,
-                    "order": num,
-                    "instruction": "",
-                    "wordBank": [],
-                    "kind": kind,
-                    "freeform": False,
-                }
-                exercises.append(current_exercise)
+                    # Non-exercise h3e heading (e.g. "Key Vocabulary",
+                    # "Verbs with Orthographic Changes") — not an exercise.
+                    current_exercise = None
                 continue
 
             if tag in HEADING_LEVEL and c in SECTION_CLASSES:
@@ -325,14 +359,14 @@ def main() -> None:
           f"explanations={n_expl} multiBlank={n_multiblank}")
     print(f"unmatchedAnswers={len(unmatched)} unansweredGraded={len(unanswered)}")
 
-    assert len(exercises) == 281, f"expected 281 exercises, got {len(exercises)}"
+    assert len(exercises) == 289, f"expected 289 exercises, got {len(exercises)}"
     assert n_numbered == 251, f"expected 251 numbered, got {n_numbered}"
-    assert n_reading == 30, f"expected 30 reading-comprehension, got {n_reading}"
+    assert n_reading == 38, f"expected 38 reading-comprehension, got {n_reading}"
     assert n_graded == 3020, f"expected 3020 graded questions, got {n_graded}"
     assert n_ungraded == 276, f"expected 276 ungraded questions, got {n_ungraded}"
     assert len(answers) == 3019, f"expected 3019 answers, got {len(answers)}"
     assert len(unmatched) == 0, f"{len(unmatched)} unmatched answers"
-    print("OK: 281 exercises (251+30), 3020 graded + 276 ungraded questions, "
+    print("OK: 289 exercises (251+38), 3020 graded + 276 ungraded questions, "
           "3019 answers, 0 unmatched")
 
 

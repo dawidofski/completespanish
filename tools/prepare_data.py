@@ -55,6 +55,69 @@ def main() -> None:
     questions = exercises["questions"]
     answers_list = answers["answers"]
 
+    # --- split multi-blank "verb (reason)" answers -------------------------
+    # The answer key writes reasons as a trailing "(health)" / "(location)"
+    # parenthetical while the question renders separate blanks for the verb and
+    # the reason. Split each such answer into per-blank parts (verbs first,
+    # then reasons) so the multi-blank checker can match them. Only applied to
+    # questions whose prompt actually contains a parenthetical reason blank.
+    q_by_id = {q["id"]: q for q in questions}
+
+    def _blank_counts(prompt: str):
+        inside = " ".join(re.findall(r"\(([^)]*)\)", prompt or ""))
+        outside = re.sub(r"\([^)]*\)", " ", prompt or "")
+        return (len(re.findall(r"_{3,}", outside)),
+                len(re.findall(r"_{3,}", inside)))
+
+    def _split_reason_answer(text: str):
+        """Split 'están (health), estamos (health)' -> (verbs, reasons)."""
+        tokens = []
+        depth = 0
+        cur = []
+        for ch in text:
+            if ch == "(":
+                depth += 1
+            elif ch == ")":
+                depth -= 1
+            if ch == "," and depth == 0:
+                tokens.append("".join(cur).strip())
+                cur = []
+            else:
+                cur.append(ch)
+        tokens.append("".join(cur).strip())
+        verbs, reasons = [], []
+        for tok in tokens:
+            m = re.search(r"\(([^()]*)\)\s*$", tok)
+            if m:
+                verbs.append(tok[: m.start()].strip())
+                for r in m.group(1).split(","):
+                    r = r.strip()
+                    if r:
+                        reasons.append(r)
+            elif tok:
+                verbs.append(tok)
+        return verbs, reasons
+
+    n_reason_fixed = 0
+    for a in answers_list:
+        q = q_by_id.get(a["questionId"])
+        if not q:
+            continue
+        verb_b, reason_b = _blank_counts(q.get("prompt"))
+        if reason_b <= 0:
+            continue
+        new_accepted = []
+        reasons_all = []
+        for alt in a.get("accepted", []):
+            verbs, reasons = _split_reason_answer(alt)
+            reasons_all.extend(reasons)
+            new_accepted.append(", ".join(verbs + reasons))
+        if new_accepted:
+            a["accepted"] = new_accepted
+            n_reason_fixed += 1
+        if reasons_all:
+            a["explanation"] = ", ".join(reasons_all)
+
     # Content version reflects the PREPARED data (not just the EPUB), so any
     # extraction change bumps it and triggers a re-import.
     data_payload = json.dumps({
@@ -135,6 +198,7 @@ def main() -> None:
         "freeformExercises": n_freeform,
         "reclassifiedNotes": reclassified,
         "removedImageQuestions": removed_image_q,
+        "reasonAnswersFixed": n_reason_fixed,
         "danglingRefs": len(dangling),
         "accentsPresent": accents_present,
     }
@@ -182,7 +246,7 @@ def main() -> None:
 
     assert len(dangling) == 0, f"{len(dangling)} dangling references"
     assert accents_present, "Spanish accents missing"
-    assert len(exercises_list) == 281
+    assert len(exercises_list) == 289
     assert len(questions) == 3296
     assert len(answers_list) == 3019
     assert n_tables == 1140

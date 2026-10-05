@@ -1,8 +1,8 @@
 {
   "meta": {
     "title": "Complete Spanish Step-by-Step",
-    "contentVersion": "9ca49ea5b304",
-    "generatedAt": "2026-09-30T22:18:20+00:00"
+    "contentVersion": "1f552940857e",
+    "generatedAt": "2026-10-05T12:36:57+00:00"
   },
   "parts": [
     {
@@ -35179,17 +35179,6 @@
       "freeform": false
     },
     {
-      "id": "ch1_rc_1",
-      "chapterId": "ch1",
-      "sectionId": "ch1lev4",
-      "number": "",
-      "order": 0,
-      "instruction": "",
-      "wordBank": [],
-      "kind": "reading-comprehension",
-      "freeform": false
-    },
-    {
       "id": "ch1exe4",
       "chapterId": "ch1",
       "sectionId": "ch1lev4",
@@ -35220,17 +35209,6 @@
       "instruction": "Translate the following phrases into Spanish.",
       "wordBank": [],
       "kind": "translate",
-      "freeform": false
-    },
-    {
-      "id": "ch2_rc_1",
-      "chapterId": "ch2",
-      "sectionId": "ch2lev2",
-      "number": "",
-      "order": 0,
-      "instruction": "",
-      "wordBank": [],
-      "kind": "reading-comprehension",
       "freeform": false
     },
     {
@@ -35300,11 +35278,11 @@
       "freeform": false
     },
     {
-      "id": "ch2_rc_2",
+      "id": "ch2_rc_1",
       "chapterId": "ch2",
       "sectionId": "ch2lev2",
       "number": "",
-      "order": 0,
+      "order": 7,
       "instruction": "After you have read the selection, answer the following questions in Spanish.",
       "wordBank": [],
       "kind": "reading-comprehension",
@@ -35348,7 +35326,7 @@
       "chapterId": "ch3",
       "sectionId": "ch3lev4",
       "number": "",
-      "order": 0,
+      "order": 4,
       "instruction": "",
       "wordBank": [],
       "kind": "reading-comprehension",
@@ -35359,7 +35337,7 @@
       "chapterId": "ch3",
       "sectionId": "ch3lev4",
       "number": "3.4",
-      "order": 4,
+      "order": 5,
       "instruction": "You now have a new vocabulary of nouns and adjectives; test how many you recall in the following exercises.",
       "wordBank": [],
       "kind": "fill",
@@ -35370,7 +35348,7 @@
       "chapterId": "ch3",
       "sectionId": "ch3lev4",
       "number": "3.5",
-      "order": 5,
+      "order": 6,
       "instruction": "Answer the following questions aloud using hay, ser, or estar.",
       "wordBank": [],
       "kind": "oral",
@@ -35381,7 +35359,7 @@
       "chapterId": "ch3",
       "sectionId": "ch3lev4",
       "number": "3.6",
-      "order": 6,
+      "order": 7,
       "instruction": "Complete the following sentences with the appropriate form of ser, estar, or hay. Be sure to include accent marks when they are needed.",
       "wordBank": [],
       "kind": "fill",
@@ -35392,7 +35370,7 @@
       "chapterId": "ch3",
       "sectionId": "ch3lev4",
       "number": "3.7",
-      "order": 7,
+      "order": 8,
       "instruction": "Translate the following Spanish sentences into English.",
       "wordBank": [],
       "kind": "translate",
@@ -35403,7 +35381,7 @@
       "chapterId": "ch3",
       "sectionId": "ch3lev4",
       "number": "",
-      "order": 0,
+      "order": 9,
       "instruction": "After you have read the selection, answer the following questions in Spanish.",
       "wordBank": [],
       "kind": "reading-comprehension",
@@ -35458,7 +35436,7 @@
       "chapterId": "ch4",
       "sectionId": "ch4lev4",
       "number": "",
-      "order": 0,
+      "order": 5,
       "instruction": "After you have read the selection, answer the following questions in Spanish.",
       "wordBank": [],
       "kind": "reading-comprehension",
@@ -35469,7 +35447,7 @@
       "chapterId": "ch4",
       "sectionId": "ch4lev4",
       "number": "4.5",
-      "order": 5,
+      "order": 6,
       "instruction": "Translate the following Spanish sentences into English.",
       "wordBank": [],
       "kind": "translate",
@@ -35480,7 +35458,7 @@
       "chapterId": "ch4",
       "sectionId": "ch4lev4",
       "number": "4.6",
-      "order": 6,
+      "order": 7,
       "instruction": "Answer the following questions aloud.",
       "wordBank": [],
       "kind": "oral",
@@ -35491,7 +35469,7 @@
       "chapterId": "ch4",
       "sectionId": "ch4lev4",
       "number": "",
-      "order": 0,
+      "order": 8,
       "instruction": "After you have read the selection, answer the following questions in Spanish.",
       "wordBank": [],
       "kind": "reading-comprehension",
@@ -35603,7 +35581,7 @@
       "chapterId": "ch5",
       "sectionId": "ch5lev5",
       "number": "",
-      "order": 0,
+      "order": 6,
       "instruction": "After you have read the selection, answer the following questions in Spanish.",
       "wordBank": [],
       "kind": "reading-comprehension",
@@ -35732,7 +35710,7 @@
       "chapterId": "ch6",
       "sectionId": "ch6lev4",
       "number": "",
-      "order": 0,
+      "order": 8,
       "instruction": "After you have read the selection, answer the following questions in Spanish.",
       "wordBank": [],
       "kind": "reading-comprehension",
@@ -35747,17 +35725,6 @@
       "instruction": "Complete the following sentences with the correct form of ir.",
       "wordBank": [],
       "kind": "fill",
-      "freeform": false
-    },
-    {
-      "id": "ch7_rc_1",
-      "chapterId": "ch7",
-      "sectionId": "ch7lev2",
-      "number": "",
-      "order": 0,
-      "instruction": "",
-      "wordBank": [],
-      "kind": "reading-comprehension",
       "freeform": false
     },
     {
@@ -35818,17 +35785,6 @@
       "instruction": "Complete the following sentences by translating the English phrase in parentheses.",
       "wordBank": [],
       "kind": "fill",
-      "freeform": false
-    },
-    {
-      "id": "ch7_rc_2",
-      "chapterId": "ch7",
-      "sectionId": "ch7lev6",
-      "number": "",
-      "order": 0,
-      "instruction": "",
-      "wordBank": [],
-      "kind": "reading-comprehension",
       "freeform": false
     },
     {
@@ -35947,11 +35903,11 @@
       "freeform": false
     },
     {
-      "id": "ch7_rc_3",
+      "id": "ch7_rc_1",
       "chapterId": "ch7",
       "sectionId": "ch7lev13",
       "number": "",
-      "order": 0,
+      "order": 13,
       "instruction": "After you have read the selection, answer the following questions in Spanish.",
       "wordBank": [],
       "kind": "reading-comprehension",
@@ -36088,7 +36044,7 @@
       "chapterId": "ch8",
       "sectionId": "ch8lev12",
       "number": "",
-      "order": 0,
+      "order": 11,
       "instruction": "After you have read the selection, answer the following questions in Spanish.",
       "wordBank": [],
       "kind": "reading-comprehension",
@@ -36176,19 +36132,8 @@
       "chapterId": "ch9",
       "sectionId": "ch9lev7",
       "number": "",
-      "order": 0,
+      "order": 8,
       "instruction": "After you have read the selection, answer the following questions in Spanish.",
-      "wordBank": [],
-      "kind": "reading-comprehension",
-      "freeform": false
-    },
-    {
-      "id": "ch9_rc_2",
-      "chapterId": "ch9",
-      "sectionId": "ch9lev7",
-      "number": "",
-      "order": 0,
-      "instruction": "",
       "wordBank": [],
       "kind": "reading-comprehension",
       "freeform": false
@@ -36198,7 +36143,7 @@
       "chapterId": "ch9",
       "sectionId": "ch9lev11",
       "number": "9.8",
-      "order": 8,
+      "order": 9,
       "instruction": "Answer the following questions aloud in Spanish.",
       "wordBank": [],
       "kind": "oral",
@@ -36209,7 +36154,7 @@
       "chapterId": "ch9",
       "sectionId": "ch9lev11",
       "number": "9.9",
-      "order": 9,
+      "order": 10,
       "instruction": "Regular and irregular verbs. Complete the following sentences with the correct conjugation of the verbs in parentheses.",
       "wordBank": [],
       "kind": "fill",
@@ -36220,7 +36165,7 @@
       "chapterId": "ch9",
       "sectionId": "ch9lev11",
       "number": "9.10",
-      "order": 10,
+      "order": 11,
       "instruction": "Prepositions and verbs. Complete the following sentences with the Spanish for the words in parentheses.",
       "wordBank": [],
       "kind": "fill",
@@ -36231,7 +36176,7 @@
       "chapterId": "ch9",
       "sectionId": "ch9lev11",
       "number": "9.11",
-      "order": 11,
+      "order": 12,
       "instruction": "Numbers, telling time, adverbs, prepositions, and comparisons. Complete the following sentences with the Spanish for the words in parentheses.",
       "wordBank": [],
       "kind": "fill",
@@ -36242,7 +36187,7 @@
       "chapterId": "ch9",
       "sectionId": "ch9lev11",
       "number": "9.12",
-      "order": 12,
+      "order": 13,
       "instruction": "Translate the following sentences into Spanish.",
       "wordBank": [],
       "kind": "translate",
@@ -36253,18 +36198,18 @@
       "chapterId": "ch9",
       "sectionId": "ch9lev11",
       "number": "9.13",
-      "order": 13,
+      "order": 14,
       "instruction": "On a separate sheet of paper, write the English translation of the following infinitives from Part I.",
       "wordBank": [],
       "kind": "fill",
       "freeform": false
     },
     {
-      "id": "ch9_rc_3",
+      "id": "ch9_rc_2",
       "chapterId": "ch9",
       "sectionId": "ch9lev11",
       "number": "",
-      "order": 0,
+      "order": 15,
       "instruction": "After you have read the selection, answer the following questions in Spanish.",
       "wordBank": [],
       "kind": "reading-comprehension",
@@ -36418,7 +36363,7 @@
       "chapterId": "ch10",
       "sectionId": "ch10_sec_18",
       "number": "",
-      "order": 0,
+      "order": 14,
       "instruction": "After you have read the selection, answer the following questions in Spanish.",
       "wordBank": [],
       "kind": "reading-comprehension",
@@ -36429,7 +36374,7 @@
       "chapterId": "ch10",
       "sectionId": "ch10_sec_18",
       "number": "",
-      "order": 0,
+      "order": 15,
       "instruction": "After you have read the selection, answer the following questions in Spanish.",
       "wordBank": [],
       "kind": "reading-comprehension",
@@ -36528,7 +36473,7 @@
       "chapterId": "ch11",
       "sectionId": "ch11_sec_9",
       "number": "",
-      "order": 0,
+      "order": 9,
       "instruction": "After you have read the selection, answer the following questions in Spanish.",
       "wordBank": [],
       "kind": "reading-comprehension",
@@ -36628,7 +36573,7 @@
       "chapterId": "ch12",
       "sectionId": "ch12lev11",
       "number": "",
-      "order": 0,
+      "order": 5,
       "instruction": "After you have read the selection, answer the following questions in Spanish.",
       "wordBank": [],
       "kind": "reading-comprehension",
@@ -36771,19 +36716,8 @@
       "chapterId": "ch13",
       "sectionId": "ch13lev17",
       "number": "",
-      "order": 0,
+      "order": 13,
       "instruction": "After you have read the selection, answer the following questions in Spanish.",
-      "wordBank": [],
-      "kind": "reading-comprehension",
-      "freeform": false
-    },
-    {
-      "id": "ch14_rc_1",
-      "chapterId": "ch14",
-      "sectionId": "ch14lev1",
-      "number": "",
-      "order": 0,
-      "instruction": "",
       "wordBank": [],
       "kind": "reading-comprehension",
       "freeform": false
@@ -36866,17 +36800,6 @@
       "freeform": false
     },
     {
-      "id": "ch14_rc_2",
-      "chapterId": "ch14",
-      "sectionId": "ch14lev4",
-      "number": "",
-      "order": 0,
-      "instruction": "Verbs with orthographic changes are not irregular. The spelling changes simply maintain the necessary sound. Only verbs in the yo form are affected by the spelling changes in the preterit of -ar verbs.",
-      "wordBank": [],
-      "kind": "reading-comprehension",
-      "freeform": false
-    },
-    {
       "id": "ch14exe8",
       "chapterId": "ch14",
       "sectionId": "ch14lev4",
@@ -36921,11 +36844,11 @@
       "freeform": false
     },
     {
-      "id": "ch14_rc_3",
+      "id": "ch14_rc_1",
       "chapterId": "ch14",
       "sectionId": "ch14lev4",
       "number": "",
-      "order": 0,
+      "order": 12,
       "instruction": "La escena tiene lugar en 399 B.C. en la corte griega ante una asamblea de 501 ciudadanos. El acusado entra y empieza a hablar.",
       "wordBank": [],
       "kind": "reading-comprehension",
@@ -37079,7 +37002,7 @@
       "chapterId": "ch15",
       "sectionId": "ch15lev18",
       "number": "",
-      "order": 0,
+      "order": 14,
       "instruction": "After you have finished reading the selection, answer the following questions in Spanish.",
       "wordBank": [],
       "kind": "reading-comprehension",
@@ -37163,6 +37086,17 @@
       "freeform": false
     },
     {
+      "id": "ch16_rc_1",
+      "chapterId": "ch16",
+      "sectionId": "ch16lev3",
+      "number": "",
+      "order": 8,
+      "instruction": "After you have read the selection, answer the following questions in Spanish.",
+      "wordBank": [],
+      "kind": "reading-comprehension",
+      "freeform": false
+    },
+    {
       "id": "ch17exe1",
       "chapterId": "ch17",
       "sectionId": "ch17_sec_2",
@@ -37204,6 +37138,17 @@
       "instruction": "Preterit or imperfect? Complete the following sentences with the correct form of the verb in parentheses.",
       "wordBank": [],
       "kind": "fill",
+      "freeform": false
+    },
+    {
+      "id": "ch17_rc_1",
+      "chapterId": "ch17",
+      "sectionId": "ch17lev8",
+      "number": "",
+      "order": 5,
+      "instruction": "Pérez Galdós nació en las Islas Canarias y es mejor conocido por sus vistas de la sociedad española. Se murió en 1920 en Madrid.",
+      "wordBank": [],
+      "kind": "reading-comprehension",
       "freeform": false
     },
     {
@@ -37306,6 +37251,17 @@
       "freeform": false
     },
     {
+      "id": "ch18_rc_1",
+      "chapterId": "ch18",
+      "sectionId": "ch18lev6",
+      "number": "",
+      "order": 10,
+      "instruction": "",
+      "wordBank": [],
+      "kind": "reading-comprehension",
+      "freeform": false
+    },
+    {
       "id": "ch19exe1",
       "chapterId": "ch19",
       "sectionId": "ch19lev1",
@@ -37402,6 +37358,17 @@
       "instruction": "Review (Double object pronouns, se and the indirect object, the preterit tense) Translate the following sentences into English.",
       "wordBank": [],
       "kind": "translate",
+      "freeform": false
+    },
+    {
+      "id": "ch19_rc_1",
+      "chapterId": "ch19",
+      "sectionId": "ch19lev3",
+      "number": "",
+      "order": 10,
+      "instruction": "",
+      "wordBank": [],
+      "kind": "reading-comprehension",
       "freeform": false
     },
     {
@@ -37508,7 +37475,7 @@
       "chapterId": "ch20",
       "sectionId": "ch20_sec_25",
       "number": "",
-      "order": 0,
+      "order": 10,
       "instruction": "",
       "wordBank": [],
       "kind": "reading-comprehension",
@@ -37629,7 +37596,7 @@
       "chapterId": "ch21",
       "sectionId": "ch21lev4",
       "number": "",
-      "order": 0,
+      "order": 11,
       "instruction": "Preguntas",
       "wordBank": [],
       "kind": "reading-comprehension",
@@ -37640,7 +37607,7 @@
       "chapterId": "ch21",
       "sectionId": "ch21lev4",
       "number": "21.11",
-      "order": 11,
+      "order": 12,
       "instruction": "Write the affirmative nosotros command for the following verbs.",
       "wordBank": [],
       "kind": "fill",
@@ -37651,7 +37618,7 @@
       "chapterId": "ch21",
       "sectionId": "ch21lev8",
       "number": "21.12",
-      "order": 12,
+      "order": 13,
       "instruction": "Write the Spanish translation for the following commands as quickly as you can, according to the cue in parentheses. You often you have very little time to ask someone to do or not to do something. (Try to say each of the following Spanish commands in five seconds or less.)",
       "wordBank": [],
       "kind": "fill",
@@ -37662,7 +37629,7 @@
       "chapterId": "ch21",
       "sectionId": "ch21lev8",
       "number": "21.13",
-      "order": 13,
+      "order": 14,
       "instruction": "Subjunctive, present indicative, or infinitive? Complete the following sentences with the correct form of the verb in parentheses.",
       "wordBank": [],
       "kind": "fill",
@@ -37673,7 +37640,7 @@
       "chapterId": "ch21",
       "sectionId": "ch21lev8",
       "number": "",
-      "order": 0,
+      "order": 15,
       "instruction": "Preguntas",
       "wordBank": [],
       "kind": "reading-comprehension",
@@ -37783,7 +37750,7 @@
       "chapterId": "ch22",
       "sectionId": "ch22lev4",
       "number": "",
-      "order": 0,
+      "order": 10,
       "instruction": "Verbos",
       "wordBank": [],
       "kind": "reading-comprehension",
@@ -37794,7 +37761,7 @@
       "chapterId": "ch22",
       "sectionId": "ch22lev4",
       "number": "22.10",
-      "order": 10,
+      "order": 11,
       "instruction": "Complete the following sentences with the correct form of the article: el, la, los, las, or lo. In some cases, the article is part of the contraction al. Remember that the article may also be omitted. If no article is needed, mark an X.",
       "wordBank": [],
       "kind": "fill",
@@ -37805,7 +37772,7 @@
       "chapterId": "ch22",
       "sectionId": "ch22lev4",
       "number": "22.11",
-      "order": 11,
+      "order": 12,
       "instruction": "Complete the following sentences with el cual, la cual, los cuales, las cuales, cuyo, cuya, cuyos, cuyas, quien, or quienes. Use each relative pronoun only one time.",
       "wordBank": [],
       "kind": "fill",
@@ -37816,10 +37783,21 @@
       "chapterId": "ch22",
       "sectionId": "ch22lev4",
       "number": "22.12",
-      "order": 12,
+      "order": 13,
       "instruction": "Complete the following sentences with the correct adjective used as a noun, according to the cue in parentheses.",
       "wordBank": [],
       "kind": "fill",
+      "freeform": false
+    },
+    {
+      "id": "ch22_rc_2",
+      "chapterId": "ch22",
+      "sectionId": "ch22lev11",
+      "number": "",
+      "order": 14,
+      "instruction": "Rubén Darío nació en 1867 en Metapa, Nicaragua, y se murió en su país en 1916. Es considerado como la figura más representativa del modernismo.",
+      "wordBank": [],
+      "kind": "reading-comprehension",
       "freeform": false
     },
     {
@@ -37893,7 +37871,7 @@
       "chapterId": "ch23",
       "sectionId": "ch23lev5",
       "number": "",
-      "order": 0,
+      "order": 7,
       "instruction": "Verbos",
       "wordBank": [],
       "kind": "reading-comprehension",
@@ -37933,11 +37911,33 @@
       "freeform": false
     },
     {
+      "id": "ch24_rc_1",
+      "chapterId": "ch24",
+      "sectionId": "ch24lev3",
+      "number": "",
+      "order": 4,
+      "instruction": "Después de haber leído su libro y de haber apagado la tele, Octavio se acostó. Las noches anteriores él no había podido dormir bien por sus sueños, digamos, pesadillas, pero esta noche él tenía la determinación de soñar con buenas cosas. Trató de pensar en algo bueno. ¿Qué será?, pensaba. El martes, había pensado en el amor y eso le cogió mal, el miércoles, había pensado en el dinero, pero tampoco le salió bien el sueño. El jueves pensó en tomar algunas vacaciones en Hawái y muchos tiburones llenaban sus sueños. Se despertó exhausto, luchando contra los peces. Hoy siendo viernes, se quedó despierto toda la noche, la única solución en la cual Octavio podía pensar.",
+      "wordBank": [],
+      "kind": "reading-comprehension",
+      "freeform": false
+    },
+    {
+      "id": "ch24_rc_2",
+      "chapterId": "ch24",
+      "sectionId": "ch24lev4",
+      "number": "",
+      "order": 5,
+      "instruction": "Preguntas",
+      "wordBank": [],
+      "kind": "reading-comprehension",
+      "freeform": false
+    },
+    {
       "id": "ch24exe4",
       "chapterId": "ch24",
       "sectionId": "ch24lev4",
       "number": "24.4",
-      "order": 4,
+      "order": 6,
       "instruction": "Complete the following phrases with the past participle of the verb in parentheses used as an adjective. Remember that the adjective agrees in gender and number with its noun. Practice pronouncing the phrases aloud.",
       "wordBank": [],
       "kind": "oral",
@@ -37948,7 +37948,7 @@
       "chapterId": "ch24",
       "sectionId": "ch24lev4",
       "number": "24.5",
-      "order": 5,
+      "order": 7,
       "instruction": "Complete the following sentences with the correct form of estar + past participle as an adjective.",
       "wordBank": [],
       "kind": "fill",
@@ -37959,7 +37959,7 @@
       "chapterId": "ch24",
       "sectionId": "ch24lev4",
       "number": "24.6",
-      "order": 6,
+      "order": 8,
       "instruction": "Write the past participles that appear in the following rhymes. Repeat these rhymes aloud to practice your pronunciation.",
       "wordBank": [],
       "kind": "oral",
@@ -37970,10 +37970,21 @@
       "chapterId": "ch24",
       "sectionId": "ch24lev4",
       "number": "24.7",
-      "order": 7,
+      "order": 9,
       "instruction": "Rewrite the following passive sentences as sentences in the active voice.",
       "wordBank": [],
       "kind": "fill",
+      "freeform": false
+    },
+    {
+      "id": "ch24_rc_3",
+      "chapterId": "ch24",
+      "sectionId": "ch24lev7",
+      "number": "",
+      "order": 10,
+      "instruction": "Don Juan Manuel nació en Escalona, Toledo, y se murió en 1348 en Peñafiel, Valladolid. Él pertenece a la tradición literaria-didáctica de la Edad Media.",
+      "wordBank": [],
+      "kind": "reading-comprehension",
       "freeform": false
     },
     {
@@ -38054,6 +38065,17 @@
       "freeform": false
     },
     {
+      "id": "ch25_rc_1",
+      "chapterId": "ch25",
+      "sectionId": "ch25lev5",
+      "number": "",
+      "order": 8,
+      "instruction": "Verbos",
+      "wordBank": [],
+      "kind": "reading-comprehension",
+      "freeform": false
+    },
+    {
       "id": "ch26exe1",
       "chapterId": "ch26",
       "sectionId": "ch26lev1",
@@ -38109,6 +38131,17 @@
       "freeform": false
     },
     {
+      "id": "ch26_rc_1",
+      "chapterId": "ch26",
+      "sectionId": "ch26lev5",
+      "number": "",
+      "order": 6,
+      "instruction": "Answer the following questions orally.",
+      "wordBank": [],
+      "kind": "reading-comprehension",
+      "freeform": false
+    },
+    {
       "id": "ch27exe1",
       "chapterId": "ch27",
       "sectionId": "ch27lev1",
@@ -38128,6 +38161,17 @@
       "instruction": "Complete the following sentences with the correct present perfect subjunctive form of the verb in parentheses.",
       "wordBank": [],
       "kind": "fill",
+      "freeform": false
+    },
+    {
+      "id": "ch27_rc_1",
+      "chapterId": "ch27",
+      "sectionId": "ch27lev3",
+      "number": "",
+      "order": 3,
+      "instruction": "Verbos",
+      "wordBank": [],
+      "kind": "reading-comprehension",
       "freeform": false
     },
     {
@@ -38208,11 +38252,22 @@
       "freeform": false
     },
     {
+      "id": "ch28_rc_1",
+      "chapterId": "ch28",
+      "sectionId": "ch28lev3",
+      "number": "",
+      "order": 8,
+      "instruction": "Verbos",
+      "wordBank": [],
+      "kind": "reading-comprehension",
+      "freeform": false
+    },
+    {
       "id": "ch28exe8",
       "chapterId": "ch28",
       "sectionId": "ch28lev3",
       "number": "28.8",
-      "order": 8,
+      "order": 9,
       "instruction": "Complete the following sentences with either the infinitive or the correct imperfect subjunctive form of the verb in parentheses.",
       "wordBank": [],
       "kind": "fill",
@@ -38223,7 +38278,7 @@
       "chapterId": "ch28",
       "sectionId": "ch28lev3",
       "number": "28.9",
-      "order": 9,
+      "order": 10,
       "instruction": "Rewrite the following sentences in the past tense. Make sure you read the main clause carefully to see whether the subjunctive is necessary in the dependent clause.",
       "wordBank": [],
       "kind": "fill",
@@ -38234,7 +38289,7 @@
       "chapterId": "ch28",
       "sectionId": "ch28lev3",
       "number": "28.10",
-      "order": 10,
+      "order": 11,
       "instruction": "Translate the following sentences into Spanish.",
       "wordBank": [],
       "kind": "translate",
@@ -38245,10 +38300,21 @@
       "chapterId": "ch28",
       "sectionId": "ch28lev3",
       "number": "28.11",
-      "order": 11,
+      "order": 12,
       "instruction": "",
       "wordBank": [],
       "kind": "fill",
+      "freeform": false
+    },
+    {
+      "id": "ch28_rc_2",
+      "chapterId": "ch28",
+      "sectionId": "ch28lev4",
+      "number": "",
+      "order": 13,
+      "instruction": "Verbos",
+      "wordBank": [],
+      "kind": "reading-comprehension",
       "freeform": false
     },
     {
@@ -38384,6 +38450,17 @@
       "freeform": false
     },
     {
+      "id": "ch29_rc_1",
+      "chapterId": "ch29",
+      "sectionId": "ch29lev3",
+      "number": "",
+      "order": 13,
+      "instruction": "Verbos",
+      "wordBank": [],
+      "kind": "reading-comprehension",
+      "freeform": false
+    },
+    {
       "id": "ch30exe1",
       "chapterId": "ch30",
       "sectionId": "ch30lev1",
@@ -38436,6 +38513,17 @@
       "instruction": "Translate the following sentences into English.",
       "wordBank": [],
       "kind": "translate",
+      "freeform": false
+    },
+    {
+      "id": "ch30_rc_1",
+      "chapterId": "ch30",
+      "sectionId": "ch30lev4",
+      "number": "",
+      "order": 6,
+      "instruction": "Verbos",
+      "wordBank": [],
+      "kind": "reading-comprehension",
       "freeform": false
     }
   ],
@@ -41116,7 +41204,7 @@
     },
     {
       "id": "ch2_uq_1",
-      "exerciseId": "ch2_rc_2",
+      "exerciseId": "ch2_rc_1",
       "chapterId": "ch2",
       "sectionId": "ch2lev2",
       "number": 0,
@@ -41128,7 +41216,7 @@
     },
     {
       "id": "ch2_uq_2",
-      "exerciseId": "ch2_rc_2",
+      "exerciseId": "ch2_rc_1",
       "chapterId": "ch2",
       "sectionId": "ch2lev2",
       "number": 0,
@@ -41140,7 +41228,7 @@
     },
     {
       "id": "ch2_uq_3",
-      "exerciseId": "ch2_rc_2",
+      "exerciseId": "ch2_rc_1",
       "chapterId": "ch2",
       "sectionId": "ch2lev2",
       "number": 0,
@@ -41152,7 +41240,7 @@
     },
     {
       "id": "ch2_uq_4",
-      "exerciseId": "ch2_rc_2",
+      "exerciseId": "ch2_rc_1",
       "chapterId": "ch2",
       "sectionId": "ch2lev2",
       "number": 0,
@@ -46756,7 +46844,7 @@
     },
     {
       "id": "ch7_uq_9",
-      "exerciseId": "ch7_rc_3",
+      "exerciseId": "ch7_rc_1",
       "chapterId": "ch7",
       "sectionId": "ch7lev13",
       "number": 0,
@@ -46768,7 +46856,7 @@
     },
     {
       "id": "ch7_uq_10",
-      "exerciseId": "ch7_rc_3",
+      "exerciseId": "ch7_rc_1",
       "chapterId": "ch7",
       "sectionId": "ch7lev13",
       "number": 0,
@@ -46780,7 +46868,7 @@
     },
     {
       "id": "ch7_uq_11",
-      "exerciseId": "ch7_rc_3",
+      "exerciseId": "ch7_rc_1",
       "chapterId": "ch7",
       "sectionId": "ch7lev13",
       "number": 0,
@@ -46792,7 +46880,7 @@
     },
     {
       "id": "ch7_uq_12",
-      "exerciseId": "ch7_rc_3",
+      "exerciseId": "ch7_rc_1",
       "chapterId": "ch7",
       "sectionId": "ch7lev13",
       "number": 0,
@@ -46804,7 +46892,7 @@
     },
     {
       "id": "ch7_uq_13",
-      "exerciseId": "ch7_rc_3",
+      "exerciseId": "ch7_rc_1",
       "chapterId": "ch7",
       "sectionId": "ch7lev13",
       "number": 0,
@@ -46816,7 +46904,7 @@
     },
     {
       "id": "ch7_uq_14",
-      "exerciseId": "ch7_rc_3",
+      "exerciseId": "ch7_rc_1",
       "chapterId": "ch7",
       "sectionId": "ch7lev13",
       "number": 0,
@@ -52472,7 +52560,7 @@
     },
     {
       "id": "ch9_uq_15",
-      "exerciseId": "ch9_rc_3",
+      "exerciseId": "ch9_rc_2",
       "chapterId": "ch9",
       "sectionId": "ch9lev11",
       "number": 0,
@@ -52484,7 +52572,7 @@
     },
     {
       "id": "ch9_uq_16",
-      "exerciseId": "ch9_rc_3",
+      "exerciseId": "ch9_rc_2",
       "chapterId": "ch9",
       "sectionId": "ch9lev11",
       "number": 0,
@@ -52496,7 +52584,7 @@
     },
     {
       "id": "ch9_uq_17",
-      "exerciseId": "ch9_rc_3",
+      "exerciseId": "ch9_rc_2",
       "chapterId": "ch9",
       "sectionId": "ch9lev11",
       "number": 0,
@@ -52508,7 +52596,7 @@
     },
     {
       "id": "ch9_uq_18",
-      "exerciseId": "ch9_rc_3",
+      "exerciseId": "ch9_rc_2",
       "chapterId": "ch9",
       "sectionId": "ch9lev11",
       "number": 0,
@@ -52520,7 +52608,7 @@
     },
     {
       "id": "ch9_uq_19",
-      "exerciseId": "ch9_rc_3",
+      "exerciseId": "ch9_rc_2",
       "chapterId": "ch9",
       "sectionId": "ch9lev11",
       "number": 0,
@@ -52532,7 +52620,7 @@
     },
     {
       "id": "ch9_uq_20",
-      "exerciseId": "ch9_rc_3",
+      "exerciseId": "ch9_rc_2",
       "chapterId": "ch9",
       "sectionId": "ch9lev11",
       "number": 0,
@@ -62164,7 +62252,7 @@
     },
     {
       "id": "ch14_uq_11",
-      "exerciseId": "ch14_rc_3",
+      "exerciseId": "ch14_rc_1",
       "chapterId": "ch14",
       "sectionId": "ch14lev4",
       "number": 0,
@@ -62176,7 +62264,7 @@
     },
     {
       "id": "ch14_uq_12",
-      "exerciseId": "ch14_rc_3",
+      "exerciseId": "ch14_rc_1",
       "chapterId": "ch14",
       "sectionId": "ch14lev4",
       "number": 0,
@@ -62188,7 +62276,7 @@
     },
     {
       "id": "ch14_uq_13",
-      "exerciseId": "ch14_rc_3",
+      "exerciseId": "ch14_rc_1",
       "chapterId": "ch14",
       "sectionId": "ch14lev4",
       "number": 0,
@@ -62200,7 +62288,7 @@
     },
     {
       "id": "ch14_uq_14",
-      "exerciseId": "ch14_rc_3",
+      "exerciseId": "ch14_rc_1",
       "chapterId": "ch14",
       "sectionId": "ch14lev4",
       "number": 0,
@@ -66474,7 +66562,7 @@
     },
     {
       "id": "ch16_uq_1",
-      "exerciseId": null,
+      "exerciseId": "ch16_rc_1",
       "chapterId": "ch16",
       "sectionId": "ch16lev3",
       "number": 0,
@@ -66486,7 +66574,7 @@
     },
     {
       "id": "ch16_uq_2",
-      "exerciseId": null,
+      "exerciseId": "ch16_rc_1",
       "chapterId": "ch16",
       "sectionId": "ch16lev3",
       "number": 0,
@@ -66498,7 +66586,7 @@
     },
     {
       "id": "ch16_uq_3",
-      "exerciseId": null,
+      "exerciseId": "ch16_rc_1",
       "chapterId": "ch16",
       "sectionId": "ch16lev3",
       "number": 0,
@@ -66510,7 +66598,7 @@
     },
     {
       "id": "ch16_uq_4",
-      "exerciseId": null,
+      "exerciseId": "ch16_rc_1",
       "chapterId": "ch16",
       "sectionId": "ch16lev3",
       "number": 0,
@@ -67236,7 +67324,7 @@
     },
     {
       "id": "ch17_uq_1",
-      "exerciseId": null,
+      "exerciseId": "ch17_rc_1",
       "chapterId": "ch17",
       "sectionId": "ch17lev8",
       "number": 0,
@@ -67248,7 +67336,7 @@
     },
     {
       "id": "ch17_uq_2",
-      "exerciseId": null,
+      "exerciseId": "ch17_rc_1",
       "chapterId": "ch17",
       "sectionId": "ch17lev8",
       "number": 0,
@@ -67260,7 +67348,7 @@
     },
     {
       "id": "ch17_uq_3",
-      "exerciseId": null,
+      "exerciseId": "ch17_rc_1",
       "chapterId": "ch17",
       "sectionId": "ch17lev8",
       "number": 0,
@@ -68688,7 +68776,7 @@
     },
     {
       "id": "ch18_uq_7",
-      "exerciseId": null,
+      "exerciseId": "ch18_rc_1",
       "chapterId": "ch18",
       "sectionId": "ch18lev6",
       "number": 0,
@@ -68700,7 +68788,7 @@
     },
     {
       "id": "ch18_uq_8",
-      "exerciseId": null,
+      "exerciseId": "ch18_rc_1",
       "chapterId": "ch18",
       "sectionId": "ch18lev6",
       "number": 0,
@@ -68712,7 +68800,7 @@
     },
     {
       "id": "ch18_uq_9",
-      "exerciseId": null,
+      "exerciseId": "ch18_rc_1",
       "chapterId": "ch18",
       "sectionId": "ch18lev6",
       "number": 0,
@@ -68724,7 +68812,7 @@
     },
     {
       "id": "ch18_uq_10",
-      "exerciseId": null,
+      "exerciseId": "ch18_rc_1",
       "chapterId": "ch18",
       "sectionId": "ch18lev6",
       "number": 0,
@@ -68736,7 +68824,7 @@
     },
     {
       "id": "ch18_uq_11",
-      "exerciseId": null,
+      "exerciseId": "ch18_rc_1",
       "chapterId": "ch18",
       "sectionId": "ch18lev6",
       "number": 0,
@@ -68748,7 +68836,7 @@
     },
     {
       "id": "ch18_uq_12",
-      "exerciseId": null,
+      "exerciseId": "ch18_rc_1",
       "chapterId": "ch18",
       "sectionId": "ch18lev6",
       "number": 0,
@@ -68760,7 +68848,7 @@
     },
     {
       "id": "ch18_uq_13",
-      "exerciseId": null,
+      "exerciseId": "ch18_rc_1",
       "chapterId": "ch18",
       "sectionId": "ch18lev6",
       "number": 0,
@@ -68772,7 +68860,7 @@
     },
     {
       "id": "ch18_uq_14",
-      "exerciseId": null,
+      "exerciseId": "ch18_rc_1",
       "chapterId": "ch18",
       "sectionId": "ch18lev6",
       "number": 0,
@@ -69806,7 +69894,7 @@
     },
     {
       "id": "ch19_uq_1",
-      "exerciseId": null,
+      "exerciseId": "ch19_rc_1",
       "chapterId": "ch19",
       "sectionId": "ch19lev3",
       "number": 0,
@@ -69818,7 +69906,7 @@
     },
     {
       "id": "ch19_uq_2",
-      "exerciseId": null,
+      "exerciseId": "ch19_rc_1",
       "chapterId": "ch19",
       "sectionId": "ch19lev3",
       "number": 0,
@@ -69830,7 +69918,7 @@
     },
     {
       "id": "ch19_uq_3",
-      "exerciseId": null,
+      "exerciseId": "ch19_rc_1",
       "chapterId": "ch19",
       "sectionId": "ch19lev3",
       "number": 0,
@@ -69842,7 +69930,7 @@
     },
     {
       "id": "ch19_uq_4",
-      "exerciseId": null,
+      "exerciseId": "ch19_rc_1",
       "chapterId": "ch19",
       "sectionId": "ch19lev3",
       "number": 0,
@@ -69854,7 +69942,7 @@
     },
     {
       "id": "ch19_uq_5",
-      "exerciseId": null,
+      "exerciseId": "ch19_rc_1",
       "chapterId": "ch19",
       "sectionId": "ch19lev3",
       "number": 0,
@@ -75488,7 +75576,7 @@
     },
     {
       "id": "ch22_uq_5",
-      "exerciseId": null,
+      "exerciseId": "ch22_rc_2",
       "chapterId": "ch22",
       "sectionId": "ch22lev11",
       "number": 0,
@@ -75500,7 +75588,7 @@
     },
     {
       "id": "ch22_uq_6",
-      "exerciseId": null,
+      "exerciseId": "ch22_rc_2",
       "chapterId": "ch22",
       "sectionId": "ch22lev11",
       "number": 0,
@@ -75512,7 +75600,7 @@
     },
     {
       "id": "ch22_uq_7",
-      "exerciseId": null,
+      "exerciseId": "ch22_rc_2",
       "chapterId": "ch22",
       "sectionId": "ch22lev11",
       "number": 0,
@@ -75524,7 +75612,7 @@
     },
     {
       "id": "ch22_uq_8",
-      "exerciseId": null,
+      "exerciseId": "ch22_rc_2",
       "chapterId": "ch22",
       "sectionId": "ch22lev11",
       "number": 0,
@@ -77026,7 +77114,7 @@
     },
     {
       "id": "ch24_uq_1",
-      "exerciseId": null,
+      "exerciseId": "ch24_rc_1",
       "chapterId": "ch24",
       "sectionId": "ch24lev3",
       "number": 0,
@@ -77038,7 +77126,7 @@
     },
     {
       "id": "ch24_uq_2",
-      "exerciseId": null,
+      "exerciseId": "ch24_rc_1",
       "chapterId": "ch24",
       "sectionId": "ch24lev3",
       "number": 0,
@@ -77050,7 +77138,7 @@
     },
     {
       "id": "ch24_uq_3",
-      "exerciseId": null,
+      "exerciseId": "ch24_rc_1",
       "chapterId": "ch24",
       "sectionId": "ch24lev3",
       "number": 0,
@@ -77062,7 +77150,7 @@
     },
     {
       "id": "ch24_uq_4",
-      "exerciseId": null,
+      "exerciseId": "ch24_rc_2",
       "chapterId": "ch24",
       "sectionId": "ch24lev4",
       "number": 0,
@@ -77074,7 +77162,7 @@
     },
     {
       "id": "ch24_uq_5",
-      "exerciseId": null,
+      "exerciseId": "ch24_rc_2",
       "chapterId": "ch24",
       "sectionId": "ch24lev4",
       "number": 0,
@@ -77086,7 +77174,7 @@
     },
     {
       "id": "ch24_uq_6",
-      "exerciseId": null,
+      "exerciseId": "ch24_rc_2",
       "chapterId": "ch24",
       "sectionId": "ch24lev4",
       "number": 0,
@@ -77098,7 +77186,7 @@
     },
     {
       "id": "ch24_uq_7",
-      "exerciseId": null,
+      "exerciseId": "ch24_rc_2",
       "chapterId": "ch24",
       "sectionId": "ch24lev4",
       "number": 0,
@@ -77794,7 +77882,7 @@
     },
     {
       "id": "ch24_uq_23",
-      "exerciseId": null,
+      "exerciseId": "ch24_rc_3",
       "chapterId": "ch24",
       "sectionId": "ch24lev7",
       "number": 0,
@@ -77806,7 +77894,7 @@
     },
     {
       "id": "ch24_uq_24",
-      "exerciseId": null,
+      "exerciseId": "ch24_rc_3",
       "chapterId": "ch24",
       "sectionId": "ch24lev7",
       "number": 0,
@@ -77818,7 +77906,7 @@
     },
     {
       "id": "ch24_uq_25",
-      "exerciseId": null,
+      "exerciseId": "ch24_rc_3",
       "chapterId": "ch24",
       "sectionId": "ch24lev7",
       "number": 0,
@@ -77830,7 +77918,7 @@
     },
     {
       "id": "ch24_uq_26",
-      "exerciseId": null,
+      "exerciseId": "ch24_rc_3",
       "chapterId": "ch24",
       "sectionId": "ch24lev7",
       "number": 0,
@@ -78822,7 +78910,7 @@
     },
     {
       "id": "ch25_uq_1",
-      "exerciseId": null,
+      "exerciseId": "ch25_rc_1",
       "chapterId": "ch25",
       "sectionId": "ch25lev5",
       "number": 0,
@@ -78834,7 +78922,7 @@
     },
     {
       "id": "ch25_uq_2",
-      "exerciseId": null,
+      "exerciseId": "ch25_rc_1",
       "chapterId": "ch25",
       "sectionId": "ch25lev5",
       "number": 0,
@@ -78846,7 +78934,7 @@
     },
     {
       "id": "ch25_uq_3",
-      "exerciseId": null,
+      "exerciseId": "ch25_rc_1",
       "chapterId": "ch25",
       "sectionId": "ch25lev5",
       "number": 0,
@@ -79628,7 +79716,7 @@
     },
     {
       "id": "ch26_uq_1",
-      "exerciseId": null,
+      "exerciseId": "ch26_rc_1",
       "chapterId": "ch26",
       "sectionId": "ch26lev5",
       "number": 0,
@@ -79640,7 +79728,7 @@
     },
     {
       "id": "ch26_uq_2",
-      "exerciseId": null,
+      "exerciseId": "ch26_rc_1",
       "chapterId": "ch26",
       "sectionId": "ch26lev5",
       "number": 0,
@@ -79652,7 +79740,7 @@
     },
     {
       "id": "ch26_uq_3",
-      "exerciseId": null,
+      "exerciseId": "ch26_rc_1",
       "chapterId": "ch26",
       "sectionId": "ch26lev5",
       "number": 0,
@@ -79664,7 +79752,7 @@
     },
     {
       "id": "ch26_uq_4",
-      "exerciseId": null,
+      "exerciseId": "ch26_rc_1",
       "chapterId": "ch26",
       "sectionId": "ch26lev5",
       "number": 0,
@@ -79676,7 +79764,7 @@
     },
     {
       "id": "ch26_uq_5",
-      "exerciseId": null,
+      "exerciseId": "ch26_rc_1",
       "chapterId": "ch26",
       "sectionId": "ch26lev5",
       "number": 0,
@@ -79688,7 +79776,7 @@
     },
     {
       "id": "ch26_uq_6",
-      "exerciseId": null,
+      "exerciseId": "ch26_rc_1",
       "chapterId": "ch26",
       "sectionId": "ch26lev5",
       "number": 0,
@@ -79700,7 +79788,7 @@
     },
     {
       "id": "ch26_uq_7",
-      "exerciseId": null,
+      "exerciseId": "ch26_rc_1",
       "chapterId": "ch26",
       "sectionId": "ch26lev5",
       "number": 0,
@@ -79712,7 +79800,7 @@
     },
     {
       "id": "ch26_uq_8",
-      "exerciseId": null,
+      "exerciseId": "ch26_rc_1",
       "chapterId": "ch26",
       "sectionId": "ch26lev5",
       "number": 0,
@@ -79724,7 +79812,7 @@
     },
     {
       "id": "ch26_uq_9",
-      "exerciseId": null,
+      "exerciseId": "ch26_rc_1",
       "chapterId": "ch26",
       "sectionId": "ch26lev5",
       "number": 0,
@@ -79736,7 +79824,7 @@
     },
     {
       "id": "ch26_uq_10",
-      "exerciseId": null,
+      "exerciseId": "ch26_rc_1",
       "chapterId": "ch26",
       "sectionId": "ch26lev5",
       "number": 0,
@@ -80000,7 +80088,7 @@
     },
     {
       "id": "ch27_uq_1",
-      "exerciseId": null,
+      "exerciseId": "ch27_rc_1",
       "chapterId": "ch27",
       "sectionId": "ch27lev3",
       "number": 0,
@@ -80012,7 +80100,7 @@
     },
     {
       "id": "ch27_uq_2",
-      "exerciseId": null,
+      "exerciseId": "ch27_rc_1",
       "chapterId": "ch27",
       "sectionId": "ch27lev3",
       "number": 0,
@@ -80024,7 +80112,7 @@
     },
     {
       "id": "ch27_uq_3",
-      "exerciseId": null,
+      "exerciseId": "ch27_rc_1",
       "chapterId": "ch27",
       "sectionId": "ch27lev3",
       "number": 0,
@@ -80036,7 +80124,7 @@
     },
     {
       "id": "ch27_uq_4",
-      "exerciseId": null,
+      "exerciseId": "ch27_rc_1",
       "chapterId": "ch27",
       "sectionId": "ch27lev3",
       "number": 0,
@@ -80048,7 +80136,7 @@
     },
     {
       "id": "ch27_uq_5",
-      "exerciseId": null,
+      "exerciseId": "ch27_rc_1",
       "chapterId": "ch27",
       "sectionId": "ch27lev3",
       "number": 0,
@@ -80060,7 +80148,7 @@
     },
     {
       "id": "ch27_uq_6",
-      "exerciseId": null,
+      "exerciseId": "ch27_rc_1",
       "chapterId": "ch27",
       "sectionId": "ch27lev3",
       "number": 0,
@@ -80856,7 +80944,7 @@
     },
     {
       "id": "ch28_uq_1",
-      "exerciseId": null,
+      "exerciseId": "ch28_rc_1",
       "chapterId": "ch28",
       "sectionId": "ch28lev3",
       "number": 0,
@@ -80868,7 +80956,7 @@
     },
     {
       "id": "ch28_uq_2",
-      "exerciseId": null,
+      "exerciseId": "ch28_rc_1",
       "chapterId": "ch28",
       "sectionId": "ch28lev3",
       "number": 0,
@@ -80880,7 +80968,7 @@
     },
     {
       "id": "ch28_uq_3",
-      "exerciseId": null,
+      "exerciseId": "ch28_rc_1",
       "chapterId": "ch28",
       "sectionId": "ch28lev3",
       "number": 0,
@@ -80892,7 +80980,7 @@
     },
     {
       "id": "ch28_uq_4",
-      "exerciseId": null,
+      "exerciseId": "ch28_rc_1",
       "chapterId": "ch28",
       "sectionId": "ch28lev3",
       "number": 0,
@@ -80904,7 +80992,7 @@
     },
     {
       "id": "ch28_uq_5",
-      "exerciseId": null,
+      "exerciseId": "ch28_rc_1",
       "chapterId": "ch28",
       "sectionId": "ch28lev3",
       "number": 0,
@@ -80916,7 +81004,7 @@
     },
     {
       "id": "ch28_uq_6",
-      "exerciseId": null,
+      "exerciseId": "ch28_rc_1",
       "chapterId": "ch28",
       "sectionId": "ch28lev3",
       "number": 0,
@@ -81572,7 +81660,7 @@
     },
     {
       "id": "ch28_uq_7",
-      "exerciseId": null,
+      "exerciseId": "ch28_rc_2",
       "chapterId": "ch28",
       "sectionId": "ch28lev4",
       "number": 0,
@@ -81584,7 +81672,7 @@
     },
     {
       "id": "ch28_uq_8",
-      "exerciseId": null,
+      "exerciseId": "ch28_rc_2",
       "chapterId": "ch28",
       "sectionId": "ch28lev4",
       "number": 0,
@@ -81596,7 +81684,7 @@
     },
     {
       "id": "ch28_uq_9",
-      "exerciseId": null,
+      "exerciseId": "ch28_rc_2",
       "chapterId": "ch28",
       "sectionId": "ch28lev4",
       "number": 0,
@@ -81608,7 +81696,7 @@
     },
     {
       "id": "ch28_uq_10",
-      "exerciseId": null,
+      "exerciseId": "ch28_rc_2",
       "chapterId": "ch28",
       "sectionId": "ch28lev4",
       "number": 0,
@@ -83062,7 +83150,7 @@
     },
     {
       "id": "ch29_uq_1",
-      "exerciseId": null,
+      "exerciseId": "ch29_rc_1",
       "chapterId": "ch29",
       "sectionId": "ch29lev3",
       "number": 0,
@@ -83074,7 +83162,7 @@
     },
     {
       "id": "ch29_uq_2",
-      "exerciseId": null,
+      "exerciseId": "ch29_rc_1",
       "chapterId": "ch29",
       "sectionId": "ch29lev3",
       "number": 0,
@@ -83086,7 +83174,7 @@
     },
     {
       "id": "ch29_uq_3",
-      "exerciseId": null,
+      "exerciseId": "ch29_rc_1",
       "chapterId": "ch29",
       "sectionId": "ch29lev3",
       "number": 0,
@@ -83098,7 +83186,7 @@
     },
     {
       "id": "ch29_uq_4",
-      "exerciseId": null,
+      "exerciseId": "ch29_rc_1",
       "chapterId": "ch29",
       "sectionId": "ch29lev3",
       "number": 0,
@@ -83110,7 +83198,7 @@
     },
     {
       "id": "ch29_uq_5",
-      "exerciseId": null,
+      "exerciseId": "ch29_rc_1",
       "chapterId": "ch29",
       "sectionId": "ch29lev3",
       "number": 0,
@@ -83122,7 +83210,7 @@
     },
     {
       "id": "ch29_uq_6",
-      "exerciseId": null,
+      "exerciseId": "ch29_rc_1",
       "chapterId": "ch29",
       "sectionId": "ch29lev3",
       "number": 0,
@@ -83974,7 +84062,7 @@
     },
     {
       "id": "ch30_uq_1",
-      "exerciseId": null,
+      "exerciseId": "ch30_rc_1",
       "chapterId": "ch30",
       "sectionId": "ch30lev4",
       "number": 0,
@@ -83986,7 +84074,7 @@
     },
     {
       "id": "ch30_uq_2",
-      "exerciseId": null,
+      "exerciseId": "ch30_rc_1",
       "chapterId": "ch30",
       "sectionId": "ch30lev4",
       "number": 0,
@@ -83998,7 +84086,7 @@
     },
     {
       "id": "ch30_uq_3",
-      "exerciseId": null,
+      "exerciseId": "ch30_rc_1",
       "chapterId": "ch30",
       "sectionId": "ch30lev4",
       "number": 0,
@@ -84010,7 +84098,7 @@
     },
     {
       "id": "ch30_uq_4",
-      "exerciseId": null,
+      "exerciseId": "ch30_rc_1",
       "chapterId": "ch30",
       "sectionId": "ch30lev4",
       "number": 0,
@@ -84022,7 +84110,7 @@
     },
     {
       "id": "ch30_uq_5",
-      "exerciseId": null,
+      "exerciseId": "ch30_rc_1",
       "chapterId": "ch30",
       "sectionId": "ch30lev4",
       "number": 0,
@@ -85252,7 +85340,7 @@
       "number": 1,
       "text": "está (changing condition)",
       "accepted": [
-        "está (changing condition)"
+        "está, changing condition"
       ],
       "explanation": "changing condition"
     },
@@ -85263,7 +85351,7 @@
       "number": 2,
       "text": "están (location)",
       "accepted": [
-        "están (location)"
+        "están, location"
       ],
       "explanation": "location"
     },
@@ -85274,7 +85362,7 @@
       "number": 3,
       "text": "está, está (health)",
       "accepted": [
-        "está, está (health)"
+        "está, está, health"
       ],
       "explanation": "health"
     },
@@ -85285,7 +85373,7 @@
       "number": 4,
       "text": "están (health)",
       "accepted": [
-        "están (health)"
+        "están, health"
       ],
       "explanation": "health"
     },
@@ -85296,7 +85384,7 @@
       "number": 5,
       "text": "están (location)",
       "accepted": [
-        "están (location)"
+        "están, location"
       ],
       "explanation": "location"
     },
@@ -85307,7 +85395,7 @@
       "number": 6,
       "text": "está (location)",
       "accepted": [
-        "está (location)"
+        "está, location"
       ],
       "explanation": "location"
     },
@@ -85318,7 +85406,7 @@
       "number": 7,
       "text": "está, está (changing mood)",
       "accepted": [
-        "está, está (changing mood)"
+        "está, está, changing mood"
       ],
       "explanation": "changing mood"
     },
@@ -85329,7 +85417,7 @@
       "number": 8,
       "text": "están (changing mood)",
       "accepted": [
-        "están (changing mood)"
+        "están, changing mood"
       ],
       "explanation": "changing mood"
     },
@@ -85340,7 +85428,7 @@
       "number": 9,
       "text": "estoy (changing mood)",
       "accepted": [
-        "estoy (changing mood)"
+        "estoy, changing mood"
       ],
       "explanation": "changing mood"
     },
@@ -85351,7 +85439,7 @@
       "number": 10,
       "text": "está (location)",
       "accepted": [
-        "está (location)"
+        "está, location"
       ],
       "explanation": "location"
     },
@@ -85432,7 +85520,7 @@
       "number": 17,
       "text": "es (point of origin)",
       "accepted": [
-        "es (point of origin)"
+        "es, point of origin"
       ],
       "explanation": "point of origin"
     },
@@ -85443,7 +85531,7 @@
       "number": 18,
       "text": "son, es (profession)",
       "accepted": [
-        "son, es (profession)"
+        "son, es, profession"
       ],
       "explanation": "profession"
     },
@@ -85454,7 +85542,7 @@
       "number": 19,
       "text": "son (point of origin)",
       "accepted": [
-        "son (point of origin)"
+        "son, point of origin"
       ],
       "explanation": "point of origin"
     },
@@ -85465,7 +85553,7 @@
       "number": 20,
       "text": "son (description)",
       "accepted": [
-        "son (description)"
+        "son, description"
       ],
       "explanation": "description"
     },
@@ -85476,7 +85564,7 @@
       "number": 21,
       "text": "es (description)",
       "accepted": [
-        "es (description)"
+        "es, description"
       ],
       "explanation": "description"
     },
@@ -85487,7 +85575,7 @@
       "number": 22,
       "text": "somos (identification)",
       "accepted": [
-        "somos (identification)"
+        "somos, identification"
       ],
       "explanation": "identification"
     },
@@ -85498,7 +85586,7 @@
       "number": 23,
       "text": "son (material)",
       "accepted": [
-        "son (material)"
+        "son, material"
       ],
       "explanation": "material"
     },
@@ -85509,7 +85597,7 @@
       "number": 24,
       "text": "son (point of origin)",
       "accepted": [
-        "son (point of origin)"
+        "son, point of origin"
       ],
       "explanation": "point of origin"
     },
@@ -85520,7 +85608,7 @@
       "number": 25,
       "text": "soy, es (point of origin)",
       "accepted": [
-        "soy, es (point of origin)"
+        "soy, es, point of origin"
       ],
       "explanation": "point of origin"
     },
@@ -85531,7 +85619,7 @@
       "number": 26,
       "text": "es (possession)",
       "accepted": [
-        "es (possession)"
+        "es, possession"
       ],
       "explanation": "possession"
     },
@@ -85542,7 +85630,7 @@
       "number": 27,
       "text": "Eres (identification)",
       "accepted": [
-        "Eres (identification)"
+        "Eres, identification"
       ],
       "explanation": "identification"
     },
@@ -85553,7 +85641,7 @@
       "number": 28,
       "text": "son (description)",
       "accepted": [
-        "son (description)"
+        "son, description"
       ],
       "explanation": "description"
     },
@@ -85564,7 +85652,7 @@
       "number": 29,
       "text": "es (profession)",
       "accepted": [
-        "es (profession)"
+        "es, profession"
       ],
       "explanation": "profession"
     },
@@ -85575,7 +85663,7 @@
       "number": 30,
       "text": "es (point of origin)",
       "accepted": [
-        "es (point of origin)"
+        "es, point of origin"
       ],
       "explanation": "point of origin"
     },
@@ -85586,7 +85674,7 @@
       "number": 31,
       "text": "es (identification)",
       "accepted": [
-        "es (identification)"
+        "es, identification"
       ],
       "explanation": "identification"
     },
@@ -85597,7 +85685,7 @@
       "number": 32,
       "text": "son (profession)",
       "accepted": [
-        "son (profession)"
+        "son, profession"
       ],
       "explanation": "profession"
     },
@@ -85608,7 +85696,7 @@
       "number": 33,
       "text": "son (description)",
       "accepted": [
-        "son (description)"
+        "son, description"
       ],
       "explanation": "description"
     },
@@ -85619,7 +85707,7 @@
       "number": 34,
       "text": "somos (profession)",
       "accepted": [
-        "somos (profession)"
+        "somos, profession"
       ],
       "explanation": "profession"
     },
@@ -85630,7 +85718,7 @@
       "number": 35,
       "text": "está (location)",
       "accepted": [
-        "está (location)"
+        "está, location"
       ],
       "explanation": "location"
     },
@@ -85641,7 +85729,7 @@
       "number": 36,
       "text": "está, estoy (health)",
       "accepted": [
-        "está, estoy (health)"
+        "está, estoy, health"
       ],
       "explanation": "health"
     },
@@ -85652,7 +85740,7 @@
       "number": 37,
       "text": "está (health)",
       "accepted": [
-        "está (health)"
+        "está, health"
       ],
       "explanation": "health"
     },
@@ -85663,7 +85751,7 @@
       "number": 38,
       "text": "estamos (location)",
       "accepted": [
-        "estamos (location)"
+        "estamos, location"
       ],
       "explanation": "location"
     },
@@ -85674,7 +85762,7 @@
       "number": 39,
       "text": "Estás (changing mood)",
       "accepted": [
-        "Estás (changing mood)"
+        "Estás, changing mood"
       ],
       "explanation": "changing mood"
     },
@@ -85685,7 +85773,7 @@
       "number": 40,
       "text": "están (location)",
       "accepted": [
-        "están (location)"
+        "están, location"
       ],
       "explanation": "location"
     },
@@ -85696,7 +85784,7 @@
       "number": 41,
       "text": "están (health)",
       "accepted": [
-        "están (health)"
+        "están, health"
       ],
       "explanation": "health"
     },
@@ -85707,7 +85795,7 @@
       "number": 42,
       "text": "eres (profession)",
       "accepted": [
-        "eres (profession)"
+        "eres, profession"
       ],
       "explanation": "profession"
     },
@@ -85718,7 +85806,7 @@
       "number": 43,
       "text": "es (description)",
       "accepted": [
-        "es (description)"
+        "es, description"
       ],
       "explanation": "description"
     },
@@ -85729,7 +85817,7 @@
       "number": 44,
       "text": "están (location)",
       "accepted": [
-        "están (location)"
+        "están, location"
       ],
       "explanation": "location"
     },
@@ -85740,9 +85828,9 @@
       "number": 45,
       "text": "están (health), estamos (health)",
       "accepted": [
-        "están (health), estamos (health)"
+        "están, estamos, health, health"
       ],
-      "explanation": "health"
+      "explanation": "health, health"
     },
     {
       "id": "ch2qar46",
@@ -85751,7 +85839,7 @@
       "number": 46,
       "text": "son (description)",
       "accepted": [
-        "son (description)"
+        "son, description"
       ],
       "explanation": "description"
     },
@@ -85762,7 +85850,7 @@
       "number": 47,
       "text": "están (location)",
       "accepted": [
-        "están (location)"
+        "están, location"
       ],
       "explanation": "location"
     },
@@ -85773,7 +85861,7 @@
       "number": 48,
       "text": "está (changing mood)",
       "accepted": [
-        "está (changing mood)"
+        "está, changing mood"
       ],
       "explanation": "changing mood"
     },
@@ -85784,7 +85872,7 @@
       "number": 49,
       "text": "son (description)",
       "accepted": [
-        "son (description)"
+        "son, description"
       ],
       "explanation": "description"
     },
@@ -85795,9 +85883,9 @@
       "number": 50,
       "text": "están (location), es (description)",
       "accepted": [
-        "están (location), es (description)"
+        "están, es, location, description"
       ],
-      "explanation": "description"
+      "explanation": "location, description"
     },
     {
       "id": "ch2qar51",
@@ -85806,9 +85894,9 @@
       "number": 51,
       "text": "está (health), está (changing mood)",
       "accepted": [
-        "está (health), está (changing mood)"
+        "está, está, health, changing mood"
       ],
-      "explanation": "changing mood"
+      "explanation": "health, changing mood"
     },
     {
       "id": "ch2qar52",
@@ -85817,7 +85905,7 @@
       "number": 52,
       "text": "son (description)",
       "accepted": [
-        "son (description)"
+        "son, description"
       ],
       "explanation": "description"
     },
@@ -85828,9 +85916,9 @@
       "number": 53,
       "text": "están (location), son (point of origin), son (point of origin)",
       "accepted": [
-        "están (location), son (point of origin), son (point of origin)"
+        "están, son, son, location, point of origin, point of origin"
       ],
-      "explanation": "point of origin"
+      "explanation": "location, point of origin, point of origin"
     },
     {
       "id": "ch2qar54",
@@ -85839,7 +85927,7 @@
       "number": 54,
       "text": "es (point of origin)",
       "accepted": [
-        "es (point of origin)"
+        "es, point of origin"
       ],
       "explanation": "point of origin"
     },
@@ -85850,9 +85938,9 @@
       "number": 55,
       "text": "están (location), están (changing mood), son (identification)",
       "accepted": [
-        "están (location), están (changing mood), son (identification)"
+        "están, están, son, location, changing mood, identification"
       ],
-      "explanation": "identification"
+      "explanation": "location, changing mood, identification"
     },
     {
       "id": "ch2qar56",
@@ -85861,7 +85949,7 @@
       "number": 56,
       "text": "está (location)",
       "accepted": [
-        "está (location)"
+        "está, location"
       ],
       "explanation": "location"
     },
@@ -85872,7 +85960,7 @@
       "number": 57,
       "text": "está (location)",
       "accepted": [
-        "está (location)"
+        "está, location"
       ],
       "explanation": "location"
     },
@@ -85883,9 +85971,9 @@
       "number": 58,
       "text": "estamos (changing mood), somos (identification)",
       "accepted": [
-        "estamos (changing mood), somos (identification)"
+        "estamos, somos, changing mood, identification"
       ],
-      "explanation": "identification"
+      "explanation": "changing mood, identification"
     },
     {
       "id": "ch2qar59",
@@ -85894,9 +85982,9 @@
       "number": 59,
       "text": "Es (point of origin), son (point of origin)",
       "accepted": [
-        "Es (point of origin), son (point of origin)"
+        "Es, son, point of origin, point of origin"
       ],
-      "explanation": "point of origin"
+      "explanation": "point of origin, point of origin"
     },
     {
       "id": "ch2qar60",
@@ -85905,9 +85993,9 @@
       "number": 60,
       "text": "está (changing mood), es (description)",
       "accepted": [
-        "está (changing mood), es (description)"
+        "está, es, changing mood, description"
       ],
-      "explanation": "description"
+      "explanation": "changing mood, description"
     },
     {
       "id": "ch2qar61",
@@ -101326,7 +101414,7 @@
       "number": 1,
       "text": "comía (repeated action)",
       "accepted": [
-        "comía (repeated action)"
+        "comía, repeated action"
       ],
       "explanation": "repeated action"
     },
@@ -101337,7 +101425,7 @@
       "number": 2,
       "text": "era (description)",
       "accepted": [
-        "era (description)"
+        "era, description"
       ],
       "explanation": "description"
     },
@@ -101348,7 +101436,7 @@
       "number": 3,
       "text": "iban (repeated action)",
       "accepted": [
-        "iban (repeated action)"
+        "iban, repeated action"
       ],
       "explanation": "repeated action"
     },
@@ -101359,7 +101447,7 @@
       "number": 4,
       "text": "eran (point of origin)",
       "accepted": [
-        "eran (point of origin)"
+        "eran, point of origin"
       ],
       "explanation": "point of origin"
     },
@@ -101370,7 +101458,7 @@
       "number": 5,
       "text": "nos veíamos (repeated action)",
       "accepted": [
-        "nos veíamos (repeated action)"
+        "nos veíamos, repeated action"
       ],
       "explanation": "repeated action"
     },
@@ -101381,7 +101469,7 @@
       "number": 6,
       "text": "eran (point of origin)",
       "accepted": [
-        "eran (point of origin)"
+        "eran, point of origin"
       ],
       "explanation": "point of origin"
     },
@@ -101392,7 +101480,7 @@
       "number": 7,
       "text": "llegaba (repeated action)",
       "accepted": [
-        "llegaba (repeated action)"
+        "llegaba, repeated action"
       ],
       "explanation": "repeated action"
     },
@@ -101403,7 +101491,7 @@
       "number": 8,
       "text": "volvíamos (repeated action)",
       "accepted": [
-        "volvíamos (repeated action)"
+        "volvíamos, repeated action"
       ],
       "explanation": "repeated action"
     },
@@ -101414,7 +101502,7 @@
       "number": 9,
       "text": "Había (situation)",
       "accepted": [
-        "Había (situation)"
+        "Había, situation"
       ],
       "explanation": "situation"
     },
@@ -101425,7 +101513,7 @@
       "number": 10,
       "text": "practicaba (continuous action)",
       "accepted": [
-        "practicaba (continuous action)"
+        "practicaba, continuous action"
       ],
       "explanation": "continuous action"
     },
@@ -101436,7 +101524,7 @@
       "number": 11,
       "text": "ibas (continuous action)",
       "accepted": [
-        "ibas (continuous action)"
+        "ibas, continuous action"
       ],
       "explanation": "continuous action"
     },
@@ -101447,7 +101535,7 @@
       "number": 12,
       "text": "iba (continuous action)",
       "accepted": [
-        "iba (continuous action)"
+        "iba, continuous action"
       ],
       "explanation": "continuous action"
     },
@@ -101458,7 +101546,7 @@
       "number": 13,
       "text": "tenía (age)",
       "accepted": [
-        "tenía (age)"
+        "tenía, age"
       ],
       "explanation": "age"
     },
@@ -101469,7 +101557,7 @@
       "number": 14,
       "text": "comían, comían (continuous action, continuous action)",
       "accepted": [
-        "comían, comían (continuous action, continuous action)"
+        "comían, comían, continuous action, continuous action"
       ],
       "explanation": "continuous action, continuous action"
     },
@@ -101480,7 +101568,7 @@
       "number": 15,
       "text": "visitaban (repeated action)",
       "accepted": [
-        "visitaban (repeated action)"
+        "visitaban, repeated action"
       ],
       "explanation": "repeated action"
     },
@@ -101491,7 +101579,7 @@
       "number": 16,
       "text": "bebían (repeated action)",
       "accepted": [
-        "bebían (repeated action)"
+        "bebían, repeated action"
       ],
       "explanation": "repeated action"
     },
@@ -101502,7 +101590,7 @@
       "number": 17,
       "text": "era (description)",
       "accepted": [
-        "era (description)"
+        "era, description"
       ],
       "explanation": "description"
     },
@@ -101513,7 +101601,7 @@
       "number": 18,
       "text": "tenía, tenía (description, description)",
       "accepted": [
-        "tenía, tenía (description, description)"
+        "tenía, tenía, description, description"
       ],
       "explanation": "description, description"
     },
@@ -101524,7 +101612,7 @@
       "number": 19,
       "text": "Eran, brillaba (time, situation)",
       "accepted": [
-        "Eran, brillaba (time, situation)"
+        "Eran, brillaba, time, situation"
       ],
       "explanation": "time, situation"
     },
@@ -101535,7 +101623,7 @@
       "number": 20,
       "text": "leía (continuous action)",
       "accepted": [
-        "leía (continuous action)"
+        "leía, continuous action"
       ],
       "explanation": "continuous action"
     },
@@ -101546,7 +101634,7 @@
       "number": 21,
       "text": "hacía (continuous action)",
       "accepted": [
-        "hacía (continuous action)"
+        "hacía, continuous action"
       ],
       "explanation": "continuous action"
     },
@@ -101557,7 +101645,7 @@
       "number": 22,
       "text": "estábamos (condition)",
       "accepted": [
-        "estábamos (condition)"
+        "estábamos, condition"
       ],
       "explanation": "condition"
     },
@@ -101568,7 +101656,7 @@
       "number": 23,
       "text": "era, se reía (description, continuous action)",
       "accepted": [
-        "era, se reía (description, continuous action)"
+        "era, se reía, description, continuous action"
       ],
       "explanation": "description, continuous action"
     },
@@ -101579,7 +101667,7 @@
       "number": 24,
       "text": "decía/decías/decían (continuous action)",
       "accepted": [
-        "decía/decías/decían (continuous action)"
+        "decía/decías/decían, continuous action"
       ],
       "explanation": "continuous action"
     },
@@ -101590,7 +101678,7 @@
       "number": 25,
       "text": "hacían (continuous action)",
       "accepted": [
-        "hacían (continuous action)"
+        "hacían, continuous action"
       ],
       "explanation": "continuous action"
     },
@@ -101601,7 +101689,7 @@
       "number": 26,
       "text": "venía (continuous action)",
       "accepted": [
-        "venía (continuous action)"
+        "venía, continuous action"
       ],
       "explanation": "continuous action"
     },
@@ -101612,7 +101700,7 @@
       "number": 27,
       "text": "Hacía, Hacía, estaban, estaba (narration, narration, narration, narration)",
       "accepted": [
-        "Hacía, Hacía, estaban, estaba (narration, narration, narration, narration)"
+        "Hacía, Hacía, estaban, estaba, narration, narration, narration, narration"
       ],
       "explanation": "narration, narration, narration, narration"
     },
@@ -101623,7 +101711,7 @@
       "number": 28,
       "text": "cocinaba (repeated action)",
       "accepted": [
-        "cocinaba (repeated action)"
+        "cocinaba, repeated action"
       ],
       "explanation": "repeated action"
     },
@@ -103526,7 +103614,7 @@
       "number": 1,
       "text": "están (location)",
       "accepted": [
-        "están (location)"
+        "están, location"
       ],
       "explanation": "location"
     },
@@ -103537,7 +103625,7 @@
       "number": 2,
       "text": "está, está (health, health)",
       "accepted": [
-        "está, está (health, health)"
+        "está, está, health, health"
       ],
       "explanation": "health, health"
     },
@@ -103548,7 +103636,7 @@
       "number": 3,
       "text": "están (health)",
       "accepted": [
-        "están (health)"
+        "están, health"
       ],
       "explanation": "health"
     },
@@ -103559,7 +103647,7 @@
       "number": 4,
       "text": "están (location)",
       "accepted": [
-        "están (location)"
+        "están, location"
       ],
       "explanation": "location"
     },
@@ -103570,7 +103658,7 @@
       "number": 5,
       "text": "está (location)",
       "accepted": [
-        "está (location)"
+        "está, location"
       ],
       "explanation": "location"
     },
@@ -103581,7 +103669,7 @@
       "number": 6,
       "text": "está, está (changing mood, changing mood)",
       "accepted": [
-        "está, está (changing mood, changing mood)"
+        "está, está, changing mood, changing mood"
       ],
       "explanation": "changing mood, changing mood"
     },
@@ -103592,7 +103680,7 @@
       "number": 7,
       "text": "están (changing mood)",
       "accepted": [
-        "están (changing mood)"
+        "están, changing mood"
       ],
       "explanation": "changing mood"
     },
@@ -103603,7 +103691,7 @@
       "number": 8,
       "text": "estoy (changing mood)",
       "accepted": [
-        "estoy (changing mood)"
+        "estoy, changing mood"
       ],
       "explanation": "changing mood"
     },
@@ -103614,7 +103702,7 @@
       "number": 9,
       "text": "está (location)",
       "accepted": [
-        "está (location)"
+        "está, location"
       ],
       "explanation": "location"
     },
@@ -103625,7 +103713,7 @@
       "number": 10,
       "text": "está (location)",
       "accepted": [
-        "está (location)"
+        "está, location"
       ],
       "explanation": "location"
     },
@@ -103746,7 +103834,7 @@
       "number": 21,
       "text": "es, es (profession, point of origin)",
       "accepted": [
-        "es, es (profession, point of origin)"
+        "es, es, profession, point of origin"
       ],
       "explanation": "profession, point of origin"
     },
@@ -103757,7 +103845,7 @@
       "number": 22,
       "text": "son, es (profession, profession)",
       "accepted": [
-        "son, es (profession, profession)"
+        "son, es, profession, profession"
       ],
       "explanation": "profession, profession"
     },
@@ -103768,7 +103856,7 @@
       "number": 23,
       "text": "son (point of origin)",
       "accepted": [
-        "son (point of origin)"
+        "son, point of origin"
       ],
       "explanation": "point of origin"
     },
@@ -103779,7 +103867,7 @@
       "number": 24,
       "text": "son (description)",
       "accepted": [
-        "son (description)"
+        "son, description"
       ],
       "explanation": "description"
     },
@@ -103790,7 +103878,7 @@
       "number": 25,
       "text": "es (description)",
       "accepted": [
-        "es (description)"
+        "es, description"
       ],
       "explanation": "description"
     },
@@ -103801,7 +103889,7 @@
       "number": 26,
       "text": "somos (identification)",
       "accepted": [
-        "somos (identification)"
+        "somos, identification"
       ],
       "explanation": "identification"
     },
@@ -103812,7 +103900,7 @@
       "number": 27,
       "text": "son (material)",
       "accepted": [
-        "son (material)"
+        "son, material"
       ],
       "explanation": "material"
     },
@@ -103823,7 +103911,7 @@
       "number": 28,
       "text": "son (point of origin)",
       "accepted": [
-        "son (point of origin)"
+        "son, point of origin"
       ],
       "explanation": "point of origin"
     },
@@ -103834,7 +103922,7 @@
       "number": 29,
       "text": "soy, es (point of origin, point of origin)",
       "accepted": [
-        "soy, es (point of origin, point of origin)"
+        "soy, es, point of origin, point of origin"
       ],
       "explanation": "point of origin, point of origin"
     },
@@ -103845,7 +103933,7 @@
       "number": 30,
       "text": "es (possession)",
       "accepted": [
-        "es (possession)"
+        "es, possession"
       ],
       "explanation": "possession"
     },
@@ -103856,7 +103944,7 @@
       "number": 31,
       "text": "Eres (profession)",
       "accepted": [
-        "Eres (profession)"
+        "Eres, profession"
       ],
       "explanation": "profession"
     },
@@ -103867,7 +103955,7 @@
       "number": 32,
       "text": "son (description)",
       "accepted": [
-        "son (description)"
+        "son, description"
       ],
       "explanation": "description"
     },
@@ -103878,7 +103966,7 @@
       "number": 33,
       "text": "es (point of origin)",
       "accepted": [
-        "es (point of origin)"
+        "es, point of origin"
       ],
       "explanation": "point of origin"
     },
@@ -103889,7 +103977,7 @@
       "number": 34,
       "text": "es (profession)",
       "accepted": [
-        "es (profession)"
+        "es, profession"
       ],
       "explanation": "profession"
     },
@@ -103900,7 +103988,7 @@
       "number": 35,
       "text": "Es (impersonal expression)",
       "accepted": [
-        "Es (impersonal expression)"
+        "Es, impersonal expression"
       ],
       "explanation": "impersonal expression"
     },
@@ -117267,13 +117355,14 @@
     "tables": 1140,
     "notes": 77,
     "questionImages": 64,
-    "exercises": 281,
+    "exercises": 289,
     "questions": 3296,
     "gradedQuestions": 3020,
     "answers": 3019,
     "freeformExercises": 15,
     "reclassifiedNotes": 38,
     "removedImageQuestions": 8,
+    "reasonAnswersFixed": 107,
     "danglingRefs": 0,
     "accentsPresent": true
   }
