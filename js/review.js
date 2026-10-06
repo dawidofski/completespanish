@@ -1,8 +1,7 @@
-/* js/review.js — review mistakes (Step 10.1) */
+﻿/* js/review.js — review mistakes (Step 10.1) */
 'use strict';
 
 var Review = (function () {
-  // Add a question to review (idempotent for active items).
   function add(questionId, reason) {
     return db.reviewItems.where('questionId').equals(questionId).toArray().then(function (items) {
       var active = items.filter(function (i) { return !i.resolved; })[0];
@@ -22,7 +21,6 @@ var Review = (function () {
     });
   }
 
-  // Unresolved items grouped by chapter, each with question context.
   function list() {
     return db.reviewItems.toArray().then(function (items) {
       items = items.filter(function (i) { return !i.resolved; });
@@ -46,10 +44,20 @@ var Review = (function () {
     });
   }
 
-  // Resolve (remove from active review) a question.
   function resolveQuestion(questionId) {
     return db.reviewItems.where('questionId').equals(questionId).modify({ resolved: true });
   }
 
-  return { add: add, count: count, list: list, resolveQuestion: resolveQuestion };
+  function resolveExercise(exerciseId) {
+    return db.questions.where('exerciseId').equals(exerciseId).toArray().then(function (qs) {
+      var ids = qs.map(function (q) { return q.id; });
+      if (!ids.length) return Promise.resolve();
+      return db.reviewItems.where('questionId').anyOf(ids).modify({ resolved: true });
+    });
+  }
+
+  return {
+    add: add, count: count, list: list,
+    resolveQuestion: resolveQuestion, resolveExercise: resolveExercise
+  };
 })();

@@ -1,4 +1,4 @@
-/* js/app.js — app shell + navigation (Step 4.1) */
+﻿/* js/app.js — app shell + navigation (Step 4.1) */
 'use strict';
 
 var App = (function () {
@@ -26,6 +26,14 @@ var App = (function () {
     });
   }
 
+  function updateHeader() {
+    return Progress.summary().then(function (s) {
+      document.getElementById('overall-progress').textContent =
+        s.correct + '/' + s.total + ' correct · ' +
+        s.chaptersDone + '/' + s.chaptersTotal + ' chapters';
+    });
+  }
+
   function home() {
     renderBreadcrumb([{ label: 'Book' }]);
     var content = document.getElementById('content');
@@ -38,9 +46,10 @@ var App = (function () {
       db.questions.count(),
       db.answers.count(),
       db.meta.get('lastPosition'),
-      Review.count()
+      Review.count(),
+      Progress.chaptersMap()
     ]).then(function (r) {
-      var parts = r[0], chapters = r[1], last = r[6], reviewCount = r[7];
+      var parts = r[0], chapters = r[1], last = r[6], reviewCount = r[7], chaptersMap = r[8];
       content.appendChild(el('p', 'data-status',
         'chapters=' + chapters.length + ' · sections=' + r[2] +
         ' · exercises=' + r[3] + ' · questions=' + r[4] + ' · answers=' + r[5]));
@@ -66,6 +75,17 @@ var App = (function () {
         (byPart[p.id] || []).forEach(function (c) {
           var btn = el('button', 'list-item');
           btn.appendChild(el('span', 'item-title', c.number + '. ' + c.title));
+          var cm = chaptersMap[c.id];
+          var meta = el('span', 'item-meta');
+          if (cm && cm.total > 0) {
+            if (cm.completed) {
+              meta.textContent = '✓ done';
+              btn.classList.add('item-done');
+            } else {
+              meta.textContent = cm.done + '/' + cm.total + ' done';
+            }
+          }
+          btn.appendChild(meta);
           btn.addEventListener('click', function () { openChapter(c.id); });
           var li = el('li');
           li.appendChild(btn);
@@ -77,10 +97,7 @@ var App = (function () {
       resetAllBtn.addEventListener('click', function () {
         if (window.confirm('Reset ALL progress for the whole book? This cannot be undone.')) {
           Progress.resetAll().then(function () {
-            Progress.overall().then(function (s) {
-              document.getElementById('overall-progress').textContent =
-                s.correct + ' / ' + s.total + ' correct';
-            });
+            updateHeader();
             home();
           });
         }
@@ -129,7 +146,14 @@ var App = (function () {
                 var st = map[ex.id];
                 var meta = ex.kind;
                 if (st && st.total > 0) {
-                  meta = st.correct + '/' + st.total + ' correct';
+                  if (st.completed) {
+                    meta = '✓ done';
+                    btn.classList.add('item-done');
+                  } else if (st.gradedTotal > 0) {
+                    meta = st.correct + '/' + st.gradedTotal + ' correct';
+                  } else {
+                    meta = st.done + '/' + st.total + ' done';
+                  }
                 }
                 btn.appendChild(el('span', 'item-meta', meta));
                 btn.addEventListener('click', function () { openExercise(ex); });
@@ -304,9 +328,7 @@ var App = (function () {
         return db.meta.get('followExercise').then(function (m) {
           if (m) followExercise = m.value !== false;
           updateFollowToggle();
-          return Progress.overall().then(function (s) {
-            document.getElementById('overall-progress').textContent =
-              s.correct + ' / ' + s.total + ' correct';
+          return updateHeader().then(function () {
             return home();
           });
         });

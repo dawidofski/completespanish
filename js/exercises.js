@@ -1,4 +1,4 @@
-/* js/exercises.js — render exercises + questions (Step 4.3) */
+﻿/* js/exercises.js — render exercises + questions (Step 4.3) */
 'use strict';
 
 var Exercises = (function () {
@@ -20,6 +20,10 @@ var Exercises = (function () {
     });
   }
 
+  function isSelfCheck(q) {
+    return q.freeResponse === true || q.graded === false;
+  }
+
   function renderQuestion(q, number) {
     var wrap = el('div', 'question');
     if (number != null) {
@@ -33,15 +37,20 @@ var Exercises = (function () {
       wrap.appendChild(img);
     }
     var p = el('div', 'question-prompt');
-    p.innerHTML = promptHtml(q.prompt, q.blankIndex);
+    if (isSelfCheck(q)) {
+      p.textContent = q.prompt;
+    } else {
+      p.innerHTML = promptHtml(q.prompt, q.blankIndex);
+    }
     wrap.appendChild(p);
     if (q.gloss) {
       wrap.appendChild(el('div', 'question-gloss', q.gloss));
     }
-    if (q.freeResponse || (q.graded === false && q.blankCount === 0)) {
+    if (isSelfCheck(q)) {
       var ta = document.createElement('textarea');
       ta.className = 'answer-textarea';
       ta.rows = 2;
+      ta.placeholder = 'Write or say your answer';
       wrap.appendChild(ta);
       wrap.appendChild(el('div', 'feedback feedback-free', 'Self-check — no automatic answer.'));
       return wrap;
@@ -98,18 +107,39 @@ var Exercises = (function () {
           content.appendChild(el('p', 'muted', 'No questions.'));
           return;
         }
-        qs.forEach(function (q) {
-          content.appendChild(renderQuestion(q, q.number || null));
-        });
-        var resetBtn = el('button', 'reset-btn', '↺ Reset this exercise');
-        resetBtn.addEventListener('click', function () {
-          if (window.confirm('Reset progress for this exercise?')) {
-            Progress.resetExercise(exerciseId).then(function () {
-              Exercises.render(exerciseId);
-            });
+        var hasSelfCheck = qs.some(isSelfCheck);
+        var completionPromise = hasSelfCheck
+          ? Progress.exerciseCompletion(exerciseId)
+          : Promise.resolve(null);
+        return completionPromise.then(function (st) {
+          if (hasSelfCheck) {
+            if (st && st.completed) {
+              content.appendChild(el('div', 'completion-badge', '✓ Completed (self-check)'));
+            } else {
+              var markBtn = el('button', 'continue-btn', '✓ Mark exercise as completed');
+              markBtn.addEventListener('click', function () {
+                Progress.markExerciseSelfChecked(exerciseId).then(function () {
+                  Review.resolveExercise(exerciseId).then(function () {
+                    Exercises.render(exerciseId);
+                  });
+                });
+              });
+              content.appendChild(markBtn);
+            }
           }
+          qs.forEach(function (q) {
+            content.appendChild(renderQuestion(q, q.number || null));
+          });
+          var resetBtn = el('button', 'reset-btn', '↺ Reset this exercise');
+          resetBtn.addEventListener('click', function () {
+            if (window.confirm('Reset progress for this exercise?')) {
+              Progress.resetExercise(exerciseId).then(function () {
+                Exercises.render(exerciseId);
+              });
+            }
+          });
+          content.appendChild(resetBtn);
         });
-        content.appendChild(resetBtn);
       });
     });
   }
