@@ -111,6 +111,10 @@ migration without backup + approval).
   choose-from-list. No generic answer engine.
 - Normalize surrounding whitespace and (where safe) case. **Never** strip
   Spanish accents automatically — doing so could mark a wrong answer correct.
+- A fixed on-screen **Spanish special-character keyboard** (`js/keyboard.js`)
+  inserts the special characters **á é í ó ú ü ñ ¿ ¡** into the focused answer
+  field (input or textarea) without stealing focus; the learner types all other
+  characters with the OS keyboard.
 - Support multiple accepted answers (the source uses " OR " / "or").
 - Preserve attempt history; "Try Again" must not destroy the canonical answer.
 
